@@ -5,22 +5,49 @@ layout: default
 
 # 👩‍💻 Welcome to My ePortfolio
 
-Hello, my name is **Gregoria Ramirez**. This is my ePortfolio for my SNHU CS 499 Capstone to show my project revision skills.
-
-## 📁 CS-499 Capstone: Animal Shelter MongoDB Dashboard
-
-This project demonstrates my enhanced skills in software design, algorithms and data structures, and database management using a real-world animal shelter dataset. I refactored the original Jupyter Notebook into modular Python files, connected the app to MongoDB Compass using environment variables for security, and added filtering and data visualization using Dash.
-
-👉 [View GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)
+Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio for my **Computer Science Capstone (CS 499)** at Southern New Hampshire University. This site showcases my technical growth, enhanced project work, and ability to apply software development principles in real-world contexts.
 
 ---
 
-## 🎥 AnimalShelter Code Review
+## 📁 Capstone Project Overview
 
-This video walks through my Capstone project and shows enhancements I made in modularity, secure database design, input validation, and filtering logic.
+**Project Title:** Animal Shelter MongoDB Dashboard  
+**Original Course:** CS 340 – Client-Server Development  
+**Enhanced For:** CS 499 – Computer Science Capstone
+
+This dashboard application helps track animal shelter data using a full-stack Python solution. Originally built in Jupyter Notebook, I refactored the project into a modular and production-ready structure using **MongoDB**, **Dash**, and **secure Python scripting**. I also integrated advanced filtering and visualization features.
+
+🔗 [View Capstone GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)
+
+---
+
+## 🚀 Key Enhancements
+
+- ✅ Refactored monolithic notebook code into modular Python files
+- ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction
+- ✅ Replaced hardcoded credentials with environment variable support
+- ✅ Implemented new filters for **breed** and **color**
+- ✅ Added input validation and improved query logic
+- ✅ Visualized shelter outcomes using Dash charts and geolocation
+
+---
+
+## 🎥 Code Review Video
+
+This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
 
 <iframe width="560" height="315" 
   src="https://www.youtube.com/embed/x1udKrsLDZQ" 
   title="AnimalShelter Code Review – CS 499 Capstone" 
   frameborder="0" allowfullscreen>
 </iframe>
+
+---
+
+## 📫 Contact
+
+Want to learn more? Feel free to connect via GitHub:  
+🔗 [GregoriaRamirez on GitHub](https://github.com/GregoriaRamirez)
+
+---
+
