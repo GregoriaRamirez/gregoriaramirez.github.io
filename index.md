@@ -46,7 +46,7 @@ This video walks through the original project and explains the enhancements I ma
 
 ## 📫 Contact
 
-Want to learn more? Feel free to connect via GitHub:  
+ Feel free to connect via GitHub:  
 🔗 [GregoriaRamirez on GitHub](https://github.com/GregoriaRamirez)
 
 ---
