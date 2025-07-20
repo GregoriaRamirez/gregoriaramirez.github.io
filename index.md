@@ -17,7 +17,7 @@ layout: default
   }
 
   .top-space {
-    padding-top: 190px;
+    padding-top: 170px;
   }
 </style>
 
@@ -32,7 +32,7 @@ layout: default
 
 # 👩‍💻 Welcome to My ePortfolio
 
-Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio for my **Computer Science Capstone (CS 499)** at Southern New Hampshire University. This site showcases my technical growth, enhanced project work, and ability to apply software development principles in real-world contexts.
+Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for my Computer Science Capstone (CS 499) at Southern New Hampshire University. This site showcases my technical growth, enhanced project work, and ability to apply software development principles in real-world contexts.
 
 ---
 
@@ -42,7 +42,7 @@ Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio f
 **Original Course:** CS 340 – Client-Server Development  
 **Enhanced For:** CS 499 – Computer Science Capstone
 
-This dashboard application helps track animal shelter data using a full-stack Python solution. Originally built in Jupyter Notebook, I refactored the project into a modular and production-ready structure using **MongoDB**, **Dash**, and **secure Python scripting**. I also integrated advanced filtering and visualization features.
+This dashboard application helps track animal shelter data using a full-stack Python solution. Originally built in Jupyter Notebook, I refactored the project into a modular and production-ready structure using MongoDB, Dash, and secure Python scripting. I also integrated advanced filtering and visualization features.
 
 🔗 [View Capstone GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)
 
@@ -53,7 +53,7 @@ This dashboard application helps track animal shelter data using a full-stack Py
 - ✅ Refactored monolithic notebook code into modular Python files  
 - ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction  
 - ✅ Replaced hardcoded credentials with environment variable support  
-- ✅ Implemented new filters for **breed** and **color**  
+- ✅ Implemented new filters for breed and color  
 - ✅ Added input validation and improved query logic  
 - ✅ Visualized shelter outcomes using Dash charts and geolocation
 
