@@ -21,7 +21,7 @@ layout: default
 </style>
 
 <!-- This displays your profile image in the green header -->
-<img src="/assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
+<img src="/assets/imgage/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
 <!-- Adds vertical spacing so content does not get hidden behind image -->
 <div class="top-space"></div>
