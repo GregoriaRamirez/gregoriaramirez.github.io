@@ -1,3 +1,22 @@
+<style>
+  .top-left-photo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 1000;
+  }
+
+  .top-space {
+    padding-top: 80px;
+  }
+</style>
+
+<img src="/assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
+
+<div class="top-space"></div>
 
 
 ---
