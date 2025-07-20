@@ -1,6 +1,5 @@
 
 ---
----
 title: Gregoria Ramirez – ePortfolio
 layout: default
 ---
