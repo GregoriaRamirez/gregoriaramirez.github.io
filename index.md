@@ -1,4 +1,5 @@
 ---
+---
 title: Gregoria Ramirez – ePortfolio
 layout: default
 ---
@@ -25,6 +26,7 @@ layout: default
 
 <!-- Adds vertical spacing so content does not get hidden behind image -->
 <div class="top-space"></div>
+
 
 # 👩‍💻 Welcome to My ePortfolio
 
