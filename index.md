@@ -1,3 +1,8 @@
+
+---
+title: Gregoria Ramirez – ePortfolio
+layout: default
+---
 <style>
   .top-left-photo {
     position: absolute;
@@ -17,12 +22,6 @@
 <img src="/assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
 <div class="top-space"></div>
-
-
----
-title: Gregoria Ramirez – ePortfolio
-layout: default
----
 
 
 
