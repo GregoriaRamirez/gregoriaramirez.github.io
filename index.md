@@ -1,13 +1,14 @@
-
 ---
 title: Gregoria Ramirez – ePortfolio
 layout: default
 ---
+
+<!-- Add this to style and position your profile photo -->
 <style>
   .top-left-photo {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 20px;
+    left: 20px;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -15,15 +16,15 @@ layout: default
   }
 
   .top-space {
-    padding-top: 80px;
+    padding-top: 100px;
   }
 </style>
 
+<!-- This displays your profile image in the green header -->
 <img src="/assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
+<!-- Adds vertical spacing so content does not get hidden behind image -->
 <div class="top-space"></div>
-
-
 
 # 👩‍💻 Welcome to My ePortfolio
 
@@ -45,11 +46,11 @@ This dashboard application helps track animal shelter data using a full-stack Py
 
 ## 🚀 Key Enhancements
 
-- ✅ Refactored monolithic notebook code into modular Python files
-- ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction
-- ✅ Replaced hardcoded credentials with environment variable support
-- ✅ Implemented new filters for **breed** and **color**
-- ✅ Added input validation and improved query logic
+- ✅ Refactored monolithic notebook code into modular Python files  
+- ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction  
+- ✅ Replaced hardcoded credentials with environment variable support  
+- ✅ Implemented new filters for **breed** and **color**  
+- ✅ Added input validation and improved query logic  
 - ✅ Visualized shelter outcomes using Dash charts and geolocation
 
 ---
@@ -68,8 +69,7 @@ This video walks through the original project and explains the enhancements I ma
 
 ## 📫 Contact
 
- Feel free to connect via GitHub:  
+Feel free to connect via GitHub:  
 🔗 [GregoriaRamirez on GitHub](https://github.com/GregoriaRamirez)
 
 ---
-
