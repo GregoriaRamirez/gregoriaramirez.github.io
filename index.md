@@ -1,3 +1,16 @@
+<style>
+.top-left-pic {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+</style>
+
+<img src="assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-pic">
 
 
 
@@ -5,10 +18,7 @@
 title: Gregoria Ramirez – ePortfolio
 layout: default
 ---
-<h1 style="display: flex; align-items: center;">
-  Gregoria Ramirez
-  <img src="myphoto.jpg" width="60" style="border-radius: 50%; margin-left: 10px;">
-</h1>
+
 
 
 # 👩‍💻 Welcome to My ePortfolio
