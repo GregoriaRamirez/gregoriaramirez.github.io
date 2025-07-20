@@ -1,3 +1,9 @@
+
+<h1 style="display: flex; align-items: center;">
+  Gregoria Ramirez
+  <img src="myphoto.jpg" alt="My Photo" width="60" style="border-radius: 50%; margin-left: 10px;">
+</h1>
+
 ---
 title: Gregoria Ramirez – ePortfolio
 layout: default
