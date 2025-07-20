@@ -11,14 +11,14 @@ layout: default
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 60px;
-    height: 60px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     z-index: 1000;
   }
 
   .top-space {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 </style>
 
