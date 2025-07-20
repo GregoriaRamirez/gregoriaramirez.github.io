@@ -1,17 +1,3 @@
-<style>
-.top-left-pic {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  z-index: 1000;
-}
-</style>
-
-<img src="assets/img/myphoto.jpg" alt="Profile Photo" class="top-left-pic">
-
 
 
 ---
