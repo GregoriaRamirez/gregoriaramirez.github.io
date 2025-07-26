@@ -64,7 +64,7 @@ This dashboard application helps track animal shelter data using a full-stack Py
 This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
 
 <iframe width="560" height="315" 
-  src="https://www.youtube.com/embed/x1udKrsLDZQ" 
+  src="[https://www.youtube.com/embed/NTrtEVuawBM)" 
   title="AnimalShelter Code Review – CS 499 Capstone" 
   frameborder="0" allowfullscreen>
 </iframe>
