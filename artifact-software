@@ -1,1 +1,50 @@
+# Software Design & Engineering Artifact
+
+## 📌 Artifact Description
+
+For my CS 499 Capstone, I chose to enhance my Animal Shelter Dashboard project originally created in February 2025 for CS 340: Client-Server Development. This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB. It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard. Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type. The project implemented CRUD operations to query the database for various types of analysis.
+
+## 📎 Justification for Inclusion
+
+I selected this artifact because it integrates everything I’ve learned about software engineering — from backend data handling to frontend dashboard design — all connected via Python. The project demonstrates my ability to:
+- Structure and organize code for maintainability
+- Secure sensitive data
+- Build a responsive and intuitive user interface
+
+The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns, making it a strong candidate for enhancement.
+
+## 🔧 Enhancement Overview
+
+Key software engineering improvements include:
+- Reorganizing the codebase into a modular MVC-style structure (model, controller, and dashboard logic split into separate files)
+- Replacing hardcoded credentials with secure environment variables using `python-dotenv`
+- Adding application logging to support better debugging and error tracking
+- Isolating Dash callback functions into a separate controller module for clarity
+- Enhancing the visual presentation of charts and layout responsiveness
+- Adding new filtering options for breed and color
+- Implementing a `venv` virtual environment for dependency management
+
+These changes improved the maintainability, security, and professionalism of the project.
+
+## 🧠 Reflection
+
+Enhancing this artifact gave me a deeper understanding of how modularity, secure coding, and clean structure are essential in real-world software projects. Moving to an MVC pattern forced me to think about how each part of the application interacts. Using `.env` files and logging helped me practice industry-relevant techniques for configuration and troubleshooting.
+
+One major challenge was reorganizing the file structure while maintaining functional callback connections. I had to adjust several import paths and test each callback to confirm functionality. Additionally, setting up the virtual environment required learning how to isolate dependencies and ensure all required packages (e.g., pandas, dash, plotly, python-dotenv) were properly installed.
+
+These technical improvements also made the project easier to deploy, maintain, and scale in the future.
+
+## 🎓 Course Outcomes Met
+
+- **Outcome 3 (Software Design and Engineering):** Achieved by implementing modularity, using environment variables, and improving code structure and maintainability.
+- **Outcome 4 (Algorithms and Data Structures):** Improved filtering logic and added input validation.
+- **Outcome 5 (Databases):** Integrated better error handling, used MongoDB Compass, and ensured secure, closed database connections.
+
+I updated my Module One plan after instructor feedback to include Outcome 5 due to the significant enhancements made to database design and handling.
+
+## 🔗 Project Links
+
+- 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
+# [Enhanced Code (GitHub)]()
+- [Demo Video or Screenshots (optional)](URL_HERE)
 
