@@ -26,7 +26,7 @@ layout: default
 
 ## 🎓 Certificates
 
-### Merit 2025 Certificate  
+### Merit Dean’s List Certificate   
 [Download PNG](assets/DeansList2022.png)
 
 ### Merit President’s List Certificate  
