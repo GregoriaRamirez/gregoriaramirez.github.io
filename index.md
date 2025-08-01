@@ -1,3 +1,6 @@
+**Navigation:**  
+[🏠 Home](index.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
 ---
 title: Gregoria Ramirez – ePortfolio
 layout: default
@@ -84,5 +87,3 @@ Feel free to connect via GitHub:
 🔗 [GregoriaRamirez on GitHub](https://github.com/GregoriaRamirez)
 
 ---
-**Navigation:**  
-[🏠 Home](index.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
