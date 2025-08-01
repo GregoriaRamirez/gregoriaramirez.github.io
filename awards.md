@@ -33,11 +33,9 @@ layout: default
 [Download PDF](assets/PresidentsList2024.png)
 
 ### Merit Dean’s List Certificate  
-[Download PDF](assets/residentsList2025.png)
+[Download PDF](assets/PresidentsList2025.png)
 
 ---
 
-## 📄 Preview of Merit Dean’s List Certificate
 
-<embed src="assets/Merit%20Deans%20list.pdf" width="700" height="600" type="application/pdf" />
 
