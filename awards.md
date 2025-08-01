@@ -27,13 +27,13 @@ layout: default
 ## 🎓 Certificates
 
 ### Merit 2025 Certificate  
-[Download PDF](assets/DeansList2022.png)
+[Download PNG](assets/DeansList2022.png)
 
 ### Merit President’s List Certificate  
-[Download PDF](assets/PresidentsList2024.png)
+[Download PNG](assets/PresidentsList2024.png)
 
 ### Merit Dean’s List Certificate  
-[Download PDF](assets/PresidentsList2025.png)
+[Download PNG](assets/PresidentsList2025.png)
 
 ---
 
