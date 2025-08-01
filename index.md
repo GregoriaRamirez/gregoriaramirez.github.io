@@ -22,7 +22,7 @@ layout: default
   }
 
   .top-space {
-    padding-top: 100px;
+    padding-top: 80px;
   }
 </style>
 
