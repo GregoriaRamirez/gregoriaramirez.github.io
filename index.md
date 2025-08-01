@@ -1,9 +1,12 @@
-**Navigation:**  
-[🏠 Home](index.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
-
 ---
 title: Gregoria Ramirez – ePortfolio
 layout: default
+---
+
+<!-- Navigation -->
+**Navigation:**  
+[🏠 Home](index.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
 ---
 
 <!-- Add this to style and position your profile photo -->
@@ -23,18 +26,15 @@ layout: default
   }
 </style>
 
-<!-- This displays your profile image in the green header -->
+<!-- Profile Image -->
 <img src="/assets/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
-
-<!-- Adds vertical spacing so content does not get hidden behind image -->
+<!-- Adds vertical spacing below image -->
 <div class="top-space"></div>
-
-
 
 # 👩‍💻 Welcome to My ePortfolio
 
-Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for my Computer Science Capstone (CS 499) at Southern New Hampshire University. This site showcases my technical growth, enhanced project work, and ability to apply software development principles in real-world contexts.
+Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio for my Computer Science Capstone (CS 499) at Southern New Hampshire University. This site showcases my technical growth, enhanced project work, and ability to apply software development principles in real-world contexts.
 
 ---
 
@@ -76,8 +76,6 @@ This dashboard application helps track animal shelter data using a full-stack Py
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
 </iframe>
-
-
 
 ---
 
