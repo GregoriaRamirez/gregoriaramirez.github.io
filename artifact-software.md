@@ -10,7 +10,7 @@ The project implemented CRUD operations to query the database for various types 
 
 ## 📎 Justification for Inclusion
 
-I selected this artifact because it integrates everything I’ve learned about software engineering — from backend data handling 
+I selected this artifact because it integrates everything I have learned about software engineering — from backend data handling 
 to frontend dashboard design — all connected via Python. The project demonstrates my ability to:
 
 * Structure and organize code for maintainability
