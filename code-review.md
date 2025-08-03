@@ -1,5 +1,3 @@
----
-
 ````markdown
 # Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
 
