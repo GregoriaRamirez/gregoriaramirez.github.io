@@ -3,49 +3,86 @@
 ## 🎓 Program Reflection
 
 I am proud to be completing my Bachelor of Science in Computer Science at Southern New Hampshire University. Over the course of the program, 
-I have grown from writing basic code into a developer capable of creating secure, modular, full-stack applications.
-
-Through hands-on projects, I gained experience working with databases, APIs, and user interfaces, applying real-world development practices every step of the way.
+I have grown from writing basic code into a developer capable of creating secure, modular, full-stack applications.Through hands-on projects, I gained experience working with databases, APIs, and user interfaces, applying real-world development practices every step of the way.
 
 ---
 
-## 🧠 Skills Gained
+## 🧰 Skills Learned While Attending School
 
-- Clean, modular software design using the MVC pattern
-- Data filtering, manipulation, and validation using pandas
-- Backend development and CRUD operations with Python and MongoDB
-- Secure configuration using environment variables and `python-dotenv`
-- Real-time dashboard creation using Dash and Plotly
-- Debugging and logging for error tracking and maintainability
-- Managing dependencies with `venv` and `requirements.txt`
+### 🔧 Technical Skills
+
+- Programming Languages: Python, Java, JavaScript
+- Web Development: Dash, Flask, Node.js, Express
+- Database Management: MongoDB (Compass & Shell), MySQL, Mongoose
+- Data Handling: pandas, NumPy, CSV/JSON parsing
+- Data Visualization: Plotly, Dash, Power BI
+- API Development: RESTful API design, CRUD operations
+- Version Control: Git and GitHub
+- Testing & Debugging: Postman, Python logging, console debugging
+- Development Tools: VS Code, Android Studio, MongoDB Compass
 
 ---
 
-## ✅ Program Outcomes Met
+### 💼 Professional Skills
 
-**Outcome 1:**  
-Organized project files into a modular structure so others can easily understand and extend the code.
+- Modular software design (MVC pattern)
+- Secure coding using environment variables and `.env` files
+- Writing clean, well-documented, and reusable code
+- Independent project planning and execution
+- Agile-style task management and iteration
+- Communicating technical concepts clearly
+- Problem-solving through algorithmic thinking
+- Creating user-friendly, accessible applications
 
-**Outcome 2:**  
-Documented the code with inline comments and created a detailed walkthrough video explaining all enhancements.
+---
 
-**Outcome 3:**  
-Applied software engineering practices such as logging, MVC design, and secure credential storage.
+## 🎯 Course Outcomes and How I Met Them
 
-**Outcome 4:**  
-Improved filtering logic with optimized control flows and added input validation for user inputs.
+**1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
 
-**Outcome 5:**  
-Refactored data access to use real-time MongoDB queries, improved database handling, and ensured secure connections.
+Although I worked independently on my Capstone, I followed professional collaboration standards by organizing my code into clear, modular folders 
+and documenting my enhancements in a way that allows others to easily understand, review, and build upon the work. My project could be shared with
+technical and non-technical audiences alike, supporting team decision-making and future development.
+
+---
+
+**2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
+
+I created a complete project narrative, a structured enhancement walkthrough, and a recorded code review video. My README files, `.md` pages, and 
+inline comments are written clearly for both developers and stakeholders. I also used visual charts, screenshots, and well-labeled filters to ensure 
+the user interface communicates data effectively.
+
+---
+
+**3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.**
+
+I improved filtering logic by implementing condition-based control flows, modularizing the logic, and using vectorized operations in pandas. These
+choices improved performance and usability while balancing complexity and maintainability. I also evaluated which data structures (e.g., dictionaries, dataframes) worked best for efficiency.
+
+---
+
+**4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
+
+I used VS Code, MongoDB Compass, Dash, and `.env` environment variable handling to align with modern industry workflows. I refactored my application
+using the MVC pattern and applied best practices for dependency management, error handling, and secure data access. These skills are directly transferable 
+to real-world software development.
+
+---
+
+**5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
+
+I removed hardcoded credentials and implemented secure environment variables using `python-dotenv`. I also added database error handling and ensured 
+connections are properly opened and closed to prevent resource leaks. These actions reflect a secure, defensive coding mindset and help protect 
+sensitive data within the application.
 
 ---
 
 ## 🔄 Personal Growth
 
 Working independently on my Capstone project taught me how to plan, build, and maintain a complete application on my own. 
-I developed stronger skills in problem-solving, debugging, and managing my time and priorities.
-
-This experience helped me build confidence in my ability to work in a professional development environment. I now feel well-prepared to continue learning and contributing in either a career or graduate program.
+I developed stronger skills in problem-solving, debugging, and managing my time and priorities.This experience helped me build confidence 
+in my ability to work in a professional development environment. I now feel well-prepared to continue learning and contributing in either 
+a career or graduate program.
 
 ---
 
