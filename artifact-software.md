@@ -85,8 +85,6 @@ CS499Capstone/
 ## 🔗 Project Links
 
 * 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
-* 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced_code_folder)
-
 * 📦 [Download Full Enhanced Code (ZIP)](/assets/CS499Capstone.zip)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 
