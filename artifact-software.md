@@ -51,32 +51,6 @@ This enhancement demonstrates my ability to:
 - Handle database errors gracefully and ensure connections are opened and closed properly
 
 ---
-Yes — that is exactly what you should do ✅
-
-To **demonstrate your Software Design and Engineering enhancements**, it is perfectly appropriate (and recommended) to pull **small, meaningful snippets** from:
-
-* `app.py` → shows modular launch logic
-* `controller.py` → shows callback isolation
-* `model.py` → shows secure and separated DB logic
-
----
-
-## 🎯 What Reviewers Want to See
-
-They are **not** looking for full files. They want:
-
-1. **Proof** that you applied modular design (split logic into files)
-2. **Examples** of how you removed hardcoding (e.g., `.env`)
-3. **Snippets** showing structure (e.g., MVC style: `model/`, `controller.py`, `view.py`)
-4. **Short, clean code blocks** — just enough to back up your narrative
-
----
-
-## ✅ Let Me Build This For You Now
-
-I will give you 3 scrollable snippets you can paste into `artifact-software.md`, each with a header and explanation.
-
----
 
 ### 💡 Snippet 1: Main App Entry – `app.py`
 
@@ -172,12 +146,7 @@ This isolates business logic from view/controller layers and enables secure, mai
 ---
 
 ```
-
 ---
-
-- ✨ 3 small enhancement proofs
-- 🧩 Each supports your narrative claims
-- 🛡️ Demonstrates modular design, MVC, security, and separation of concerns
 
 ## 📁 Project Folder Structure (After Enhancement)
 
