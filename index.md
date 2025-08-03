@@ -15,8 +15,8 @@ layout: default
     position: absolute;
     top: 20px;
     left: 20px;
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     z-index: 1000;
   }
