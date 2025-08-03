@@ -2,7 +2,6 @@
 
 ## ✅ Full Code for `artifact-software.md` 
 
-````markdown
 # 🛠️ Enhancement: Software Design and Engineering
 
 ## 🐾 Project: Animal Shelter Dashboard  
