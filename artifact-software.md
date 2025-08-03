@@ -54,8 +54,7 @@ This enhancement demonstrates my ability to:
 
 ### 💡 Snippet 1: Main App Entry – `app.py`
 
-````markdown
-## 💡 Code Snippet: Modular Entry Point (`app.py`)
+```python
 
 I simplified the main app launch script to keep it focused on layout and startup, delegating logic to controller and model modules.
 
