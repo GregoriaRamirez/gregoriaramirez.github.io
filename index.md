@@ -5,7 +5,7 @@ layout: default
 
 <!-- Navigation -->
 **Navigation:**  
-[🏠 Home](index.md) |[🙋‍♀️ About Me](about.md)[🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) |[🙋‍♀️ About Me](about.md)|[🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 ---
 
