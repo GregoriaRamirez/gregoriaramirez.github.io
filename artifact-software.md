@@ -50,11 +50,6 @@ This enhancement demonstrates my ability to:
 - Transition from static data files to secure, real-time database queries using MongoDB Compass  
 - Handle database errors gracefully and ensure connections are opened and closed properly
 
----
-
-Absolutely — thank you for clarifying. You want **real enhancement evidence** in your `.md` file: code + explanation of what the code does and how it proves your software design improvements.
-
-Here is the **correct version** to paste into your `artifact-software.md` file — with **clean explanations** for each code block, in your tone:
 
 ---
 
