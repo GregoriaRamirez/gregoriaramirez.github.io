@@ -1,47 +1,39 @@
-# 🛠️ Enhancement: Software Design and Engineering with Code Snippets 
-
-## 🐾 Project: Animal Shelter Dashboard  
-**Original Course:** CS 340 – Client-Server Development  
-**Enhancement Completed In:** CS 499 – Computer Science Capstone
-
-````markdown
+# 🧩 Software Design & Engineering Artifact
 
 ## 📌 Artifact Description
 
-For my CS 499 Capstone, I chose to enhance my Animal Shelter Dashboard project originally created in February 2025 for
-CS 340: Client-Server Development.  
-This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB.  
-It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard.  
-Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type.  
+For my CS 499 Capstone, I chose to enhance my Animal Shelter Dashboard project originally created in February 2025
+for CS 340: Client-Server Development. This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB. 
+It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard. 
+Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type. 
 The project implemented CRUD operations to query the database for various types of analysis.
 
 ## 📎 Justification for Inclusion
 
-I selected this artifact because it integrates everything I’ve learned about software engineering — from backend data handling
-to frontend dashboard design — all connected via Python.  
-The project demonstrates my ability to:
+I selected this artifact because it integrates everything I’ve learned about software engineering — from backend data handling 
+to frontend dashboard design — all connected via Python. The project demonstrates my ability to:
 
-- Structure and organize code for maintainability  
-- Secure sensitive data  
-- Build a responsive and intuitive user interface  
+* Structure and organize code for maintainability
+* Secure sensitive data
+* Build a responsive and intuitive user interface
 
-The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns,
+The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns, 
 making it a strong candidate for enhancement.
 
 ## 🔧 Enhancement Overview
 
 Key software engineering improvements include:
 
-- Reorganizing the codebase into a modular MVC-style structure (model, controller, and dashboard logic split into separate files)  
-- Replacing hardcoded credentials with secure environment variables using `python-dotenv`  
-- Adding application logging to support better debugging and error tracking  
-- Isolating Dash callback functions into a separate controller module for clarity  
-- Enhancing the visual presentation of charts and layout responsiveness  
-- Adding new filtering options for breed and color  
-- Implementing a `venv` virtual environment for dependency management  
+* Reorganizing the codebase into a modular MVC-style structure (model, controller, and dashboard logic split into separate files)
+* Replacing hardcoded credentials with secure environment variables using `python-dotenv`
+* Adding application logging to support better debugging and error tracking
+* Isolating Dash callback functions into a separate controller module for clarity
+* Enhancing the visual presentation of charts and layout responsiveness
+* Adding new filtering options for breed and color
+* Implementing a `venv` virtual environment for dependency management
 
 These changes improved the maintainability, security, and professionalism of the project.
-```
+
 ## 💡 Code Snippets Demonstrating Enhancements
 
 ### 🧩 Snippet 1: Modular Entry Point (`app.py`)
@@ -58,7 +50,10 @@ register_callbacks(app)
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-````
+```
+
+This snippet shows how the main application logic was simplified. By isolating callbacks and layout into other files, 
+`app.py` becomes cleaner and easier to manage.
 
 ### 🧩 Snippet 2: Callback Logic (`controller.py`)
 
@@ -75,6 +70,8 @@ def register_callbacks(app):
     def update_table(selected_breed, selected_color):
         return query_animals(breed=selected_breed, color=selected_color)
 ```
+
+Callback logic was moved into `controller.py`. This improves readability, keeps business logic organized, and makes testing easier.
 
 ### 🧩 Snippet 3: Secure MongoDB Query (`model.py`)
 
@@ -96,11 +93,13 @@ def query_animals(breed=None, color=None):
     return list(db.animals.find(query))
 ```
 
+This code replaces hardcoded database credentials with environment variables stored in a `.env` file. All data interaction 
+is handled within this model file.
+
 ## 📁 Project Folder Structure (After Enhancement)
 
 ```plaintext
 CS499Capstone/
-│
 ├── app.py                     # Launches the Dash application
 ├── controller.py              # Handles Dash callbacks and routing logic
 ├── .env                       # MongoDB credentials (secured)
@@ -120,7 +119,6 @@ CS499Capstone/
 │   └── SelectBreed.png
 │
 ├── original_code/             # Backup of the original unenhanced project
-│
 └── venv/                      # Virtual environment for isolating dependencies
 ```
 
@@ -152,6 +150,3 @@ I updated my Module One plan after instructor feedback to include Outcome 5 due 
 * 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
 * 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-software)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
-
-```
-
