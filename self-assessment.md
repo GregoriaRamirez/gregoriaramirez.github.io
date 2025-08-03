@@ -1,1 +1,52 @@
+# 📝 Self-Assessment
 
+## 🎓 Program Reflection
+
+I am proud to be completing my Bachelor of Science in Computer Science at Southern New Hampshire University. Over the course of the program, 
+I have grown from writing basic code into a developer capable of creating secure, modular, full-stack applications.
+
+Through hands-on projects, I gained experience working with databases, APIs, and user interfaces, applying real-world development practices every step of the way.
+
+---
+
+## 🧠 Skills Gained
+
+- Clean, modular software design using the MVC pattern
+- Data filtering, manipulation, and validation using pandas
+- Backend development and CRUD operations with Python and MongoDB
+- Secure configuration using environment variables and `python-dotenv`
+- Real-time dashboard creation using Dash and Plotly
+- Debugging and logging for error tracking and maintainability
+- Managing dependencies with `venv` and `requirements.txt`
+
+---
+
+## ✅ Program Outcomes Met
+
+**Outcome 1:**  
+Organized project files into a modular structure so others can easily understand and extend the code.
+
+**Outcome 2:**  
+Documented the code with inline comments and created a detailed walkthrough video explaining all enhancements.
+
+**Outcome 3:**  
+Applied software engineering practices such as logging, MVC design, and secure credential storage.
+
+**Outcome 4:**  
+Improved filtering logic with optimized control flows and added input validation for user inputs.
+
+**Outcome 5:**  
+Refactored data access to use real-time MongoDB queries, improved database handling, and ensured secure connections.
+
+---
+
+## 🔄 Personal Growth
+
+Working independently on my Capstone project taught me how to plan, build, and maintain a complete application on my own. 
+I developed stronger skills in problem-solving, debugging, and managing my time and priorities.
+
+This experience helped me build confidence in my ability to work in a professional development environment. I now feel well-prepared to continue learning and contributing in either a career or graduate program.
+
+---
+
+Thank you for reviewing my work !
