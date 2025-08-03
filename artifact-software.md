@@ -51,6 +51,133 @@ This enhancement demonstrates my ability to:
 - Handle database errors gracefully and ensure connections are opened and closed properly
 
 ---
+Yes — that is exactly what you should do ✅
+
+To **demonstrate your Software Design and Engineering enhancements**, it is perfectly appropriate (and recommended) to pull **small, meaningful snippets** from:
+
+* `app.py` → shows modular launch logic
+* `controller.py` → shows callback isolation
+* `model.py` → shows secure and separated DB logic
+
+---
+
+## 🎯 What Reviewers Want to See
+
+They are **not** looking for full files. They want:
+
+1. **Proof** that you applied modular design (split logic into files)
+2. **Examples** of how you removed hardcoding (e.g., `.env`)
+3. **Snippets** showing structure (e.g., MVC style: `model/`, `controller.py`, `view.py`)
+4. **Short, clean code blocks** — just enough to back up your narrative
+
+---
+
+## ✅ Let Me Build This For You Now
+
+I will give you 3 scrollable snippets you can paste into `artifact-software.md`, each with a header and explanation.
+
+---
+
+### 💡 Snippet 1: Main App Entry – `app.py`
+
+````markdown
+## 💡 Code Snippet: Modular Entry Point (`app.py`)
+
+I simplified the main app launch script to keep it focused on layout and startup, delegating logic to controller and model modules.
+
+```python
+# app.py – Entry point of Dash app
+
+from dash import Dash
+from controller import register_callbacks
+from view import layout
+
+app = Dash(__name__)
+app.layout = layout
+
+register_callbacks(app)
+
+if __name__ == '__main__':
+    app.run_server(debug=True)
+````
+
+This design keeps the app file clean and delegates logic to other layers, following the MVC structure.
+
+---
+
+````
+
+---
+
+### 💡 Snippet 2: Callback Isolation – `controller.py`
+
+```markdown
+## 💡 Code Snippet: Separated Callback Logic (`controller.py`)
+
+Instead of mixing layout and callback logic in one file, I moved all interactivity into a controller module:
+
+```python
+# controller.py – Handles callbacks separately
+
+from dash import Input, Output
+from model import query_animals
+
+def register_callbacks(app):
+    @app.callback(
+        Output('table', 'data'),
+        Input('breed-dropdown', 'value'),
+        Input('color-dropdown', 'value')
+    )
+    def update_table(selected_breed, selected_color):
+        return query_animals(breed=selected_breed, color=selected_color)
+````
+
+This improves readability and makes it easier to test or update specific features.
+
+---
+
+````
+
+---
+
+### 💡 Snippet 3: Secure DB Logic – `model.py`
+
+```markdown
+## 💡 Code Snippet: Secure MongoDB Query (`model.py`)
+
+To isolate database logic and secure credentials, I moved all queries into `model.py` and used `.env` for connection:
+
+```python
+# model.py – Secure and isolated DB functions
+
+import os
+from pymongo import MongoClient
+from dotenv import load_dotenv
+
+load_dotenv()
+client = MongoClient(os.getenv("MONGO_URI"))
+db = client['AAC']
+
+def query_animals(breed=None, color=None):
+    query = {}
+    if breed:
+        query['breed'] = breed
+    if color:
+        query['color'] = color
+    return list(db.animals.find(query))
+````
+
+This isolates business logic from view/controller layers and enables secure, maintainable design.
+
+---
+
+```
+
+---
+
+- ✨ 3 small enhancement proofs
+- 🧩 Each supports your narrative claims
+- 🛡️ Demonstrates modular design, MVC, security, and separation of concerns
 
 ## 📁 Project Folder Structure (After Enhancement)
 
