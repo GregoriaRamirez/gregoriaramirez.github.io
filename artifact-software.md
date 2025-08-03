@@ -37,4 +37,29 @@ By enhancing the Animal Shelter Dashboard in this way, I aligned it with industr
 
 ---
 
-## 📂 Folder Structure Snapshot
+## 📁 Project Folder Structure (After Enhancement)
+
+CS499Capstone/
+│
+├── app.py                     # Launches the Dash application
+├── controller.py              # Handles Dash callbacks and routing logic
+├── .env                       # MongoDB credentials (secured)
+├── requirements.txt           # Dependency list for virtual environment
+├── README.md                  # Project documentation
+├── .gitignore                 # Excludes venv and .env from Git
+│
+├── model/
+│   ├── __init__.py            # Initializes the model module
+│   ├── model.py               # MongoDB access and CRUD logic
+│   └── view.py                # Layout and view logic for Dash app
+│
+├── assets/
+│   ├── Dashboard.png
+│   ├── DashChartGeo.png
+│   ├── Grazioso Salvare Logo.png
+│   └── SelectBreed.png
+│
+├── original_code/             # Backup of the original unenhanced project
+│
+└── venv/                      # Virtual environment for isolating dependencies
+
