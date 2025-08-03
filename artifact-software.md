@@ -1,4 +1,3 @@
----
 
 ## ✅ Full Code for `artifact-software.md` 
 
