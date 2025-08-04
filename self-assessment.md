@@ -1,3 +1,10 @@
+---
+layout: default
+title: Self-Assessment
+permalink: /self-assessment
+---
+
+
 # 📝 Self-Assessment
 
 ## 🎓 Program Reflection
