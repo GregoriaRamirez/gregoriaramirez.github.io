@@ -93,7 +93,7 @@ def register_callbacks(app):
         fig = px.pie(breed_counts, names='breed', values='count', title='Breed Distribution')
         return dcc.Graph(figure=fig)
 
-🧠 Enhancement Summary (Snippet 1):
+🧠 Enhancement Summary:
 This code introduces a modular structure using a register_callbacks() function to group all callback logic in one place.
 By keeping table and chart logic cleanly separated and centralized, this approach supports maintainability and reduces duplicate logic.
 The design aligns with software engineering principles like separation of concerns and modular reuse, making the application easier to scale and debug.
@@ -135,7 +135,7 @@ def update_map(viewData, index):
                ])
     ]
 ```
-🧠 Enhancement Summary (Snippet 2):
+🧠 Enhancement Summary:
 This map callback was intentionally separated from the rest of the logic to support clarity, reuse, and single-responsibility principles.
 It makes the mapping logic easier to manage independently from charts and tables, which aligns with the modular design pattern used throughout the application.
 This structural decision supports flexible future enhancements, such as location clustering or advanced geospatial features.
