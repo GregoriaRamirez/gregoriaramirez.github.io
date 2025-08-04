@@ -1,7 +1,9 @@
 ---
-title: Gregoria Ramirez – ePortfolio
 layout: default
+title: Gregoria Ramirez – ePortfolio
+permalink: /
 ---
+
 
 <!-- Navigation -->
 **Navigation:**  
