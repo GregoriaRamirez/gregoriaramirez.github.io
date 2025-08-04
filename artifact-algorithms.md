@@ -1,3 +1,9 @@
+---
+layout: default
+title: Algorithms Enhancement
+permalink: /artifact-algorithms
+---
+
 # 🧮 Algorithms & Data Structures Artifact
 
 ## 📌 Artifact Description
