@@ -6,7 +6,6 @@
 # - Moved layout and callbacks into separate files to follow MVC structure and keep things modular.
 # - Replaced outdated app.run_server() with app.run() for better compatibility.
 # - Simplified the launch code to make the app easier to read, maintain, and expand.
-
 # Original version created in Feb 2025 and enhanced by me for the final capstone.
 
 from dash import Dash
@@ -22,4 +21,3 @@ register_callbacks(app)
 
 # Enhancement (Software Design and Engineering): Uses updated app.run() instead of deprecated app.run_server()
 app.run(debug=True, port=8550)
-
