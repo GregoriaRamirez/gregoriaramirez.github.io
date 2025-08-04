@@ -1,0 +1,37 @@
+
+
+from pymongo import MongoClient
+from bson.objectid import ObjectId
+
+class AnimalShelter:
+    """CRUD operations for Animal collection in MongoDB"""
+
+    def __init__(self):
+        # MongoDB Connection Variables
+        USER = 'aacuser'
+        PASS = 'SNHU1234'
+        HOST = 'nv-desktop-services.apporto.com'
+        PORT = 32440
+        DB = 'AAC'
+        COL = 'animals'
+        
+        # Initialize MongoDB Connection
+        self.client = MongoClient('mongodb://%s:%s@%s:%d' % (USER, PASS, HOST, PORT))
+        self.database = self.client['%s' % (DB)]
+        self.collection = self.database['%s' % (COL)]
+
+    def create(self, data):
+        """Inserts a document into the database"""
+        if data and isinstance(data, dict):
+            result = self.collection.insert_one(data)
+            return bool(result.inserted_id)
+        else:
+            raise ValueError("Invalid data: must be a non-empty dictionary")
+
+    def read(self, query):
+        """Queries documents from the database"""
+        if query and isinstance(query, dict):
+            result = list(self.collection.find(query))
+            return result if result else []
+        else:
+            raise ValueError("Invalid query: must be a dictionary")
