@@ -1,5 +1,3 @@
-Absolutely! Here's your polished artifact page with consistent formatting and clean Markdown ready to use:
-
 ---
 
 # 🧩 Software Design & Engineering Artifact
