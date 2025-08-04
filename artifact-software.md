@@ -1,4 +1,3 @@
----
 
 # 🧩 Software Design & Engineering Artifact
 
