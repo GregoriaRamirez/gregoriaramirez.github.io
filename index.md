@@ -30,7 +30,6 @@ permalink: /
 
 <div class="top-space"></div>
 
-➡️ [View all project enhancements](/projects)
 
 # 👩‍💻 Welcome to My ePortfolio
 
