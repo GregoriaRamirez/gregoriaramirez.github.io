@@ -1,3 +1,9 @@
+---
+layout: default
+title: About Me
+permalink: /about
+---
+
 # 👩‍💻 About Me
 
 Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University Since June 2022.
