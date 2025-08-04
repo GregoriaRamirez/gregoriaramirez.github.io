@@ -4,14 +4,11 @@ title: Gregoria Ramirez – ePortfolio
 permalink: /
 ---
 
-
-<!-- Navigation -->
 **Navigation:**  
 [🏠 Home](index.md) |[🙋‍♀️ About Me](about.md)|[📂 Projects](projects.md) |[🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📝 Self-Assessment](self-assessment.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 ---
 
-<!-- Add this to style and position your profile photo -->
 <style>
   .top-left-photo {
     position: absolute;
@@ -28,10 +25,9 @@ permalink: /
   }
 </style>
 
-<!-- Profile Image -->
+
 <img src="/assets/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
-<!-- Adds vertical spacing below image -->
 <div class="top-space"></div>
 
 ➡️ [View all project enhancements](/projects)
@@ -48,7 +44,7 @@ Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio f
 **Original Course:** CS 340 – Client-Server Development  
 **Enhanced For:** CS 499 – Computer Science Capstone
 
-This dashboard application helps track animal shelter data using a full-stack Python solution. Originally built in Jupyter Notebook, I refactored the project into a modular and production-ready structure using MongoDB, Dash, and secure Python scripting. I also integrated advanced filtering and visualization features.
+This dashboard application helps track animal shelter data using a full-stack Python solution. Originally developed using Jupyter Notebook for the interface and the MongoDB shell for database operations. the project was later refactored using Visual Studio Code and MongoDB Compass to make it more organized and professional. I refactored the project into a modular and production-ready structure using MongoDB, Dash, and secure Python scripting. I also integrated advanced filtering and visualization features.
 
 🔗 [View Capstone GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)
 
