@@ -1,48 +1,69 @@
 ---
+
 layout: default
 title: Software Design Enhancement
 permalink: /artifact-software
----
+-----------------------------
 
-# 🧩 Software Design & Engineering Artifact
+# 🧹 Software Design & Engineering Artifact
 
 ## 📌 Artifact Description
 
-For my CS 499 Capstone, I chose to enhance my Animal Shelter Dashboard project originally created in February 2025
-for CS 340: Client-Server Development. This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB.
-It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard.
-Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type.
-The project implemented CRUD operations to query the database for various types of analysis.
+For my CS 499 Capstone, I chose to enhance my final project from CS 340: Client-Server Development. Originally created in February 2025,the artifact 
+is a web-based dashboard for an animal shelter. The application was first developed in a Jupyter Notebook using Python, Dash, and a MongoDB database 
+connected to a CSV data source. It displayed outcome records from the shelter in a table, supported search and filtering, and included simple charts 
+for visual analysis.
 
-## 📎 Justification for Inclusion
+I selected this artifact because it integrates several skills I’ve developed throughout the program: database operations, data manipulationwith pandas, 
+and interactive web development with Dash. The original version functioned, but it lacked structure, performance optimizations,
+and security. This made it an ideal candidate for enhancement. 
 
-I selected this artifact because it integrates everything I have learned about software engineering — from backend data handling
-to frontend dashboard design — all connected via Python. The project demonstrates my ability to:
+To improve the software design, I reorganized the code into a more modular format using a Model-View-Controller (MVC) approach. I separated the routing
+logic, callback functions, and layout components into their own files. This structure improved readability, scalability, and ease of testing. I also
+implemented environment variables using python-dotenv to store sensitive information like the MongoDB connection string, enhancing security and aligning 
+with industry best practices.
 
-* Structure and organize code for maintainability
-* Secure sensitive data
-* Build a responsive and intuitive user interface
+In addition to reorganizing the architecture, I introduced new filtering features, including color and breed filters, which expanded the application's
+usability. These enhancements improved the dashboard’s responsiveness by limiting the data processed client-side and reducing visual clutter. The filtering 
+logic was refactored to be more efficient, using conditional logic and vectorized operations in pandas, which improved both performance and maintainability.
 
-The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns,
-making it a strong candidate for enhancement.
+As I worked through the project, I initially focused on two outcomes:
+Outcome 3 – Software Design and Engineering: Met by refactoring the code into modular components, applying the MVC structure, and improving security with environment variables.
 
-## 🔧 Enhancement Overview
+Outcome 4 – Algorithms and Data Structures: Met by enhancing the logic behind filtering features and applying structured control flows to manage data interactions.
 
-Key software engineering improvements include:
+Midway through the course, I realized I had also met Outcome 5 – Databases. I transitioned from Mongo shell to MongoDB Compass for easier and more secure management. I improved the database handling in the code by incorporating error checking and ensuring that connections were cleanly established and closed. 
+I also eliminated the dependency on static CSV imports and used live queries from MongoDB to drive the dashboard in real time.
 
-* Reorganizing the codebase into a modular MVC-style structure (model, controller, and dashboard logic split into separate files)
-* Replacing hardcoded credentials with secure environment variables using `python-dotenv`
-* Adding application logging to support better debugging and error tracking
-* Isolating Dash callback functions into a separate controller module for clarity
-* Enhancing the visual presentation of charts and layout responsiveness
-* Adding new filtering options for breed and color
-* Implementing a `venv` virtual environment for dependency management
+One challenge I faced was refactoring the file structure. I had to carefully update import paths and test each callback function to ensure it still functioned after being separated into modules. Another challenge was setting up a virtual environment. I used venv to isolate dependencies and avoid version conflicts,
+which helped streamline the setup process for future testing and deployment.
 
-These changes improved the maintainability, security, and professionalism of the project.
+In the end, this project reflects my growth in applying real-world development standards, organizing code for long-term maintainability, and delivering a 
+working product that is secure, efficient, and user-friendly.
+
+
+## 📌 Justification for Inclusion
+
+To improve the software design, I reorganized the code into a more modular format using a Model-View-Controller (MVC) structure. I separated the routing logic, callback functions, and layout components into separate files. This made the codebase easier to read, scale, and test. I also used `python-dotenv` to manage environment variables and securely store sensitive information like the MongoDB connection string—an improvement aligned with industry standards.
+
+Beyond restructuring the architecture, I added new filtering features for animal color and breed. These expanded the dashboard’s usability and helped reduce clutter by narrowing down results. I also refactored the filtering logic using conditional checks and vectorized operations in pandas, which made the app faster and more efficient.
+
+At the start of the enhancement, I focused on two outcomes:
+
+* **Outcome 3 – Software Design and Engineering:** Met by refactoring the codebase into modular components, applying the MVC pattern, and improving security practices.
+* **Outcome 4 – Algorithms and Data Structures:** Met by improving filtering logic and implementing efficient data-handling techniques.
+
+As the project progressed, I realized I had also met:
+
+* **Outcome 5 – Databases:** I transitioned from using the Mongo shell to MongoDB Compass, which gave me a more secure and user-friendly way to manage the database. I also added error handling, replaced static CSV imports with live MongoDB queries, and ensured proper connection management in the code.
+
+One challenge I faced was reorganizing the file structure without breaking the app. I had to carefully adjust import paths and retest each callback to confirm it worked. Another challenge was setting up a virtual environment with `venv` to isolate dependencies and avoid version conflicts. That step helped streamline future testing and deployment.
+
+Overall, this project reflects how far I have come in applying real-world development standards, organizing code for long-term maintainability, and building a working product that is secure, efficient, and user-friendly.
 
 ## 💡 Code Snippets Demonstrating Enhancements
 
-### 🧩 Snippet 1: Modular Entry Point (`app.py`)
+### 🧹 Snippet 1: Modular Entry Point (`app.py`)
 
 ```python
 from dash import Dash
@@ -58,14 +79,11 @@ app.run(debug=True, port=8550)
 ```
 
 **Enhancement Summary:**
-This code demonstrates improved software design through the use of modular architecture.
-The layout is loaded from a separate view file, and callbacks are managed in a separate controller module.
-This structure follows the Model-View-Controller (MVC) pattern, making the application more organized, maintainable, and scalable.
-Additionally, it uses the modern `app.run()` method instead of the deprecated `run_server()`, aligning with current Dash best practices.
+This code demonstrates improved software design through the use of modular architecture. The layout is loaded from a separate view file, and callbacks are managed in a separate controller module. This structure follows the Model-View-Controller (MVC) pattern, making the application more organized, maintainable, and scalable. Additionally, it uses the modern `app.run()` method instead of the deprecated `run_server()`, aligning with current Dash best practices.
 
 ---
 
-### 🧩 Snippet 2: Callback Logic (`controller.py`)
+### 🧹 Snippet 2: Callback Logic (`controller.py`)
 
 ```python
 from dash.dependencies import Input, Output
@@ -74,10 +92,8 @@ import pandas as pd
 import plotly.express as px
 from model import get_data
 
-# Enhancement (Software Design and Engineering): Data and logic separation using MVC
 df = get_data()
 
-# Enhancement (Software Design and Engineering): Centralized callback registration for reuse and clarity
 def register_callbacks(app):
 
     @app.callback(
@@ -105,18 +121,15 @@ def register_callbacks(app):
 ```
 
 **Enhancement Summary:**
-This code introduces a modular structure using a `register_callbacks()` function to group all callback logic in one place.
-By keeping table and chart logic cleanly separated and centralized, this approach supports maintainability and reduces duplicate logic.
-The design aligns with software engineering principles like separation of concerns and modular reuse, making the application easier to scale and debug.
+This code introduces a modular structure using a `register_callbacks()` function to group all callback logic in one place. By keeping table and chart logic cleanly separated and centralized, this approach supports maintainability and reduces duplicate logic. The design aligns with software engineering principles like separation of concerns and modular reuse, making the application easier to scale and debug.
 
 ---
 
-### 🧩 Snippet 3: Secure Map Callback (`controller.py`)
+### 🧹 Snippet 3: Secure Map Callback (`controller.py`)
 
 ```python
 import dash_leaflet as dl
 
-# Map callback - handles user selection from the data table
 @app.callback(
     Output('map-id', "children"),
     [Input('datatable-id', "derived_virtual_data"),
@@ -148,9 +161,7 @@ def update_map(viewData, index):
 ```
 
 **Enhancement Summary:**
-This map callback was intentionally separated from the rest of the logic to support clarity, reuse, and single-responsibility principles.
-It makes the mapping logic easier to manage independently from charts and tables, which aligns with the modular design pattern used throughout the application.
-This structural decision supports flexible future enhancements, such as location clustering or advanced geospatial features.
+This map callback was intentionally separated from the rest of the logic to support clarity, reuse, and single-responsibility principles. It makes the mapping logic easier to manage independently from charts and tables, which aligns with the modular design pattern used throughout the application. This structural decision supports flexible future enhancements, such as location clustering or advanced geospatial features.
 
 ---
 
