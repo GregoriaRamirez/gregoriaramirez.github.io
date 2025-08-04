@@ -27,10 +27,13 @@ I am currently seeking opportunities in:
 
 I am also considering pursueing my Masters to further specialize in software systems or data engineering.
 
+
 ## 📫 Contact
 
 - 📧 Email: gregoriaramirez454@email.com     
 - 💻 [GitHub](https://github.com/GregoriaRamirez)
 
 Thank you for visiting my portfolio!
+[⬅ Back to Home](/)
+
 
