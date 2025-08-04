@@ -129,7 +129,8 @@ Additionally, the structured conditional logic for rescue types enhances maintai
 
 ## 🔗 Project Links
 
-* 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/original/ProjectTwoDashboard%20(1).ipynb)
+* 📁 [Original Code – animal_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
+* 📁 [Original Code – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20(1).ipynb)
 * 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-algorithms)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 
