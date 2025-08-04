@@ -86,4 +86,20 @@ a career or graduate program.
 
 ---
 
-Thank you for reviewing my work !
+<div style="text-align: center; margin-top: 3em;">
+  <a href="/" style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  ">⬅ Back to Home</a>
+
+  <p style="margin-top: 1em; color: #444; font-size: 1rem;">
+    Thank you for reviewing my portfolio!
+  </p>
+</div>
+
