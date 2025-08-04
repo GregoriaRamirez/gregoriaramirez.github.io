@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Software Design Enhancement
+permalink: /artifact-software
+---
 
 # 🧩 Software Design & Engineering Artifact
 
@@ -198,10 +202,6 @@ This enhancement demonstrates my ability to:
 ## 🎓 Course Outcomes Met
 
 * **Outcome 3 (Software Design and Engineering):** Achieved by implementing modularity, using environment variables, and improving code structure and maintainability.
-* **Outcome 4 (Algorithms and Data Structures):** Improved filtering logic and added input validation.
-* **Outcome 5 (Databases):** Integrated better error handling, used MongoDB Compass, and ensured secure, closed database connections.
-
-I updated my Module One plan after instructor feedback to include Outcome 5 due to the significant enhancements made to database design and handling.
 
 ---
 
@@ -213,4 +213,15 @@ I updated my Module One plan after instructor feedback to include Outcome 5 due 
 
 ---
 
-If you want me to help with your next artifact page or anything else, just say the word!
+<div style="text-align: center; margin-top: 3em;">
+  <a href="/" style="
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  ">⬅ Back to Home</a>
+</div>
