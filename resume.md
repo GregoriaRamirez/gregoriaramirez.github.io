@@ -1,3 +1,12 @@
+---
+layout: default
+title: Résumé
+permalink: /resume
+---
+
+
+
+
 <div style="text-align: center; margin-top: 3em;">
   <a href="/" style="
     display: inline-block;
