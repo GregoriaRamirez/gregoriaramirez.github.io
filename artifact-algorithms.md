@@ -1,8 +1,36 @@
 # 🧮 Algorithms & Data Structures Artifact
 
+## 📌 Artifact Description
+
+For my CS 499 Capstone, I selected my Animal Shelter Dashboard project, originally developed in February 2025 for CS 340: Client-Server Development. This application connects to a MongoDB database and uses Dash to render an interactive interface that allows users to filter and visualize animal outcome data. The original version lacked efficient filtering and used basic conditional logic that limited the dashboard’s responsiveness and flexibility.
+
+In this enhanced version, I focused on improving the data handling logic by using vectorized pandas operations for filtering, transforming, and displaying the data. The updates ensure that the dashboard efficiently processes multi-criteria inputs, responds quickly to user interactions, and displays accurate visualizations. These improvements directly support the application's core functionality by enabling real-time, meaningful insights from large datasets.
+
+## 📎 Justification for Inclusion
+
+I selected this artifact because it demonstrates my ability to work with real-world datasets using effective algorithms and data structures. The enhancements I implemented go beyond basic filtering by introducing logical structures that handle multiple user inputs in a scalable way. I optimized the data transformation process using pandas methods like `.isin()`, `.str.contains()`, and `.between()`, which allow for fast and readable operations on large datasets.
+
+This artifact showcases my ability to:
+
+* Design and apply multi-criteria filtering algorithms  
+* Use pandas to manipulate structured data efficiently  
+* Separate logic into modular functions for reuse and clarity  
+* Optimize performance by avoiding loops and using vectorized operations
+
+## 🔧 Enhancement Overview
+
+Key algorithmic improvements include:
+
+* Replacing manual and repetitive filters with flexible logic using `.isin()` and `.str.contains()`  
+* Filtering by age using `.between()` for clearer range conditions  
+* Using `.copy()` to avoid `SettingWithCopyWarning` errors in pandas  
+* Separating logic for table filtering, chart rendering, and map updates  
+* Organizing conditional logic for rescue types (`water`, `mount`, `disaster`) to allow complex combinations of breed, age, outcome, and sex  
+* Improving user experience by supporting live updates across all visual components
+
 ## 💡 Code Snippets Demonstrating Enhancements
 
-### Snippet 1: Efficient Multi-Criteria Filtering in Dashboard Table (controller.py)
+### 🧮 Snippet 1: Efficient Multi-Criteria Filtering in Dashboard Table (`controller.py`)
 
 ```python
 def update_dashboard(filter_type, selected_colors, selected_breeds):
@@ -29,14 +57,14 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
         filtered_df = filtered_df[filtered_df['breed'].isin(selected_breeds)]
 
     return filtered_df.to_dict('records')
-```
+````
 
-**🔧 Enhancement Summary:**
+**Enhancement Summary:**
 This function was enhanced to support dynamic, multi-criteria filtering by combining vectorized pandas operations such as `.isin()`, `.str.contains()`, and `.between()`. These techniques replaced slower, more manual filtering approaches, improving runtime and maintainability. The use of `.copy()` prevents `SettingWithCopyWarning`, ensuring safe DataFrame manipulation.
 
 ---
 
-### Snippet 2: Chart Update Logic Using Filtered Data (controller.py)
+### 🧮 Snippet 2: Chart Update Logic Using Filtered Data (`controller.py`)
 
 ```python
 def update_chart(data, filter_type):
@@ -59,12 +87,12 @@ def update_chart(data, filter_type):
     return dcc.Graph(figure=fig)
 ```
 
-**🔧 Enhancement Summary:**
+**Enhancement Summary:**
 This enhancement separates chart logic from filtering logic, improving modularity. The function dynamically builds visualizations based on the active filter and uses `value_counts()` for fast frequency aggregation. The separation of chart display from the data logic follows clean design principles.
 
 ---
 
-### Snippet 3: Map Update Callback Handling User Selection (controller.py)
+### 🧮 Snippet 3: Map Update Callback Handling User Selection (`controller.py`)
 
 ```python
 def update_map(viewData, index):
@@ -92,45 +120,26 @@ def update_map(viewData, index):
     ]
 ```
 
-**🔧 Enhancement Summary:**
+**Enhancement Summary:**
 This update refines the Dash Leaflet map callback to respond to user selections. By extracting coordinates and animal info from the selected row, it renders contextual tooltips and popups. The use of `.get()` ensures graceful fallback defaults, improving fault tolerance.
 
 ---
 
-## 📌 Artifact Description
-
-This artifact is part of my Animal Shelter Dashboard project, where I process and filter large datasets from MongoDB using Python and pandas.
-It demonstrates how I manipulate data efficiently to create an interactive dashboard that supports filtering by multiple criteria such as breed, color, age, and outcome type.
-
-## 📎 Justification for Inclusion
-
-I selected this artifact because it highlights my ability to implement efficient data filtering algorithms and structured conditional logic.
-The use of vectorized pandas operations and modular design improves performance and usability in a real-world application.
-
-## 🔧 Enhancement Overview
-
-Key improvements include:
-
-* Using `.isin()`, `.str.contains()`, and `.between()` for fast, readable, and flexible data filtering
-* Applying `.copy()` to avoid pandas `SettingWithCopy` warnings
-* Structuring rescue-type filters (`water`, `mount`, `disaster`) with clear conditional logic
-* Separating logic for table filtering, chart updating, and map display into modular callbacks
-
 ## 🧠 Reflection on Algorithms Skills
 
-This artifact showcases my ability to apply efficient data filtering and transformation techniques using pandas.
-By replacing nested loops and manual filtering with vectorized methods, I improved performance and readability.
-Additionally, the structured conditional logic for rescue types enhances maintainability and scalability of the dashboard.
+This artifact highlights my ability to work with structured data efficiently using pandas and Python. I applied best practices for filtering large datasets using optimized methods, improved data transformation logic, and reduced potential bugs from chained indexing. By building modular functions to support multi-criteria filters and separate data logic from UI updates, I demonstrated clean coding principles and scalable algorithm design. These enhancements helped the application remain responsive and intuitive even with complex data combinations.
 
 ## 🎓 Course Outcomes Met
 
-* **Outcome 3:** Designed and evaluated computing solutions using algorithmic principles and sound software practices
-* **Outcome 4:** Demonstrated innovative use of data structures and tools like pandas for practical problem-solving
+* **Outcome 3 (Algorithms and Data Structures):** Designed and evaluated computing solutions using algorithmic principles and computer science practices. Demonstrated this by optimizing filter logic and restructuring callback functions.
+* **Outcome 4 (Computing Tools and Practices):** Used data transformation tools like pandas and Dash to develop interactive components based on efficient logic and data handling practices.
+
+---
 
 ## 🔗 Project Links
 
-* 📁 [Original Code – animal_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
-* 📁 [Original Code – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20(1).ipynb)
+* 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
+* 📁 [Original Code – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
 * 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-algorithms)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 
@@ -148,5 +157,4 @@ Additionally, the structured conditional logic for rescue types enhances maintai
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
-
----
+```
