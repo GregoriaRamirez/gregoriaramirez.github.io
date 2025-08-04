@@ -3,7 +3,7 @@
 layout: default
 title: Software Design Enhancement
 permalink: /artifact-software
------------------------------
+---
 
 # 🧹 Software Design & Engineering Artifact
 
