@@ -45,10 +45,7 @@ I am also considering pursueing my Masters to further specialize in software sys
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
-
-  <p style="margin-top: 1em; color: #444; font-size: 1rem;">
-    Thank you for visiting my portfolio!
-  </p>
 </div>
+
 
 
