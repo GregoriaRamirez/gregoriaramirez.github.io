@@ -50,7 +50,7 @@ This enhancement loads MongoDB connection settings from a `.env` file using envi
 
 ---
 
-### 🗄️ Snippet 2: Robust MongoDB Connection Handling with Logging and Fallback (`model.py`)
+### 🗄️ Snippet 2: MongoDB Connection Handling with Logging and Fallback (`model.py`)
 
 ```python
 try:
