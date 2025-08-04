@@ -1,7 +1,9 @@
 ---
-title: Awards & Honors
 layout: default
+title: Awards and Honors
+permalink: /awards
 ---
+
 
 -### 🎓 Awards and Honors
 
