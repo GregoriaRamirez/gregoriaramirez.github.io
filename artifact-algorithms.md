@@ -127,6 +127,12 @@ Additionally, the structured conditional logic for rescue types enhances maintai
 * **Outcome 3:** Designed and evaluated computing solutions using algorithmic principles and sound software practices
 * **Outcome 4:** Demonstrated innovative use of data structures and tools like pandas for practical problem-solving
 
+## 🔗 Project Links
+
+* 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/blob/main/original/ProjectTwoDashboard%20(1).ipynb)
+* 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-algorithms)
+* 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
+
 ---
 
 <div style="text-align: center; margin-top: 3em;">
