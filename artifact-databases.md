@@ -1,3 +1,9 @@
+---
+layout: default
+title: Databases Enhancement
+permalink: /artifact-databases
+---
+
 # 🗄️ Databases Artifact
 
 ## 📌 Artifact Description
