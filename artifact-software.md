@@ -40,61 +40,105 @@ These changes improved the maintainability, security, and professionalism of the
 
 ```python
 from dash import Dash
+from model.view import layout
 from controller import register_callbacks
-from view import layout
+
 
 app = Dash(__name__)
 app.layout = layout
 
 register_callbacks(app)
 
-if __name__ == '__main__':
-    app.run_server(debug=True)
-```
+app.run(debug=True, port=8550)
 
-This snippet shows how the main application logic was simplified. By isolating callbacks and layout into other files, 
-`app.py` becomes cleaner and easier to manage.
+```
+Enhancement Summary:
+This code demonstrates improved software design through the use of modular architecture. The layout is loaded from a separate view file, and callbacks are managed in a separate controller module. This structure follows the Model-View-Controller (MVC) pattern, making the application more organized, maintainable, and scalable. Additionally, it uses the modern app.run() method instead of the deprecated run_server(), aligning with current Dash best practices.
 
 ### 🧩 Snippet 2: Callback Logic (`controller.py`)
 
 ```python
-from dash import Input, Output
-from model import query_animals
+from dash.dependencies import Input, Output
+from dash import html, dcc
+import pandas as pd
+import plotly.express as px
+from model import get_data
 
+# Enhancement (Software Design and Engineering): Data and logic separation using MVC
+df = get_data()
+
+# Enhancement (Software Design and Engineering): Centralized callback registration for reuse and clarity
 def register_callbacks(app):
+
     @app.callback(
-        Output('table', 'data'),
-        Input('breed-dropdown', 'value'),
-        Input('color-dropdown', 'value')
+        Output('datatable-id', 'data'),
+        [Input('filter-type', 'value'),
+         Input('color-filter', 'value'),
+         Input('breed-filter', 'value')]
     )
-    def update_table(selected_breed, selected_color):
-        return query_animals(breed=selected_breed, color=selected_color)
+    def update_dashboard(filter_type, selected_colors, selected_breeds):
+        filtered_df = df.copy()
+        return filtered_df.to_dict('records')
+
+    @app.callback(
+        Output('chart-id', 'children'),
+        [Input('datatable-id', 'data'), Input('filter-type', 'value')]
+    )
+    def update_chart(data, filter_type):
+        dff = pd.DataFrame(data)
+        if dff.empty:
+            return html.Div("No data available for chart.")
+        breed_counts = dff['breed'].value_counts().reset_index()
+        breed_counts.columns = ['breed', 'count']
+        fig = px.pie(breed_counts, names='breed', values='count', title='Breed Distribution')
+        return dcc.Graph(figure=fig)
+
+🧠 Enhancement Summary (Snippet 1):
+This code introduces a modular structure using a register_callbacks() function to group all callback logic in one place.
+By keeping table and chart logic cleanly separated and centralized, this approach supports maintainability and reduces duplicate logic.
+The design aligns with software engineering principles like separation of concerns and modular reuse, making the application easier to scale and debug.
+
+    
 ```
-
-Callback logic was moved into `controller.py`. This improves readability, keeps business logic organized, and makes testing easier.
-
 ### 🧩 Snippet 3: Secure MongoDB Query (`model.py`)
 
 ```python
-import os
-from pymongo import MongoClient
-from dotenv import load_dotenv
+import dash_leaflet as dl
 
-load_dotenv()
-client = MongoClient(os.getenv("MONGO_URI"))
-db = client['AAC']
+# Map callback - handles user selection from the data table
+@app.callback(
+    Output('map-id', "children"),
+    [Input('datatable-id', "derived_virtual_data"),
+     Input('datatable-id', "derived_virtual_selected_rows")]
+)
+def update_map(viewData, index):
+    if viewData is None or not index:
+        return []
 
-def query_animals(breed=None, color=None):
-    query = {}
-    if breed:
-        query['breed'] = breed
-    if color:
-        query['color'] = color
-    return list(db.animals.find(query))
+    dff = pd.DataFrame(viewData)
+    row = index[0]
+
+    lat = dff.iloc[row].get("location_lat", 30.75)
+    lon = dff.iloc[row].get("location_long", -97.48)
+    animal_name = dff.iloc[row].get("name", "Unknown")
+    breed = dff.iloc[row].get("breed", "Unknown")
+
+    return [
+        dl.Map(style={'width': '1000px', 'height': '500px'},
+               center=[lat, lon], zoom=10, children=[
+                   dl.TileLayer(id="base-layer-id"),
+                   dl.Marker(position=[lat, lon],
+                             children=[
+                                 dl.Tooltip(breed),
+                                 dl.Popup([html.H1("Animal Name"), html.P(animal_name)])
+                             ])
+               ])
+    ]
 ```
-
-This code replaces hardcoded database credentials with environment variables stored in a `.env` file. All data interaction 
-is handled within this model file.
+🧠 Enhancement Summary (Snippet 2):
+This map callback was intentionally separated from the rest of the logic to support clarity, reuse, and single-responsibility principles.
+It makes the mapping logic easier to manage independently from charts and tables, which aligns with the modular design pattern used throughout the application.
+This structural decision supports flexible future enhancements, such as location clustering or advanced geospatial features.
 
 ## 📁 Project Folder Structure (After Enhancement)
 
