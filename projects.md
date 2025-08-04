@@ -14,7 +14,7 @@ This page summarizes the three enhancement categories I addressed in my CS 499 C
 
 Improved modularity, removed hardcoded credentials, and separated callback logic into reusable components.
 
-[🔗 View Full Enhancement](/artifact-software)
+[🔗 View Full Enhancement](artifact-software.md)
 
 ---
 
@@ -22,7 +22,7 @@ Improved modularity, removed hardcoded credentials, and separated callback logic
 
 Refactored filtering logic using vectorized pandas methods like `.isin()` and `.between()` for better performance and readability.
 
-[🔗 View Full Enhancement](/artifact-algorithms)
+[🔗 View Full Enhancement](artifact-algorithms.md)
 
 ---
 
@@ -30,11 +30,12 @@ Refactored filtering logic using vectorized pandas methods like `.isin()` and `.
 
 Connected securely to MongoDB using `pymongo` and `.env` variables. Added logging, exception handling, and ensured safe connection closure.
 
-[🔗 View Full Enhancement](/artifact-databases)
+[🔗 View Full Enhancement](artifact-databases.md)
 
 ---
+
 <div style="text-align: center; margin-top: 3em;">
-  <a href="/" style="
+  <a href="index.md" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
