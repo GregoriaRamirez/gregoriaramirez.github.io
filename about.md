@@ -30,7 +30,7 @@ I am also considering pursueing my Masters to further specialize in software sys
 
 ## 📫 Contact
 
-- 📧 Email: gregoriaramirez454@email.com     
+- 📧 Email: gregoriaramirez454@gmail.com     
 - 💻 [GitHub](https://github.com/GregoriaRamirez)
 
 
