@@ -1,23 +1,27 @@
+Absolutely! Here's your polished artifact page with consistent formatting and clean Markdown ready to use:
+
+---
+
 # 🧩 Software Design & Engineering Artifact
 
 ## 📌 Artifact Description
 
 For my CS 499 Capstone, I chose to enhance my Animal Shelter Dashboard project originally created in February 2025
-for CS 340: Client-Server Development. This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB. 
-It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard. 
-Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type. 
+for CS 340: Client-Server Development. This web application was built in a Jupyter Notebook using Python, Dash, and MongoDB.
+It pulled data from a CSV file into a NoSQL database and displayed animal outcome data through an interactive dashboard.
+Features included a searchable table, visual charts, and filters for outcome type, breed, color, and shelter type.
 The project implemented CRUD operations to query the database for various types of analysis.
 
 ## 📎 Justification for Inclusion
 
-I selected this artifact because it integrates everything I have learned about software engineering — from backend data handling 
+I selected this artifact because it integrates everything I have learned about software engineering — from backend data handling
 to frontend dashboard design — all connected via Python. The project demonstrates my ability to:
 
 * Structure and organize code for maintainability
 * Secure sensitive data
 * Build a responsive and intuitive user interface
 
-The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns, 
+The original version functioned correctly, but lacked modular design, security practices, and clean separation of concerns,
 making it a strong candidate for enhancement.
 
 ## 🔧 Enhancement Overview
@@ -43,17 +47,21 @@ from dash import Dash
 from model.view import layout
 from controller import register_callbacks
 
-
 app = Dash(__name__)
 app.layout = layout
 
 register_callbacks(app)
 
 app.run(debug=True, port=8550)
-
 ```
-Enhancement Summary:
-This code demonstrates improved software design through the use of modular architecture. The layout is loaded from a separate view file, and callbacks are managed in a separate controller module. This structure follows the Model-View-Controller (MVC) pattern, making the application more organized, maintainable, and scalable. Additionally, it uses the modern app.run() method instead of the deprecated run_server(), aligning with current Dash best practices.
+
+**Enhancement Summary:**
+This code demonstrates improved software design through the use of modular architecture.
+The layout is loaded from a separate view file, and callbacks are managed in a separate controller module.
+This structure follows the Model-View-Controller (MVC) pattern, making the application more organized, maintainable, and scalable.
+Additionally, it uses the modern `app.run()` method instead of the deprecated `run_server()`, aligning with current Dash best practices.
+
+---
 
 ### 🧩 Snippet 2: Callback Logic (`controller.py`)
 
@@ -92,15 +100,16 @@ def register_callbacks(app):
         breed_counts.columns = ['breed', 'count']
         fig = px.pie(breed_counts, names='breed', values='count', title='Breed Distribution')
         return dcc.Graph(figure=fig)
+```
 
-🧠 Enhancement Summary:
-This code introduces a modular structure using a register_callbacks() function to group all callback logic in one place.
+**Enhancement Summary:**
+This code introduces a modular structure using a `register_callbacks()` function to group all callback logic in one place.
 By keeping table and chart logic cleanly separated and centralized, this approach supports maintainability and reduces duplicate logic.
 The design aligns with software engineering principles like separation of concerns and modular reuse, making the application easier to scale and debug.
 
-    
-```
-### 🧩 Snippet 3: Secure MongoDB Query (`controller.py`)
+---
+
+### 🧩 Snippet 3: Secure Map Callback (`controller.py`)
 
 ```python
 import dash_leaflet as dl
@@ -135,10 +144,13 @@ def update_map(viewData, index):
                ])
     ]
 ```
-🧠 Enhancement Summary:
+
+**Enhancement Summary:**
 This map callback was intentionally separated from the rest of the logic to support clarity, reuse, and single-responsibility principles.
 It makes the mapping logic easier to manage independently from charts and tables, which aligns with the modular design pattern used throughout the application.
 This structural decision supports flexible future enhancements, such as location clustering or advanced geospatial features.
+
+---
 
 ## 📁 Project Folder Structure (After Enhancement)
 
@@ -166,6 +178,8 @@ CS499Capstone/
 └── venv/                      # Virtual environment for isolating dependencies
 ```
 
+---
+
 ## 🧠 Reflection on Software Engineering Skills
 
 This enhancement demonstrates my ability to:
@@ -181,6 +195,8 @@ This enhancement demonstrates my ability to:
 * Transition from static data files to secure, real-time database queries using MongoDB Compass
 * Handle database errors gracefully and ensure connections are opened and closed properly
 
+---
+
 ## 🎓 Course Outcomes Met
 
 * **Outcome 3 (Software Design and Engineering):** Achieved by implementing modularity, using environment variables, and improving code structure and maintainability.
@@ -189,8 +205,12 @@ This enhancement demonstrates my ability to:
 
 I updated my Module One plan after instructor feedback to include Outcome 5 due to the significant enhancements made to database design and handling.
 
+---
+
 ## 🔗 Project Links
 
 * 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
 * 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-software)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
+
+---
