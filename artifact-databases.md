@@ -8,8 +8,6 @@ For the enhanced version, I refactored the MongoDB access into a reusable Python
 
 ## 📎 Justification for Inclusion
 
-## 📎 Justification for Inclusion
-
 I selected this artifact because it demonstrates my ability to implement secure, efficient, and maintainable database access within a real-world application. Originally, the project used insecure, hardcoded credentials and lacked structure in how it connected to MongoDB. These limitations posed risks to both security and stability.
 
 By enhancing the database layer, I showed that I can manage sensitive data responsibly using environment variables, implement structured error handling to prevent failures, and modularize code for reuse. I also improved the integrity and clarity of the data passed to the dashboard by cleaning unnecessary fields and logging database activity for better traceability.
