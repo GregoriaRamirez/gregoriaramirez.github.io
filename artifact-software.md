@@ -1,3 +1,9 @@
+---
+layout: default
+title: Software Design Enhancement
+permalink: /artifact-software
+---
+
 # 🧮 Algorithms & Data Structures Artifact
 
 ## 📌 Artifact Description
