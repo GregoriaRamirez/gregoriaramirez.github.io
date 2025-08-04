@@ -100,7 +100,7 @@ The design aligns with software engineering principles like separation of concer
 
     
 ```
-### 🧩 Snippet 3: Secure MongoDB Query (`model.py`)
+### 🧩 Snippet 3: Secure MongoDB Query (`controller.py`)
 
 ```python
 import dash_leaflet as dl
