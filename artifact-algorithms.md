@@ -4,17 +4,82 @@ title: Algorithms Enhancement
 permalink: /artifact-algorithms
 ---
 
+
 # 🧮 Algorithms & Data Structures Artifact
 
 ## 📌 Artifact Description
 
-For my CS 499 Capstone, I selected my Animal Shelter Dashboard project, originally developed in February 2025 for CS 340: Client-Server Development. This application connects to a MongoDB database and uses Dash to render an interactive interface that allows users to filter and visualize animal outcome data. The original version lacked efficient filtering and used basic conditional logic that limited the dashboard’s responsiveness and flexibility.
-
-In this enhanced version, I focused on improving the data handling logic by using vectorized pandas operations for filtering, transforming, and displaying the data. The updates ensure that the dashboard efficiently processes multi-criteria inputs, responds quickly to user interactions, and displays accurate visualizations. These improvements directly support the application's core functionality by enabling real-time, meaningful insights from large datasets.
+For this category, I selected my Animal Shelter Dashboard project originally built for CS 340: Client-Server Development in February 2025. This project 
+is a web-based dashboard built in Python using the Dash framework and connected to a MongoDB database. The dashboard allows users to explore shelter outcome
+data using dropdown and radio button filters and visualizes the results in a searchable table and interactive charts.
 
 ## 📎 Justification for Inclusion
 
-I selected this artifact because it demonstrates my ability to work with real-world datasets using effective algorithms and data structures. The enhancements I implemented go beyond basic filtering by introducing logical structures that handle multiple user inputs in a scalable way. I optimized the data transformation process using pandas methods like `.isin()`, `.str.contains()`, and `.between()`, which allow for fast and readable operations on large datasets.
+I included this artifact in my ePortfolio because it demonstrates how I applied structured logic and efficient control flow to solve real-world filtering and visualization problems. In the original version, the update\_dashboard() function used repetitive if blocks and direct filtering that made it harder to manage. 
+In the enhanced version, I reorganized this function to apply layered filters that only trigger when conditions are met. I also used pandas’ vectorized operations to make filtering more efficient and added input validation so the dashboard would not break when dropdowns were empty or when combinations did not match any records.
+
+## Examples Before and After Enhancements:
+Original Code (Before Enhancement):
+
+```python
+# Filtering data directly on original DataFrame multiple times
+if filter_type == 'water':
+    filtered_df = df[(df['breed'].str.contains('Labrador Retriever')) & 
+                     (df['outcome_type'] == 'Euthanasia')]
+```
+
+This approach:
+
+1. Repeatedly filters the full DataFrame
+2. Overwrites previous filter results without preserving the original data
+3. Does not handle empty or missing filter inputs properly
+
+## Enhanced Code (After Enhancement):
+
+```python
+def update_dashboard(filter_type, selected_colors, selected_breeds):
+    filtered_df = df.copy()
+    if filter_type == 'water':
+        filtered_df = filtered_df[
+            (filtered_df['breed'].str.contains('Labrador Retriever', na=False)) &
+            (filtered_df['outcome_type'] == 'Euthanasia') &
+            (filtered_df['animal_type'] == 'Dog')
+        ]
+    elif filter_type == 'mount':
+        filtered_df = filtered_df[
+            (filtered_df['outcome_type'] == 'Transfer') &
+            (filtered_df['animal_type'] == 'Cat') &
+            (filtered_df['sex_upon_outcome'].str.contains('Female', na=False)) &
+            (filtered_df['age_upon_outcome_in_weeks'].between(52, 260))
+        ]
+
+    # Additional filters that apply safely and independently
+    if selected_colors:
+        filtered_df = filtered_df[filtered_df['color'].isin(selected_colors)]
+    if selected_breeds:
+        filtered_df = filtered_df[filtered_df['breed'].isin(selected_breeds)]
+
+    # Return a clean, predictable structure for use in the dashboard
+    return filtered_df.to_dict('records')
+```
+
+## Key Enhancements:
+
+1. Added layered (chained) filter conditions that apply sequentially and only when relevant, improving clarity and control flow.
+2. Used df.copy() to create a separate working dataset, preserving the original data and preventing unintended side effects.
+3. Implemented safer filtering methods such as .str.contains(..., na=False) and .isin() to avoid runtime errors caused by missing or null data.
+4. Handled multiple filter combinations properly so that filters work together instead of conflicting or overwriting each other.
+5. Returned a clean, consistent data structure with .to\_dict('records') that the dashboard can reliably use.
+
+These changes improved both performance and user experience. The dashboard now reacts more smoothly to filter changes and is more resilient to unusual inputs 
+or empty selections.
+
+Although I focused on improving the filtering logic and performance, I also added input checks to prevent the dashboard from crashing when users leave filters empty, select options with no matching data, such as a rare breed or rescue type or when the data has missing/blank values. This helps avoid errors that could make the app unstable or stop it from working. By safely handling missing or empty data, I made the app more reliable and less likely to fail in ways that could cause problems. While this is not the same as security features like login or encryption, it does help keep the app running smoothly and prevents issues that could cause it to break.
+
+This enhancement aligns with Program Outcome 3: Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices. By using layered filtering logic and efficient data-handling methods, I improved both performance and stability while managing complexity in how filters interact.
+
+Enhancing this artifact helped me better understand the importance of organizing logic for readability and performance. One challenge I faced was making sure multiple filters could work together without interfering with one another’s results. I had to test various combinations and inputs to ensure the application responded as expected in all cases. I also was careful with handling missing values or null fields, which required using na=False to prevent errors when filtering string fields. This process improved my confidence in using control flow and data structures to solve real problems. It also taught me how clear, well-planned logic can lead to more stable and professional applications.
+
 
 This artifact showcases my ability to:
 
