@@ -1,4 +1,9 @@
-````markdown
+---
+layout: default
+title: Code Review Walkthrough
+permalink: /code-review
+---
+
 # Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
 
 ## Artifact Overview
