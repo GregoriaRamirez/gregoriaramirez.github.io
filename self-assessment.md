@@ -69,7 +69,7 @@ I optimized filtering logic for breed and color selections using vectorized oper
 **4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**  
 _Met through use of VS Code, MongoDB Compass, Dash, and `.env` for secure, modern development._
 
-I used modern tools such as VS Code, GitHub, and MongoDB Compass to design a working animal shelter dashboard. I employed `python-dotenv` to load credentials securely, and used Dash for building a responsive data-driven web interface. I also implemented logging and exception handling to create a maintainable and production-ready application.
+I used modern tools such as VS Code, and MongoDB Compass to design a working animal shelter dashboard. I employed `python-dotenv` to load credentials securely, and used Dash for building a responsive data-driven web interface. I also implemented logging and exception handling to create a maintainable and production-ready application.
 
 ---
 
