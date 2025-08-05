@@ -4,14 +4,13 @@ title: Self-Assessment
 permalink: /self-assessment
 ---
 
-
 # 📝 Self-Assessment
 
 ## 🎓 Program Reflection
 
-I am proud to be completing my Bachelor of Science in Computer Science at Southern New Hampshire University. Over the course of the program, I have grown from writing basic code into a developer capable of creating secure, modular, full-stack applications. Through hands-on projects, I gained experience working with databases, APIs, and user interfaces, applying real-world development practices every step of the way.
+I am proud to be completing my Bachelor of Science in Computer Science at Southern New Hampshire University. Over the course of the program, I progressed from learning how to write basic code to becoming a developer capable of designing and building secure, modular, full-stack applications. Through project-based learning, I gained practical experience with database integration, RESTful APIs, and user interface development using tools like Dash and Flask. I also learned how to apply version control, secure coding practices, and professional documentation standards to deliver real-world software solutions.
 
-While I’m still figuring out exactly which path I want to take, I feel confident in the skills I’ve gained and excited for what comes next. I’m especially interested in backend development and working with databases, and I’m looking forward to applying these skills in a professional role. At the same time, I plan to keep learning and growing by exploring more advanced topics and continuing to improve as a developer.
+While I am still figuring out exactly which path I want to take, I feel confident in the skills I have gained and excited for what comes next. I am especially interested in backend development and working with databases, and I am looking forward to applying these skills in a professional role. At the same time, I plan to keep learning and growing by exploring more advanced topics and continuing to improve as a developer.
 
 ---
 
@@ -46,51 +45,44 @@ While I’m still figuring out exactly which path I want to take, I feel confide
 
 ## 🎯 Course Outcomes and How I Met Them
 
-**1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
+**1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**  
+_Met through modular code structure, clear documentation, and organized folders to support team understanding._
 
-Although I worked independently on my Capstone, I followed professional collaboration standards by organizing my code into clear, modular folders 
-and documenting my enhancements in a way that allows others to easily understand, review, and build upon the work. My project could be shared with
-technical and non-technical audiences alike, supporting team decision-making and future development.
-
----
-
-**2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
-
-I created a complete project narrative, a structured enhancement walkthrough, and a recorded code review video. My README files, `.md` pages, and 
-inline comments are written clearly for both developers and stakeholders. I also used visual charts, screenshots, and well-labeled filters to ensure 
-the user interface communicates data effectively.
+In my Capstone, I structured the project into separate model, controller, and view files to clearly organize each function. I used descriptive naming conventions and inline comments so any collaborator could pick up where I left off. My README and enhancement documentation explain setup and usage in plain terms, enabling communication across technical skill levels.
 
 ---
 
-**3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.**
+**2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**  
+_Met through README files, `.md` pages, inline comments, and a narrated video code walkthrough._
 
-I improved filtering logic by implementing condition-based control flows, modularizing the logic, and using vectorized operations in pandas. These
-choices improved performance and usability while balancing complexity and maintainability. I also evaluated which data structures (e.g., dictionaries, dataframes) worked best for efficiency.
-
----
-
-**4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
-
-I used VS Code, MongoDB Compass, Dash, and `.env` environment variable handling to align with modern industry workflows. I refactored my application
-using the MVC pattern and applied best practices for dependency management, error handling, and secure data access. These skills are directly transferable 
-to real-world software development.
+My enhancement documentation includes markdown files for each improvement category, a narrated code review video, and multiple screenshots. I ensured consistent formatting, visual hierarchy, and clarity. I avoided overly technical jargon in key summaries to ensure accessibility, while still providing in-depth explanations for technical reviewers.
 
 ---
 
-**5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
+**3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.**  
+_Met through refactored filtering logic, modular callback design, and efficient pandas usage._
 
-I removed hardcoded credentials and implemented secure environment variables using `python-dotenv`. I also added database error handling and ensured 
-connections are properly opened and closed to prevent resource leaks. These actions reflect a secure, defensive coding mindset and help protect 
-sensitive data within the application.
+I optimized filtering logic for breed and color selections using vectorized operations like `.isin()` and `.between()` in pandas. I removed repetitive logic by centralizing callbacks and added conditional branches to handle edge cases. These choices improved efficiency without sacrificing readability or flexibility.
+
+---
+
+**4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**  
+_Met through use of VS Code, MongoDB Compass, Dash, and `.env` for secure, modern development._
+
+I used modern tools such as VS Code, GitHub, and MongoDB Compass to design a working animal shelter dashboard. I employed `python-dotenv` to load credentials securely, and used Dash for building a responsive data-driven web interface. I also implemented logging and exception handling to create a maintainable and production-ready application.
+
+---
+
+**5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**  
+_Met through `.env` integration, removal of hardcoded credentials, and safe DB connection handling._
+
+I implemented secure MongoDB connection handling using environment variables to avoid credential exposure in code. I ensured the connection was closed properly and wrapped logic in exception handling blocks to prevent unhandled errors. This approach supports long-term application integrity and helps protect sensitive animal shelter data.
 
 ---
 
 ## 🔄 Personal Growth
 
-Working independently on my Capstone project taught me how to plan, build, and maintain a complete application on my own. 
-I developed stronger skills in problem-solving, debugging, and managing my time and priorities.This experience helped me build confidence 
-in my ability to work in a professional development environment. I now feel well-prepared to continue learning and contributing in either 
-a career or graduate program.
+Throughout the CS program and this Capstone, I learned how to take a project from concept to deployment using real development workflows. I strengthened my problem-solving and debugging skills, and I developed a professional approach to security, version control, and application structure. I feel more confident tackling development tasks with industry tools and techniques and am ready to contribute to backend and data-driven software teams.
 
 ---
 
@@ -110,4 +102,3 @@ a career or graduate program.
     Thank you for reviewing my portfolio!
   </p>
 </div>
-
