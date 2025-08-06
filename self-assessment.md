@@ -1,11 +1,10 @@
 ---
-
 layout: default
 title: Gregoria Ramirez – ePortfolio
 permalink: /
 ---
 
-**Navigation:**
+**Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 ---
@@ -37,8 +36,8 @@ Hello, my name is **Gregoria Ramirez**, and this is my professional ePortfolio f
 
 ## 📁 Capstone Project Overview
 
-**Project Title:** Animal Shelter MongoDB Dashboard
-**Original Course:** CS 340 – Client-Server Development
+**Project Title:** Animal Shelter MongoDB Dashboard  
+**Original Course:** CS 340 – Client-Server Development  
 **Enhanced For:** CS 499 – Computer Science Capstone
 
 This dashboard application tracks animal shelter data using a full-stack Python solution. It was originally developed using Jupyter Notebook and the MongoDB shell. The project was later refactored using Visual Studio Code and MongoDB Compass for a more organized and professional structure. I modularized the project using Dash, MongoDB, and secure Python scripting. Advanced filtering and data visualizations were also integrated.
@@ -49,12 +48,12 @@ This dashboard application tracks animal shelter data using a full-stack Python 
 
 ## 🚀 Key Enhancements
 
-* ✅ Refactored monolithic notebook code into modular Python files
-* ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction
-* ✅ Replaced hardcoded credentials with environment variable support
-* ✅ Implemented new filters for breed and color
-* ✅ Added input validation and improved query logic
-* ✅ Visualized shelter outcomes using Dash charts and geolocation
+- ✅ Refactored monolithic notebook code into modular Python files  
+- ✅ Migrated from MongoDB shell to MongoDB Compass for database interaction  
+- ✅ Replaced hardcoded credentials with environment variable support  
+- ✅ Implemented new filters for breed and color  
+- ✅ Added input validation and improved query logic  
+- ✅ Visualized shelter outcomes using Dash charts and geolocation
 
 ---
 
@@ -78,7 +77,7 @@ This dashboard application tracks animal shelter data using a full-stack Python 
 
 ## 📫 Contact
 
-Feel free to connect via GitHub:
+Feel free to connect via GitHub:  
 🔗 [GregoriaRamirez on GitHub](https://github.com/GregoriaRamirez)
 
 ---
