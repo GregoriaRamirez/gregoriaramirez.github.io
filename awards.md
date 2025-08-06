@@ -7,7 +7,7 @@ permalink: /awards
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 
--### 🎓 Awards and Honors
+### 🎓 Awards and Honors
 
 - [Honor Roll – May–Jun 2025 (2025 C-3)](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-3-May-Jun-/162252662)
 - [Honor Roll – Mar–Apr 2025 (2025 C-2)](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-2-Mar-Apr-/159319082)
