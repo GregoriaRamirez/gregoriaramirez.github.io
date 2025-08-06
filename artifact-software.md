@@ -15,7 +15,7 @@ is a web-based dashboard for an animal shelter. The application was first develo
 connected to a CSV data source. It displayed outcome records from the shelter in a table, supported search and filtering, and included simple charts 
 for visual analysis.
 
-I selected this artifact because it integrates several skills I’ve developed throughout the program: database operations, data manipulationwith pandas, 
+I selected this artifact because it integrates several skills I have developed throughout the program: database operations, data manipulationwith pandas, 
 and interactive web development with Dash. The original version functioned, but it lacked structure, performance optimizations,
 and security. This made it an ideal candidate for enhancement. 
 
