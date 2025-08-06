@@ -11,7 +11,7 @@ permalink: /self-assessment
 
 ## 🎓 Program Reflection
 
-I am proud to be completing my **Bachelor of Science in Computer Science** at **Southern New Hampshire University**. Over the course of the program, I progressed from learning how to write basic code to becoming a developer capable of designing and building secure, modular, full-stack applications. Through project-based learning, I gained practical experience with database integration, RESTful APIs, and user interface development using tools like Dash and Flask. I also learned how to apply version control, secure coding practices, and professional documentation standards to deliver real-world software solutions.
+I am proud to be completing my Bachelor of Science in Computer Science at Southern New Hampshire University. Over the course of the program, I progressed from learning how to write basic code to becoming a developer capable of designing and building secure, modular, full-stack applications. Through project-based learning, I gained practical experience with database integration, RESTful APIs, and user interface development using tools like Dash and Flask. I also learned how to apply version control, secure coding practices, and professional documentation standards to deliver real-world software solutions.
 
 While I am still figuring out exactly which path I want to take, I feel confident in the skills I have gained and excited for what comes next. I am especially interested in backend development and working with databases, and I am looking forward to applying these skills in a professional role. At the same time, I plan to keep learning and growing by exploring more advanced topics and continuing to improve as a developer.
 
