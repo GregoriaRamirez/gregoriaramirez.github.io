@@ -32,21 +32,6 @@ logic was refactored to be more efficient, using conditional logic and vectorize
 
 <img src="/assets/Animal_Shelter_Dashboard.png" alt="Animal Shelter Dashboard Screenshot" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;" />
 
-As I worked through the project, I initially focused on two outcomes:
-Outcome 3 – Software Design and Engineering: Met by refactoring the code into modular components, applying the MVC structure, and improving security with environment variables.
-
-Outcome 4 – Algorithms and Data Structures: Met by enhancing the logic behind filtering features and applying structured control flows to manage data interactions.
-
-Midway through the course, I realized I had also met Outcome 5 – Databases. I transitioned from Mongo shell to MongoDB Compass for easier and more secure management. I improved the database handling in the code by incorporating error checking and ensuring that connections were cleanly established and closed. 
-I also eliminated the dependency on static CSV imports and used live queries from MongoDB to drive the dashboard in real time.
-
-One challenge I faced was refactoring the file structure. I had to carefully update import paths and test each callback function to ensure it still functioned after being separated into modules. Another challenge was setting up a virtual environment. I used venv to isolate dependencies and avoid version conflicts,
-which helped streamline the setup process for future testing and deployment.
-
-In the end, this project reflects my growth in applying real-world development standards, organizing code for long-term maintainability, and delivering a 
-working product that is secure, efficient, and user-friendly.
-
-
 ## 📌 Justification for Inclusion
 
 To improve the software design, I reorganized the code into a more modular format using a Model-View-Controller (MVC) structure. I separated the routing logic, callback functions, and layout components into separate files. This made the codebase easier to read, scale, and test. I also used `python-dotenv` to manage environment variables and securely store sensitive information like the MongoDB connection string—an improvement aligned with industry standards.
