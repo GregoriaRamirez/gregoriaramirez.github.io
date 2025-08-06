@@ -30,7 +30,6 @@ permalink: /resume
 
 # 📄 Résumé  
 _CS 499 Capstone ePortfolio for SNHU_
-
 ---
 
 ## 👩🏽‍💼 Gregoria Ramirez  
