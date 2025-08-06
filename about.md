@@ -5,7 +5,25 @@ permalink: /about
 ---
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+<style>
+  .top-left-photo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    z-index: 1000;
+  }
 
+  .top-space {
+    padding-top: 50px;
+  }
+</style>
+
+<img src="/assets/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
+
+<div class="top-space"></div>
 # 👩‍💻 About Me
 
 Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University Since June 2022.
