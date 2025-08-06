@@ -3,8 +3,10 @@ layout: default
 title: About Me
 permalink: /about
 ---
+
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
 <style>
   .top-left-photo {
     position: absolute;
@@ -27,39 +29,38 @@ permalink: /about
 
 # 👩‍💻 About Me
 
-Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University Since June 2022.
-I graduated in May 2025 with my Associate in Computer Science Concentration Software Engeneering and graduating in August 2025 with my Bachelors. 
+Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University since June 2022.  
+I graduated in May 2025 with my Associate Degree in Computer Science, with a concentration in Software Engineering, and I am graduating in August 2025 with my Bachelor's degree.
+
 Over the course of my degree, I have developed a strong foundation in software development, database management, and full-stack web application design.
 
-I am passionate about solving real-world problems using technology and take pride in writing clean, modular, and efficient code. 
+I am passionate about solving real-world problems using technology and take pride in writing clean, modular, and efficient code.  
 My recent work includes enhancing an Animal Shelter Dashboard using Python, Dash, and MongoDB — a project that showcases my skills in secure coding, data visualization, and application design.
 
 ## 🔍 Interests and Strengths
 
-- Software design and modular architecture
-- Backend development with Python and Node.js
-- MongoDB and NoSQL data modeling
-- Creating intuitive user interfaces with Dash and web frameworks
-- Data analysis and interactive dashboards
+- Software design and modular architecture  
+- Backend development with Python and Node.js  
+- MongoDB and NoSQL data modeling  
+- Creating intuitive user interfaces with Dash and web frameworks  
+- Data analysis and interactive dashboards  
 
 ## 🎯 Career Goals
 
 I am currently seeking opportunities in:
- 
-- Software Engineer
-- Backend or full-stack development
-- Database administration
-- Systems integration
-- Data Analytics
 
-I am also considering pursueing my Masters to further specialize in software systems or data engineering.
+- Software Engineering  
+- Backend or Full-Stack Development  
+- Database Administration  
+- Systems Integration  
+- Data Analytics  
 
+I am also considering pursuing my Master's degree to further specialize in software systems or data engineering.
 
 ## 📫 Contact
 
-- 📧 Email: gregoriaramirez454@gmail.com     
+- 📧 Email: gregoriaramirez454@gmail.com  
 - 💻 [GitHub](https://github.com/GregoriaRamirez)
-
 
 <div style="text-align: center; margin-top: 3em;">
   <a href="/" style="
@@ -73,6 +74,3 @@ I am also considering pursueing my Masters to further specialize in software sys
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
-
-
-
