@@ -32,10 +32,15 @@ permalink: /about
 Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University since June 2022.  
 I graduated in May 2025 with my Associate Degree in Computer Science, with a concentration in Software Engineering, and I am graduating in August 2025 with my Bachelor's degree.
 
-Over the course of my degree, I have developed a strong foundation in software development, database management, and full-stack web application design.
+My interest in computer science began with a curiosity about how technology works behind the scenes, from websites and data to the systems that power everyday tools. Over time, this curiosity turned into a passion for solving real-world problems through software development and data-driven solutions. The decision to change careers came from seeing how rapidly technology is evolving and realizing that I wanted to be part of building and improving the systems that shape our future.
 
-I am passionate about solving real-world problems using technology and take pride in writing clean, modular, and efficient code.  
-My recent work includes enhancing an Animal Shelter Dashboard using Python, Dash, and MongoDB — a project that showcases my skills in secure coding, data visualization, and application design.
+Over the course of my degree, I have developed a strong foundation in software development, database management, and full-stack web application design. I am proud of all that I have learned and accomplished throughout my studies, especially through projects like my Animal Shelter Dashboard and my Full Stack Development coursework. These projects taught me how to build secure, modular applications and gave me hands-on experience with real-world workflows, including API integration, user interfaces, and data handling.
+
+With over 25 years of experience in administrative and legal environments, I bring a unique perspective to software development. I am organized, detail-oriented, and comfortable with structured systems and client-facing communication. These strengths help me bridge the gap between technical implementation and practical usability.
+
+I am passionate about writing clean, reusable code and enjoy working with backend systems, databases, and dashboards. I am always eager to learn new tools, expand my technical skills, and contribute to meaningful projects.
+
+I am currently considering pursuing a Master's degree in software systems or data engineering to deepen my knowledge and specialize further. I also plan to keep building my skills in backend development, data visualization, and cloud platforms.
 
 ## 🔍 Interests and Strengths
 
