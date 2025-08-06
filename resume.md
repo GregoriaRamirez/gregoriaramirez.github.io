@@ -91,12 +91,12 @@ Experienced Legal Clerk and aspiring Backend Developer with over 26 years in leg
 
 **Bachelor of Science in Computer Science**  
 Southern New Hampshire University · *Jun 2022 – Aug 2025*  
-- Honors: Dean’s List, President’s List, Latin Honors (expected)  
+- Honors: Dean’s List, President’s List, Honor role, Latin Honors (expected)  
 - Relevant Projects: Animal Shelter Dashboard, RESTful API development, MongoDB integration
 
 **Associate of Science in Computer Science (Cum Laude)**  
 Southern New Hampshire University · *2023 – 2025*  
-- Dean’s List, President’s List, Graduated With Honors
+- Dean’s List, President’s List, Honor role, Latin Honors
 
 **Certificate in Medical Billing and Claims**  
 Atlanta Medical School of Billing · Dunwoody, GA · *2000*
