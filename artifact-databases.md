@@ -3,6 +3,7 @@ layout: default
 title: Databases Enhancement
 permalink: /artifact-databases
 ---
+
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
@@ -22,11 +23,11 @@ By enhancing the database layer, I showed that I can manage sensitive data respo
 
 This artifact demonstrates my ability to:
 
-* Connect securely to a MongoDB database using Python
-* Manage sensitive credentials using environment variables
-* Modularize and reuse database access logic across the project
-* Implement logging and error handling for production readiness
-* Prevent connection leaks by closing MongoDB clients reliably
+* Connect securely to a MongoDB database using Python  
+* Manage sensitive credentials using environment variables  
+* Modularize and reuse database access logic across the project  
+* Implement logging and error handling for production readiness  
+* Prevent connection leaks by closing MongoDB clients reliably  
 
 ## 🔧 Enhancement Overview
 
@@ -38,7 +39,7 @@ Key database improvements include:
 * Wrapping the entire database operation inside a `get_data()` function for reuse  
 * Logging successful connections and safely handling errors  
 * Closing MongoDB clients with a `finally` block to avoid resource leaks  
-* Removing the internal `_id` field to prepare data for presentation in Dash
+* Removing the internal `_id` field to prepare data for presentation in Dash  
 
 ## 💡 Code Snippets Demonstrating Enhancements
 
@@ -145,9 +146,4 @@ This artifact showcases my ability to build secure, maintainable database integr
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
-```
-
-
-
-
 
