@@ -3,7 +3,39 @@ layout: default
 title: Résumé
 permalink: /resume
 ---
+<style>
+  .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+  }
 
+  .page-header img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  }
+
+  .page-header h1, .page-header p {
+    margin: 0;
+  }
+
+  .page-header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+</style>
+
+<div class="page-header">
+  <img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot">
+  <div class="page-header-content">
+    <h1>Résumé</h1>
+    <p>CS 499 Capstone ePortfolio for SNHU</p>
+  </div>
+</div> 
 # 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk | Aspiring Backend Developer**  
 📍 Harrisburg, PA · 💻 Open to Remote, Hybrid, or Relocation Opportunities  
