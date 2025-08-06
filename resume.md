@@ -6,15 +6,16 @@ permalink: /resume
 <style>
   .center-top-photo {
     display: block;
-    margin: 30px auto 20px auto; /* Top margin, center, bottom margin */
-    width: 130px;
-    height: 130px;
+    margin: 30px auto 20px auto;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
 </style>
 
-<img src="/assets/myphoto.jpg" alt="Profile Photo" class="center-top-photo">
+<!-- 👤 Centered profile photo above name/title -->
+<img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="center-top-photo">
 
 # 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk | Aspiring Backend Developer**  
