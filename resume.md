@@ -1,34 +1,42 @@
 ---
 layout: default
-title: Résumé
+title: Gregoria Ramirez – Résumé
 permalink: /resume
 ---
-<style>
-  .page-header::before {
-    content: "";
-    display: block;
-    height: 130px; /* creates space under image if needed */
-  }
 
-  .profile-photo-overlay {
+**Navigation:**  
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
+---
+
+<style>
+  .top-left-photo {
     position: absolute;
-    top: 110px; /* adjust this to move photo vertically */
-    left: 30px;
+    top: 20px;
+    left: 20px;
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     z-index: 1000;
+  }
+
+  .top-space {
+    padding-top: 50px;
   }
 </style>
 
-<img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="profile-photo-overlay">
+<img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="top-left-photo">
+<div class="top-space"></div>
 
+# 📄 Résumé  
+_CS 499 Capstone ePortfolio for SNHU_
 
-# 👩🏽‍💼 Gregoria Ramirez  
+---
+
+## 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk | Aspiring Backend Developer**  
 📍 Harrisburg, PA · 💻 Open to Remote, Hybrid, or Relocation Opportunities  
-📧 gregoriaramirez454@gmail.com · ☎️ (223) 274-****  
+📧 gregoriaramirez454@gmail.com · ☎️ (223) 279-****  
 🔗 [GitHub](https://github.com/GregoriaRamirez) | 🌐 [Portfolio](https://gregoriaramirez.github.io/)
 
 ---
@@ -131,6 +139,8 @@ Steelton-Highspire High School · *1991*
 - 🏆 Implemented a case management system at Dauphin County, improving efficiency by 20%  
 - 📊 Reduced data processing errors by 15% through workflow improvements at Coventry  
 - 📣 Commended for clear, calm communication and accuracy in high-stress legal environments  
+
+---
 
 <div style="text-align: center; margin-top: 3em;">
   <a href="/" style="
