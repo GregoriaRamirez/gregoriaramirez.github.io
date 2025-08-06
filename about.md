@@ -24,6 +24,7 @@ permalink: /about
 <img src="/assets/myphoto.jpg" alt="Profile Photo" class="top-left-photo">
 
 <div class="top-space"></div>
+
 # 👩‍💻 About Me
 
 Hello! My name is **Gregoria Ramirez**, and I am a Computer Science student at Southern New Hampshire University Since June 2022.
