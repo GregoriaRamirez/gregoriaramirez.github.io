@@ -3,6 +3,8 @@ layout: default
 title: Code Review Walkthrough
 permalink: /code-review
 ---
+**Navigation:**  
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
 
