@@ -60,8 +60,6 @@ I am currently seeking opportunities in:
 - Systems Integration  
 - Data Analytics  
 
-I am also considering pursuing my Master's degree to further specialize in software systems or data engineering.
-
 ## 📫 Contact
 
 - 📧 Email: gregoriaramirez454@gmail.com  
