@@ -4,18 +4,30 @@ title: Résumé
 permalink: /resume
 ---
 <style>
-  .center-top-photo {
-    display: block;
-    margin: 30px auto 20px auto;
+  .resume-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .resume-header img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     box-shadow: 0 2px 6px rgba(0,0,0,0.15);
   }
+
+  .resume-header-text {
+    flex: 1;
+  }
 </style>
 
-<!-- 👤 Centered profile photo above name/title -->
-<img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="center-top-photo">
+<div class="resume-header">
+  <img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot">
+  <div class="resume-header-text">
 
 # 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk | Aspiring Backend Developer**  
