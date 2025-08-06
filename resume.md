@@ -3,31 +3,6 @@ layout: default
 title: Résumé
 permalink: /resume
 ---
-<style>
-  .resume-header {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-  }
-
-  .resume-header img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-  }
-
-  .resume-header-text {
-    flex: 1;
-  }
-</style>
-
-<div class="resume-header">
-  <img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot">
-  <div class="resume-header-text">
 
 # 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk | Aspiring Backend Developer**  
@@ -39,10 +14,7 @@ permalink: /resume
 
 ## 🧩 Professional Summary
 
-Experienced Legal Clerk and aspiring Backend Developer with over 26 years in legal operations, case tracking, and administrative support. 
-Recently completed a B.S. in Computer Science, gaining hands-on experience with Python, SQL, MongoDB, RESTful APIs, and data visualization tools.
-Strong ability to coordinate, analyze, and streamline data workflows. Seeking to transition into backend or database development roles where attention 
-to detail and real-world experience can support robust system design and efficiency.
+Experienced Legal Clerk and aspiring Backend Developer with over 26 years in legal operations, case tracking, and administrative support. Recently completed a B.S. in Computer Science, gaining hands-on experience with Python, SQL, MongoDB, RESTful APIs, and data visualization tools. Strong ability to coordinate, analyze, and streamline data workflows. Seeking to transition into backend or database development roles where attention to detail and real-world experience can support robust system design and efficiency.
 
 ---
 
@@ -139,8 +111,6 @@ Steelton-Highspire High School · *1991*
 - 📊 Reduced data processing errors by 15% through workflow improvements at Coventry  
 - 📣 Commended for clear, calm communication and accuracy in high-stress legal environments  
 
----
-
 <div style="text-align: center; margin-top: 3em;">
   <a href="/" style="
     display: inline-block;
@@ -153,5 +123,3 @@ Steelton-Highspire High School · *1991*
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
-
-
