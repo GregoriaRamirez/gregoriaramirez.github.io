@@ -28,6 +28,10 @@ In addition to reorganizing the architecture, I introduced new filtering feature
 usability. These enhancements improved the dashboard’s responsiveness by limiting the data processed client-side and reducing visual clutter. The filtering 
 logic was refactored to be more efficient, using conditional logic and vectorized operations in pandas, which improved both performance and maintainability.
 
+## 📷 Final Dashboard Screenshot
+
+<img src="/assets/Animal_Shelter_Dashboard.png" alt="Animal Shelter Dashboard Screenshot" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;" />
+
 As I worked through the project, I initially focused on two outcomes:
 Outcome 3 – Software Design and Engineering: Met by refactoring the code into modular components, applying the MVC structure, and improving security with environment variables.
 
