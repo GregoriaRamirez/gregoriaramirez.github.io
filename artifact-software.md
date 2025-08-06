@@ -1,9 +1,10 @@
 ---
-
 layout: default
 title: Software Design Enhancement
 permalink: /artifact-software
 ---
+**Navigation:**  
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🧹 Software Design & Engineering Artifact
 
