@@ -3,6 +3,7 @@ layout: default
 title: Projects
 permalink: /projects
 ---
+
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
@@ -14,7 +15,7 @@ This page summarizes the three enhancement categories I addressed in my CS 499 C
 
 ## 🧩 Software Design & Engineering
 
-Improved modularity, removed hardcoded credentials, and separated callback logic into reusable components.
+Enhanced the project structure by improving modularity, removing hardcoded credentials, and separating callback logic into reusable components for maintainability and scalability.
 
 [🔗 View Full Enhancement](artifact-software.md)
 
@@ -22,7 +23,7 @@ Improved modularity, removed hardcoded credentials, and separated callback logic
 
 ## 🧮 Algorithms & Data Structures
 
-Refactored filtering logic using vectorized pandas methods like `.isin()` and `.between()` for better performance and readability.
+Refactored filtering logic using vectorized pandas methods like `.isin()` and `.between()` to improve performance, reduce repetition, and make the codebase more readable and efficient.
 
 [🔗 View Full Enhancement](artifact-algorithms.md)
 
@@ -30,7 +31,7 @@ Refactored filtering logic using vectorized pandas methods like `.isin()` and `.
 
 ## 🗄️ Databases
 
-Connected securely to MongoDB using `pymongo` and `.env` variables. Added logging, exception handling, and ensured safe connection closure.
+Secured MongoDB integration using `pymongo` and `.env` environment variables. Added structured logging, exception handling, and ensured safe connection closure for long-term application stability.
 
 [🔗 View Full Enhancement](artifact-databases.md)
 
@@ -48,4 +49,3 @@ Connected securely to MongoDB using `pymongo` and `.env` variables. Added loggin
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
-
