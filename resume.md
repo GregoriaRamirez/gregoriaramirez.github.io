@@ -95,7 +95,7 @@ Southern New Hampshire University · *Jun 2022 – Aug 2025*
 - Relevant Projects: Animal Shelter Dashboard, RESTful API development, MongoDB integration
 
 **Associate of Science in Computer Science (Cum Laude)**  
-Southern New Hampshire University · *2023 – 2024*  
+Southern New Hampshire University · *2023 – 2025*  
 - Dean’s List, President’s List, Graduated With Honors
 
 **Certificate in Medical Billing and Claims**  
