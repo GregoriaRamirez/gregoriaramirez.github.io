@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)|[📚 Courses](courses.md) |
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)|
 
 <style>
   .top-left-photo {
