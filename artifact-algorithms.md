@@ -40,7 +40,7 @@ This approach:
 3. Does not handle missing or empty filter inputs properly
 
 **Enhanced Code (After Enhancement):**
-### 🧮 Snippet 1: Dashboard Table Filtering ('controller.py')
+### 🧮 Snippet 1: Dashboard Table Filtering (`controller.py`)
 ```python
 def update_dashboard(filter_type, selected_colors, selected_breeds):
     filtered_df = df.copy()
@@ -85,7 +85,7 @@ This screenshot applies to both Snippet 1 and Snippet 2. It shows how the table 
 
 ---
 
-### 🧮 Snippet 2: Chart Update Logic ('view.py')
+### 🧮 Snippet 2: Chart Update Logic (`view.py`)
 
 ```python
 def update_chart(data, filter_type):
@@ -112,7 +112,7 @@ This chart function was improved to show the correct graph based on the selected
 
 ---
 
-### 🧮 Snippet 3: Map Rendering with Fallbacks ('view.py')
+### 🧮 Snippet 3: Map Rendering with Fallbacks (`view`)
 
 ```python
 def update_map(viewData, index):
