@@ -139,6 +139,7 @@ Steelton-Highspire High School · *1986-1991*
 - 📣 Commended for clear, calm communication and accuracy in high-stress legal environments  
 
 ---
+📚 [Click here to view completed coursework and class certificates.](courses.md)
 
 <div style="text-align: center; margin-top: 3em;">
   <a href="/" style="
