@@ -81,7 +81,7 @@ These changes improved both performance and stability. The dashboard now respond
 ---
 ![Dropdown Color Selected](/assets/DropdownColorselected.png)
 
-This screenshot shows the table results updating after the color filter is applied using the dropdown.
+This screenshot applies to both Snippet 1 and Snippet 2. It shows how the table updates when a color filter is applied (Snippet 1) and how the chart updates based on that filtered data (Snippet 2).
 
 ---
 
