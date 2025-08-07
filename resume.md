@@ -111,8 +111,7 @@ Steelton-Highspire High School · *1986-1991*
 **Databases:** MongoDB (Compass & Shell), MySQL, SQLite  
 **Data/BI:** Power BI, Pandas, Excel, Data Cleaning & Profiling  
 **Dev Tools:** GitHub, VS Code, Postman, .env, OBS Studio  
-**Soft Skills:** Bilingual (English/Spanish), Real-Time Communication, Training & Onboarding, Data Coordination, Typing 50+ WPM  
-
+**Soft Skills: Bilingual (English/Spanish), Real-Time Communication, Training & Onboarding, Data Coordination, Typing 50+ WPM, Quick Learner, Teachable, Multitasker
 ---
 
 ## 🚀 Projects & Capstone Highlights
