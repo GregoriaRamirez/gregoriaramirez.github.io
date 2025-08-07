@@ -20,7 +20,7 @@ I included this artifact in my ePortfolio because it demonstrates how I applied 
 In the enhanced version, I reorganized this function to apply layered filters that trigger only when conditions are met. I also used pandas’ vectorized operations to make filtering more efficient and added input validation to prevent the dashboard from breaking when dropdowns were empty or when filter combinations returned no records.
 
 ---
-## 💡 Code Snippets
+## 💡 Code Snippets Demonstrating Enhancements
 
 ## 🔄 Before and After Enhancement
 
