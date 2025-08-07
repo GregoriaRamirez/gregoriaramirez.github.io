@@ -15,9 +15,9 @@ permalink: /courses
 | CS 499: Computer Science Capstone           | Enhanced previous work with modular code design, secure database access, and user interface improvements. |
 | CS 320: Software Testing & QA               | Learned and applied testing strategies like unit, integration, and acceptance testing using Python.     |
 | CS 305: Software Security                   | Explored common vulnerabilities and implemented secure design practices, including use of environment variables and hashed credentials. |
-| DAT 325: Data Analytics for Decision Making | Applied data profiling, transformation, and validation techniques using Power BI and Excel. [View Certificate](/assets/certificates/DAT325-certificate.pdf) |
-| DAT 300: Foundations of Data Analytics      | Built foundational skills in statistics, data visualization, and the data analysis lifecycle. Used Excel and Python. [View Certificate](/assets/certificates/DAT300-certificate.pdf) |
-| IT 328: Project Management in IT            | Used Agile and Waterfall methods to plan and manage IT projects; created project charters, WBS, and risk assessments. [View Certificate](/assets/certificates/IT328-certificate.pdf) |
+| DAT 325: Data Analytics for Decision Making | Applied data profiling, transformation, and validation techniques using Power BI and Excel. [📸 View Certificate](/assets/DAT325certificate.png) |
+| DAT 300: Foundations of Data Analytics      | Built foundational skills in statistics, data visualization, and the data analysis lifecycle. Used Excel and Python. [📸 View Certificate](/assets/DAT300certificate.png) |
+| IT 328: Project Management in IT            | Used Agile and Waterfall methods to plan and manage IT projects; created project charters, WBS, and risk assessments. [📸 View Certificate](/assets/IT328certificate.png) |
 | CS 250: Software Development Lifecycle      | Gained hands-on experience with Agile methodology and full SDLC documentation. |
 
 ---
