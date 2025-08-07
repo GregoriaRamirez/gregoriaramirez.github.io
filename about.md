@@ -35,7 +35,7 @@ My interest in computer science began with a curiosity about how technology work
 
 Over the course of my degree, I have developed a strong foundation in software development, database management, and full-stack web application design. I am proud of all that I have learned and accomplished throughout my studies, especially through projects like my Animal Shelter Dashboard and my Full Stack Development coursework. These projects taught me how to build secure, modular applications and gave me hands-on experience with real-world workflows, including API integration, user interfaces, and data handling.
 
-With over 25 years of experience in administrative and legal environments, I bring a unique perspective to software development. I am organized, detail-oriented, and comfortable with structured systems and client-facing communication. These strengths help me bridge the gap between technical implementation and practical usability.
+With over 25 years of experience in administrative and legal environments, I bring a strong foundation in organization, attention to detail, and client-facing communication to software development. My background supports a practical, structured approach to technical implementation and usability.
 
 I am passionate about writing clean, reusable code and enjoy working with backend systems, databases, and dashboards. I am always eager to learn new tools, expand my technical skills, and contribute to meaningful projects.
 
