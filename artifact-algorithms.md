@@ -114,7 +114,6 @@ Key algorithmic improvements include:
 * Separating logic for table filtering, chart rendering, and map updates
 * Organizing conditionals for multiple rescue types (`water`, `mount`, `disaster`)
 * Supporting real-time updates across all dashboard components
-
 ---
 
 ## 💡 Code Snippets
@@ -148,6 +147,12 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
     return filtered_df.to_dict('records')
 ```
 
+This enhanced function supports multiple filters and applies them only when selected. I used `.copy()` to protect the original data, `.isin()` and `.str.contains(..., na=False)` to safely filter based on user input, and structured the logic to prevent overwriting filter results.
+
+![Dropdown Color Selected](/assets/DropdownColorselected.png)
+
+This screenshot shows the table results updating after the color filter is applied using the dropdown.
+
 ---
 
 ### 🧮 Snippet 2: Chart Update Logic
@@ -172,6 +177,8 @@ def update_chart(data, filter_type):
 
     return dcc.Graph(figure=fig)
 ```
+
+This chart function was improved to show the correct graph based on the selected filter type. It now checks if the filtered data is empty and uses appropriate chart types (bar or pie) to match the context.
 
 ---
 
@@ -203,6 +210,8 @@ def update_map(viewData, index):
     ]
 ```
 
+This map code was enhanced with fallback values so the map still renders even if data is missing or no selection is made. It prevents crashes by defaulting to valid coordinates and checking for blank inputs.
+
 ---
 
 ## 🎓 Course Outcomes Met
@@ -214,7 +223,7 @@ def update_map(viewData, index):
 
 ## 🔗 Project Links
 
-* 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
+* 📁 [Original Code – animal_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
 * 📁 [Original Notebook – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
 * 📁 [Enhanced Artifact – GitHub Pages](https://gregoriaramirez.github.io/artifact-algorithms)
 * 🖼️ [Screenshot – Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
