@@ -21,5 +21,16 @@ permalink: /courses
 | CS 250: Software Development Lifecycle      | Gained hands-on experience with Agile methodology and full SDLC documentation. |
 
 ---
+## 📘 Class Completion Certificates
+
+- [📄 DAT 325 – Data Analytics for Decision Making](/assets/DAT325certificate.pdf)  
+  *Completed classwork in data profiling, Power BI dashboards, and business analytics.*
+
+- [📄 DAT 300 – Foundations of Data Analytics](/assets/DAT300Certificate.pdf)  
+  *Covered statistics, data visualization, and foundational Python and Excel analytics skills.*
+
+- [📄 IT 328 – Project Management in IT](/assets/IT328certificate.pdf)  
+  *Learned Agile and Waterfall project planning, WBS creation, and risk assessments.*
+---
 
 [⬅ Back to Home](index.md)
