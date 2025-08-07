@@ -81,18 +81,19 @@ These changes improved both performance and stability. The dashboard now respond
 
 ## 🧠 Algorithms Impact
 
-While improving filtering logic and performance, I also focused on error handling. I added checks for empty dropdowns and rare selections to prevent the app from crashing. This strengthened the reliability of the application. Although not a security feature, input validation makes the application more stable and professional.
+These updates improved the performance, flexibility, and stability of the application. The dashboard now handles empty filters, rare combinations like uncommon breeds or rescue types, and even missing or blank values — all without crashing. The filters work together as intended, rather than overwriting or interfering with each other.
 
-This enhancement aligns with **Program Outcome 3**: *Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.*
+I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like .isin() and .str.contains() carefully, along with .copy() to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
 
----
+This enhancement supports Program Outcome 3 by showing how I used clear, structured logic to solve real problems while balancing performance and maintainability.
 
 ## 📈 Reflection
 
-Enhancing this artifact helped me understand how to organize logic for both readability and performance. A key challenge was ensuring that multiple filters worked together without breaking the application. I tested several combinations and implemented fallback handling for missing or null values using `na=False`.
+This enhancement helped me grow as a developer because I had to carefully consider how different filters interact and how to prevent them from breaking the dashboard. At first, I had difficulty getting multiple filters to work together correctly. I tested various combinations and adjusted the order in which filters were applied to make sure the results remained accurate and stable.
 
-This experience improved my confidence in using control flow, data structures, and pandas to manage complex application logic in a maintainable way.
+One of the most important lessons I learned was the need to plan for unexpected user input. Some users might leave dropdowns blank or choose rare combinations, and I had to ensure the application could handle those cases without crashing. By using na=False and safe filtering techniques, I was able to prevent errors and create a more dependable user experience.
 
+This process improved my confidence in designing logic that is both clear and reliable. It strengthened my ability to use control flow, data structures, and pandas to manage more complex application logic in a way that remains clean, testable, and easy to maintain.
 ---
 
 ## 🔍 Demonstrated Skills
