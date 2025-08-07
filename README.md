@@ -12,7 +12,9 @@ Visit the live site:
 🔗 https://gregoriaramirez.github.io
 
 ---
-![Grazioso Salvare Logo](assets/Grazioso%20Salvare%20Logo.png)
+<p align="center">
+  <img src="assets/Grazioso%20Salvare%20Logo.png" alt="Grazioso Salvare Logo" width="150"/>
+</p>
 
 📁 This repository contains only the markdown files and assets used to generate the GitHub Pages site.  
 To view the project source code, visit my capstone project repo:  
