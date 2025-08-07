@@ -26,11 +26,12 @@ permalink: /courses
 - [📸 DAT 325 – Data Analytics for Decision Making (View Image)](/assets/DAT325certificate.png)  
   *Completed classwork in data profiling, Power BI dashboards, and business analytics.*
 
-- [📸 DAT 300 – Foundations of Data Analytics (View Image)](/assets/DAT300Certificate.png)  
+- [📸 DAT 300 – Foundations of Data Analytics (View Image)](/assets/DAT300certificate.png)  
   *Covered statistics, data visualization, and foundational Python and Excel analytics skills.*
 
 - [📸 IT 328 – Project Management in IT (View Image)](/assets/IT328certificate.png)  
   *Learned Agile and Waterfall project planning, WBS creation, and risk assessments.*
+
 ---
 
 [⬅ Back to Home](index.md)
