@@ -32,7 +32,7 @@ logic was refactored to be more efficient, using conditional logic and vectorize
 
 <img src="/assets/Animal_Shelter_Dashboard.png" alt="Animal Shelter Dashboard Screenshot" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;" />
 
-## 📌 Justification for Inclusion
+## 📎 Justification for Inclusion
 
 To improve the software design, I reorganized the code into a more modular format using a Model-View-Controller (MVC) structure. I separated the routing logic, callback functions, and layout components into separate files. This made the codebase easier to read, scale, and test. I also used `python-dotenv` to manage environment variables and securely store sensitive information like the MongoDB connection string—an improvement aligned with industry standards.
 
