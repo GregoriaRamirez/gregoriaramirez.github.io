@@ -20,6 +20,7 @@ I included this artifact in my ePortfolio because it demonstrates how I applied 
 In the enhanced version, I reorganized this function to apply layered filters that trigger only when conditions are met. I also used pandas’ vectorized operations to make filtering more efficient and added input validation to prevent the dashboard from breaking when dropdowns were empty or when filter combinations returned no records.
 
 ---
+## 💡 Code Snippets
 
 ## 🔄 Before and After Enhancement
 
@@ -39,7 +40,7 @@ This approach:
 3. Does not handle missing or empty filter inputs properly
 
 **Enhanced Code (After Enhancement):**
-
+### 🧮 Snippet 1: Dashboard Table Filtering
 ```python
 def update_dashboard(filter_type, selected_colors, selected_breeds):
     filtered_df = df.copy()
@@ -78,40 +79,6 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
 These changes improved both performance and stability. The dashboard now responds smoothly to user interactions and avoids crashing due to empty fields or unmatched data.
 
 ---
-
-## 💡 Code Snippets
-
-### 🧮 Snippet 1: Dashboard Table Filtering
-
-```python
-def update_dashboard(filter_type, selected_colors, selected_breeds):
-    filtered_df = df.copy()
-
-    if filter_type == 'water':
-        filtered_df = filtered_df[(filtered_df['breed'].str.contains('Labrador Retriever', na=False)) &
-                                  (filtered_df['outcome_type'] == 'Euthanasia') &
-                                  (filtered_df['animal_type'] == 'Dog')]
-    elif filter_type == 'mount':
-        filtered_df = filtered_df[(filtered_df['outcome_type'] == 'Transfer') &
-                                  (filtered_df['animal_type'] == 'Cat') &
-                                  (filtered_df['sex_upon_outcome'].str.contains('Female', na=False)) &
-                                  (filtered_df['age_upon_outcome_in_weeks'].between(52, 260))]
-    elif filter_type == 'disaster':
-        filtered_df = filtered_df[(filtered_df['animal_type'] == 'Dog') &
-                                  (filtered_df['age_upon_outcome_in_weeks'].between(52, 260)) &
-                                  (filtered_df['sex_upon_outcome'].str.contains('Male', na=False)) &
-                                  (filtered_df['outcome_type'].isin(['Adoption', 'Transfer']))]
-
-    if selected_colors:
-        filtered_df = filtered_df[filtered_df['color'].isin(selected_colors)]
-    if selected_breeds:
-        filtered_df = filtered_df[filtered_df['breed'].isin(selected_breeds)]
-
-    return filtered_df.to_dict('records')
-```
-
-This enhanced function supports multiple filters and applies them only when selected. I used `.copy()` to protect the original data, `.isin()` and `.str.contains(..., na=False)` to safely filter based on user input, and structured the logic to prevent overwriting filter results.
-
 ![Dropdown Color Selected](/assets/DropdownColorselected.png)
 
 This screenshot shows the table results updating after the color filter is applied using the dropdown.
