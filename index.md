@@ -34,8 +34,8 @@ Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for m
 
 ## 📁 Capstone Project Overview
 
-**Project Title:** Animal Shelter MongoDB Dashboard
-**Original Course:** CS 340 – Client-Server Development
+**Project Title:** Animal Shelter MongoDB Dashboard<br>
+**Original Course:** CS 340 – Client-Server Development<br>
 **Enhanced For:** CS 499 – Computer Science Capstone
 
 This dashboard application tracks animal shelter data using a full-stack Python solution. It was originally developed using Jupyter Notebook and the MongoDB shell. The project was later refactored using Visual Studio Code and MongoDB Compass for a more organized and professional structure. I modularized the project using Dash, MongoDB, and secure Python scripting. Advanced filtering and data visualizations were also integrated.
