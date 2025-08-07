@@ -10,7 +10,7 @@ permalink: /artifact-software
 
 ## 📌 Artifact Description
 
-For my CS 499 Capstone, I chose to enhance my final project from CS 340: Client-Server Development. Originally created in February 2025,the artifact 
+For my CS 499 Capstone, I chose to enhance my final project from CS 340: Client-Server Development. Originally created in February 2025, the artifact 
 is a web-based dashboard for an animal shelter. The application was first developed in a Jupyter Notebook using Python, Dash, and a MongoDB database 
 connected to a CSV data source. It displayed outcome records from the shelter in a table, supported search and filtering, and included simple charts 
 for visual analysis.
