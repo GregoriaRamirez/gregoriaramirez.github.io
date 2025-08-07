@@ -148,7 +148,7 @@ This map code was enhanced with fallback values so the map still renders even if
 
 These updates improved the performance, flexibility, and stability of the application. The dashboard now handles empty filters, rare combinations like uncommon breeds or rescue types, and even missing or blank values all without crashing. The filters work together as intended, rather than overwriting or interfering with each other.
 
-I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like .isin() and .str.contains() carefully, along with .copy() to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
+I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like  `.isin()` and  `.str.contains()` carefully, along with  `.copy()` to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
 
 This enhancement supports Program Outcome 3 by showing how I used clear, structured logic to solve real problems while balancing performance and maintainability.
 
