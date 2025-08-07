@@ -83,7 +83,7 @@ finally:
 ```
 
 **Enhancement Summary:**
-This complete try-except-finally block adds robust MongoDB error handling. It ensures that even if the connection fails, the application does not crash and returns a safe fallback — an empty DataFrame. Structured logging provides insight into issues, and the connection is always closed properly, preventing leaks and locking issues.
+This complete `try-except`-`finally` block adds robust MongoDB error handling. It ensures that even if the connection fails, the application does not crash and returns a safe fallback, an empty DataFrame. Structured logging provides insight into issues, and the connection is always closed properly, preventing leaks and locking issues.
 
 ---
 
