@@ -128,9 +128,20 @@ using proper `try-except-finally` blocks.
 * **Outcome 4 (Algorithms and Data Structures):** Improved filter logic and implemented input validation
 * **Outcome 5 (Databases):** Optimized database interaction and ensured secure handling
 
-## Capstone Walkthrough Video
+## 🎥 Code Review Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NTrtEVuawBM" title="Capstone Code Review Walkthrough" frameborder="0" allowfullscreen></iframe>
-```
+<p>
+  This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
+</p>
+
+<iframe 
+  width="560" 
+  height="315" 
+  src="https://www.youtube.com/embed/NTrtEVuawBM" 
+  title="Animal Shelter Code Review – CS 499 Capstone" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen>
+</iframe>
 
 ---
