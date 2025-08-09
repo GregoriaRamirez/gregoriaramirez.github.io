@@ -148,7 +148,7 @@ using proper `try-except-finally` blocks.
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="index.md" style="
+  <a href="/" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
