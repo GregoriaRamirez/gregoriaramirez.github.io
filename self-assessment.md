@@ -90,7 +90,7 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="index.md" style="
+  <a href="/" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -102,10 +102,5 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
   ">⬅ Back to Home</a>
 </div>
 
-
-
-
-  <p style="margin-top: 1em; color: #444; font-size: 1rem;">
-    Thank you for reviewing my portfolio!
-  </p>
+Thank you for viewing my page 
 
