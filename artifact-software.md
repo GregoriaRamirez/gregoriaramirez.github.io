@@ -4,7 +4,7 @@ title: Software Design Enhancement
 permalink: /artifact-software
 ---
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)| [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) |[Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)| [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🧹 Software Design & Engineering Artifact
 
