@@ -5,7 +5,8 @@ permalink: /projects
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md)   | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
 
 # 🧪 My Capstone Enhancements
 
@@ -49,3 +50,4 @@ Secured MongoDB integration using `pymongo` and `.env` environment variables. Ad
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
+
