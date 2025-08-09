@@ -43,7 +43,7 @@ permalink: /awards
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="index.md" style="
+  <a href="/" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -53,4 +53,6 @@ permalink: /awards
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
+</div>
+
 </div>
