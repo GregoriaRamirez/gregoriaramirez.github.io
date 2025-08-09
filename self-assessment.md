@@ -108,4 +108,4 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
   <p style="margin-top: 1em; color: #444; font-size: 1rem;">
     Thank you for reviewing my portfolio!
   </p>
-</div>
+
