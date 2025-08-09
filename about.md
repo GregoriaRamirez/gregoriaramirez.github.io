@@ -65,7 +65,7 @@ I am currently seeking opportunities in:
 - 💻 [GitHub](https://github.com/GregoriaRamirez)
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="/" style="
+  <a href="index.md" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -76,3 +76,4 @@ I am currently seeking opportunities in:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
+
