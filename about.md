@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) |[🎥 Code Review](code-review.md) [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) |  | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)[🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) |[🎥 Code Review](code-review.md) [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) |  | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)| [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 <style>
   .top-left-photo {
