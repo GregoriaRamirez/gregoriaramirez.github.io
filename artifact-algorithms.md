@@ -200,7 +200,6 @@ Key algorithmic improvements include:
 * 🖼️ [Screenshot – Dropdown Color Selected](/assets/DropdownColorselected.png)
 
 ---
-
 <div style="text-align: center; margin-top: 3em;">
   <a href="index.md" style="
     display: inline-block;
