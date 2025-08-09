@@ -100,6 +100,9 @@ My full walkthrough (original vs. enhanced code, software sngineering and design
 
 - 📧 Email: gregoriaramirez454@gmail.com  
 - 💻 [GitHub](https://github.com/GregoriaRamirez)
+- 
+ ---
+  
 
 <div style="text-align: center; margin-top: 3em;">
   <a href="index.md" style="
