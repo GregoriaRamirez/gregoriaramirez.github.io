@@ -4,7 +4,7 @@ title: Software Design Enhancement
 permalink: /artifact-software
 ---
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🙋‍♀️ About Me](about.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)| [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 # 🧹 Software Design & Engineering Artifact
 
@@ -215,7 +215,7 @@ This enhancement demonstrates my ability to:
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="/" style="
+  <a href="index.md" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -226,3 +226,4 @@ This enhancement demonstrates my ability to:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">⬅ Back to Home</a>
 </div>
+
