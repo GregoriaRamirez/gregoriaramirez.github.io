@@ -129,7 +129,7 @@ This artifact showcases my ability to build secure, maintainable database integr
 
 * 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
 * 📁 [Original Code – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
-* 📁 [Enhanced Code (GitHub Pages)](https://gregoriaramirez.github.io/artifact-databases)
+* 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
 * 🖼️ [Screenshot: Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 
 ---
