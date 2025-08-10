@@ -122,6 +122,7 @@ Steelton-Highspire High School · *1986-1991*
 - Used environment variables for secure DB connection and implemented logging  
 🔗 [View Project](https://gregoriaramirez.github.io/)
 
+## 💻 Other Projects
 ### **Travlr Getaways Website (MEAN Stack)**  
 - Developed RESTful backend API with Node.js and Express  
 - Created dynamic trip listing page in Angular using service calls to MongoDB  
