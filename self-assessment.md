@@ -85,7 +85,7 @@ I replaced hardcoded MongoDB credentials with environment variables stored in a 
 
 ## 🔄 Personal Growth
 
-Throughout the CS program and this Capstone, I learned how to take a project from concept to deployment using real development workflows. I strengthened my problem-solving and debugging skills, and I developed a professional approach to security, version control, and application structure. I feel more confident tackling development tasks with industry tools and techniques and am ready to contribute to backend and data-driven software teams.
+Throughout the CS program and this Capstone, I learned how to take a project from concept to deployment using real development workflows. I strengthened my problem-solving and debugging skills, and I developed a professional approach to security, version control, and application structure. As the assignments progressed week by week, I began to see how the course outcomes connected and built upon each other. This made it clear how I was able to meet all five outcomes through my work in the Capstone. I feel more confident tackling development tasks with industry tools and techniques, and I feel more confident to continue learning and growing as I move forward in my career. I am ready to contribute to backend and data-driven software teams.
 
 ---
 
