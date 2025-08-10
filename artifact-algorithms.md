@@ -195,7 +195,7 @@ Key algorithmic improvements include:
 
 * 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
 * 📁 [Original Notebook – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
-* 📁 [Enhanced Artifact – GitHub Pages](https://gregoriaramirez.github.io/artifact-algorithms)
+* 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
 * 🖼️ [Screenshot – Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
 * 🖼️ [Screenshot – Dropdown Color Selected](/assets/DropdownColorselected.png)
 
