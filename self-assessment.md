@@ -48,38 +48,38 @@ While I am still figuring out exactly which path I want to take, I feel confiden
 
 ## 🎯 Course Outcomes and How I Met Them
 
-**1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**  
-_Met through modular code structure, clear documentation, and organized folders to support team understanding._
+**1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
+Met through modular code structure, clear documentation, and organized folders to support team understanding.
 
-In my Capstone, I structured the project into separate model, controller, and view files to clearly organize each function. I used descriptive naming conventions and inline comments so any collaborator could pick up where I left off. My README and enhancement documentation explain setup and usage in plain terms, enabling communication across technical skill levels.
+In my Capstone, I structured the project into separate model, controller, and view files to clearly organize each function. I used descriptive naming conventions and inline comments so any collaborator could pick up where I left off without guessing the purpose of a file or function. My README and enhancement documentation explain setup and usage in plain terms so that even someone new to the project could get it running. I also kept my file organization consistent so everything has a logical place, which makes it easier for others to troubleshoot, extend, or adapt the code later.
 
 ---
 
-**2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**  
-_Met through README files, `.md` pages, inline comments, and a narrated video code walkthrough._
+**2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
+Met through README files, .md pages, inline comments, and a narrated video code walkthrough.
 
-My enhancement documentation includes markdown files for each improvement category, a narrated code review video, and multiple screenshots. I ensured consistent formatting, visual hierarchy, and clarity. I avoided overly technical jargon in key summaries to ensure accessibility, while still providing in-depth explanations for technical reviewers.
+My enhancement documentation includes markdown files for each improvement category, a narrated code review video, and multiple screenshots of the updated features. I made sure all the materials had the same formatting style and were easy to follow, no matter the reader’s background. I avoided overly technical jargon in key summaries so the information stayed accessible, but I also included technical explanations for anyone who wanted to dig deeper. The video walkthrough allowed me to talk through the logic step-by-step and show the results visually, which is helpful for people like myself, who learn better by seeing the code in action.
 
 ---
 
 **3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices.**  
 _Met through refactored filtering logic, modular callback design, and efficient pandas usage._
 
-I optimized filtering logic for breed and color selections using vectorized operations like `.isin()` and `.between()` in pandas. I removed repetitive logic by centralizing callbacks and added conditional branches to handle edge cases. These choices improved efficiency without sacrificing readability or flexibility.
+I optimized the filtering logic for breed and color selections using vectorized operations like `.isin()` and `.between()` in pandas, which reduced processing time and made the code cleaner. I eliminated repetitive filter logic by moving it into one reusable function and added conditional checks for special cases. This made the code easier to maintain while still keeping it flexible for future updates. I weighed performance against readability and found a way to achieve both, which is important for long-term project health.
 
 ---
 
 **4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**  
 _Met through use of VS Code, MongoDB Compass, Dash, and `.env` for secure, modern development._
 
-I used modern tools such as VS Code and MongoDB Compass to design a working animal shelter dashboard. I employed `python-dotenv` to load credentials securely and used Dash for building a responsive data-driven web interface. I also implemented logging and exception handling to create a maintainable and production-ready application.
+I used modern tools such as VS Code and MongoDB Compass to design a working animal shelter dashboard. I employed `python-dotenv` to load credentials securely and used Dash for building a responsive data-driven web interface. I also implemented logging and exception handling to create a maintainable and production-ready application. These practices not only made the project more professional but also more reliable for real-world use.
 
 ---
 
 **5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**  
 _Met through `.env` integration, removal of hardcoded credentials, and safe DB connection handling._
 
-I implemented secure MongoDB connection handling using environment variables to avoid credential exposure in code. I ensured the connection was closed properly and wrapped logic in exception handling blocks to prevent unhandled errors. This approach supports long-term application integrity and helps protect sensitive animal shelter data.
+I replaced hardcoded MongoDB credentials with environment variables stored in a .env file, which prevents sensitive data from being exposed in the source code. I also ensured that database connections are opened and closed properly, and I wrapped all database interactions in try-except-finally blocks to handle errors safely. This prevents the application from crashing unexpectedly and reduces the risk of leaving open database sessions. These changes protect the integrity of the data and align with secure coding practices.
 
 ---
 
