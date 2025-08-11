@@ -7,21 +7,7 @@ permalink: /resume
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md) |[📚 Courses](courses.md)|
 
-<style>
-  .top-left-photo {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    z-index: 1000;
-  }
 
-  .top-space {
-    padding-top: 50px;
-  }
-</style>
 
 <img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="top-left-photo">
 <div class="top-space"></div>
