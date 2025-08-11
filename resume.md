@@ -43,6 +43,16 @@ _CS 499 Capstone ePortfolio for SNHU_
 
 Seasoned Legal Clerk with 26+ years of experience in fast-paced legal environments, now transitioning into backend development. Strong background in tracking case data, managing high volumes of documentation, and coordinating complex workflows with precision. Currently completing a B.S. in Computer Science (August 2025), with hands-on projects in Python, MongoDB, SQL, and RESTful APIs. Known for being highly organized, teachable, and resourceful with proven ability to manage deadlines, support cross-functional teams, and solve real-world data challenges. Eager to apply technical skills and real-world problem-solving in a backend or database-focused role.
 
+
+### 🛠️ Technical Skills
+
+**Languages:** Python, SQL, Java, C++, HTML, CSS  
+**Frameworks/Tools:** Dash, Express.js, Node.js, REST APIs  
+**Databases:** MongoDB (Compass & Shell), MySQL, SQLite  
+**Data/BI:** Power BI, Pandas, Excel, Data Cleaning & Profiling  
+**Dev Tools:** GitHub, VS Code, Postman, .env, OBS Studio  
+**Soft Skills:** Bilingual (English/Spanish), Real-Time Communication, Training & Onboarding, Data Coordination, Typing 50+ WPM, Quick Learner, Teachable, Multitasker
+
 ## 💼 Work Experience
 
 ### **Legal Clerk III**  
@@ -82,14 +92,6 @@ Southern New Hampshire University · *2023 – 2025*
 
 ---
 
-### 🛠️ Technical Skills
-
-**Languages:** Python, SQL, Java, C++, HTML, CSS  
-**Frameworks/Tools:** Dash, Express.js, Node.js, REST APIs  
-**Databases:** MongoDB (Compass & Shell), MySQL, SQLite  
-**Data/BI:** Power BI, Pandas, Excel, Data Cleaning & Profiling  
-**Dev Tools:** GitHub, VS Code, Postman, .env, OBS Studio  
-**Soft Skills:** Bilingual (English/Spanish), Real-Time Communication, Training & Onboarding, Data Coordination, Typing 50+ WPM, Quick Learner, Teachable, Multitasker
 
 ---
 
