@@ -66,20 +66,6 @@ Seasoned Legal Clerk with 26+ years of experience in fast-paced legal environmen
 - Maintained account accuracy and responded to client requests  
 - Supported the digitization of patient record logs  
 
-### **Sales Associate**  
-*Williams Sonoma – Camp Hill, PA · Oct 2003 – Jan 2004*  
-- Managed retail transactions and inventory coordination  
-- Delivered excellent customer service and issue resolution  
-
-### **Administrative Assistant**  
-*Capital City Couriers Inc. – Harrisburg, PA · Aug 2001 – Jul 2002*  
-- Scheduled deliveries and managed A/P & A/R tasks  
-- Answered customer inquiries and supported daily office functions  
-
-### **Service Center Associate III**  
-*First Union National Bank – Atlanta, GA · Nov 1999 – Jul 2001*  
-- Top performer in document quality review and high-volume data entry  
-- Executed quality control checks for secure customer files and records  
 
 ---
 
@@ -93,12 +79,6 @@ Southern New Hampshire University · *Jun 2022 – Aug 2025*
 **Associate of Science in Computer Science (Cum Laude)**  
 Southern New Hampshire University · *2023 – 2025*  
 - Dean’s List, President’s List, Honor Roll, Latin Honors  
-
-**Certificate in Medical Billing and Claims**  
-Atlanta Medical School of Billing · Dunwoody, GA · *1999-2000*  
-
-**High School Diploma**  
-Steelton-Highspire High School · *1986-1991*  
 
 ---
 
