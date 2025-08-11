@@ -41,7 +41,8 @@ _CS 499 Capstone ePortfolio for SNHU_
 
 ## 🧩 Professional Summary
 
-Seasoned Legal Clerk with 26+ years of experience in fast-paced legal environments, now transitioning into backend development. Strong background in tracking case data, managing high volumes of documentation, and coordinating complex workflows with precision. Currently completing a B.S. in Computer Science (August 2025), with hands-on projects in Python, MongoDB, SQL, and RESTful APIs. Known for being highly organized, teachable, and resourceful with proven ability to manage deadlines, support cross-functional teams, and solve real-world data challenges. Eager to apply technical skills and real-world problem-solving in a backend or database-focused role.
+Backend Engineer with a unique background of 20+ years as a Legal Clerk.
+Currently building backend applications using Python, MongoDB, SQL, and RESTful APIs while completing a B.S. in Computer Science (August 2025). Brings a strong foundation in data management, workflow optimization, and deadline-driven execution, with the ability to quickly learn and apply new technologies. Recognized for exceptional organization, adaptability, and resourcefulness, with a growing portfolio of backend projects that solve real-world data challenges.
 
 
 ### 🛠️ Technical Skills
