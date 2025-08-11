@@ -1,23 +1,24 @@
+/* Images scale down on small screens */
+img { max-width: 100%; height: auto; }
+
 /* Mobile fix for overlapping headshot */
 @media (max-width: 768px) {
   .top-left-photo {
-    position: static;       /* removes absolute positioning */
+    position: static;
     display: block;
-    margin: 0 auto 15px;    /* centers the photo with space below */
-    width: 100px;           /* smaller size for mobile */
-    height: auto;           /* keep aspect ratio */
+    margin: 0 auto 15px;
+    width: 100px;
+    height: auto;
   }
 
-  .top-space {
-    padding-top: 0;         /* no extra top padding needed */
-  }
-
-  .page-header .project-name {
-    margin-top: 0;          /* remove gap if photo is above */
-  }
+  /* small typographic tweaks for Cayman */
+  html { font-size: 16px; }
+  .page-header .project-name { font-size: 1.6rem; }
+  .page-header .project-tagline { font-size: 1rem; }
+  .main-content { padding: 16px; }
 }
 
-  .content {
-    padding: 10px;
-  }
-}
+
+.site-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 24px; }
+.site-nav__link { text-decoration: none; padding: 8px 10px; border-radius: 8px; border: 1px solid #e0e0e0; }
+@media (max-width: 768px) { .site-nav__link { flex: 1 1 100%; text-align: center; } }
