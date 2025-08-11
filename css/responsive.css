@@ -1,34 +1,30 @@
-/* Make body text fit better on small screens */
-body {
-  font-size: 16px;
-  line-height: 1.5;
-  margin: 10px;
-}
+/* Base adjustments */
+img { max-width: 100%; height: auto; }
+.markdown-body { word-wrap: break-word; }
 
-/* Ensure navigation links wrap on small screens */
-nav, .navigation {
+/* Optional navbar styles */
+.site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 8px;
+  margin: 12px 0 24px;
+}
+.site-nav__link {
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
 }
 
-/* Images scale down on small screens */
-img {
-  max-width: 100%;
-  height: auto;
+/* Mobile tweaks */
+@media (max-width: 768px) {
+  html { font-size: 16px; }
+  .site-nav__link { flex: 1 1 100%; text-align: center; }
+  .page-header .project-name { font-size: 1.6rem; }
+  .page-header .project-tagline { font-size: 1rem; }
+  .main-content { padding: 16px; }
 }
 
-/* Mobile-specific adjustments */
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
-
-  nav a {
-    flex: 1 0 100%;
-    text-align: center;
-    padding: 8px;
-  }
 
   .content {
     padding: 10px;
