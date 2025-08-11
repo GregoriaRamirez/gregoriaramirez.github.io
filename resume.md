@@ -33,7 +33,7 @@ _CS 499 Capstone ePortfolio for SNHU_
 
 ## 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk \|  Backend Developer**  
-📍 Harrisburg, PA · 💻 Remote, Hybrid, or Relocation Opportunities  
+📍 Harrisburg, PA · 
 📧 gregoriaramirez454@gmail.com · ☎️ (223) 279-*\*\*\*  
 🔗 [GitHub](https://github.com/GregoriaRamirez) | 🌐 [Portfolio](https://gregoriaramirez.github.io/)
 
