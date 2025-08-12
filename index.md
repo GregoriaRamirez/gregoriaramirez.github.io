@@ -11,7 +11,7 @@ permalink: /
 <img src="/assets/myphoto.jpg"
      alt="Profile Photo"
      class="top-left-photo"
-     width="80" height="80"
+     width="120" height="120"
      style="border-radius:50%;object-fit:cover;">
 
 # 👩‍💻 Welcome to My ePortfolio
