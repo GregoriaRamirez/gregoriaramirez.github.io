@@ -9,16 +9,12 @@ permalink: /code-review
 
 # Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
 # 🎥 Code Review – CS 499 Capstone
+<p>
+  This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
+</p>
 
-<iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/NTrtEVuawBM" 
-  title="Animal Shelter Code Review – CS 499 Capstone" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DXgBW47WSRQ" title="Capstone Code Review Walkthrough" frameborder="0" allowfullscreen></iframe>
+
 
 ## Artifact Overview
 
@@ -146,15 +142,7 @@ using proper `try-except-finally` blocks.
   This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
 </p>
 
-<iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/NTrtEVuawBM" 
-  title="Animal Shelter Code Review – CS 499 Capstone" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-  allowfullscreen>
-</iframe>
+
 
 ---
 
