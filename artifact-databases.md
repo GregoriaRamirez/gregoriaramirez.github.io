@@ -120,9 +120,9 @@ This artifact showcases my ability to build secure, maintainable database integr
 
 ## 🎓 Course Outcomes Met
 
-* **Outcome 5 (Databases):** Developed a security mindset by implementing secure credential storage, exception handling, and proper connection cleanup for MongoDB using Python.
-* **Outcome 4 (Computing Tools and Practices):** Applied tools like `pymongo`, `dotenv`, and `pandas` to transform and serve real-time data from a database into an interactive dashboard.
-
+* **Outcome 5 (Databases):** Developed a security mindset by implementing secure credential storage, exception handling, and proper connection cleanup for MongoDB using `Python`. This was achieved by replacing insecure, hardcoded credentials with environment variables loaded through `python-dotenv`, adding structured error handling, and ensuring the database client closes after each operation.
+* 
+* **Outcome 4 (Computing Tools and Practices):** Applied tools like `pymongo`, `dotenv`, and `pandas` to transform and serve real-time data from a database into an interactive dashboard. This was achieved by using pymongo to securely query MongoDB, processing and cleaning the results with pandas, and integrating the data into the Dash dashboard for live filtering and visualization.
 ---
 
 ## 🔗 Project Links
