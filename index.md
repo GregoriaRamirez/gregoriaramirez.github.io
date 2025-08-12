@@ -8,13 +8,13 @@ permalink: /
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 
-<img src="/assets/myphoto.jpg"
+<img src="/assets/myphoto.jpg"                          
      alt="Profile Photo"
-     class="top-left-photo"
+     class="top-left-photo"                                # 👩‍💻 Welcome to My ePortfolio
      width="120" height="120"
      style="border-radius:50%;object-fit:cover;">
 
-# 👩‍💻 Welcome to My ePortfolio
+
 
 Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for my Computer Science Capstone (CS 499) at Southern New Hampshire University. This site highlights my technical growth, enhanced project work, and my ability to apply software development principles to real-world challenges.
 
