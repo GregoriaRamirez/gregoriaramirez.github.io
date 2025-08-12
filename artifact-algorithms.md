@@ -75,7 +75,7 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
 4. Allowed filters to work in combination without overwriting each other.
 5. Returned a predictable output using `.to_dict('records')`.
 
-These changes improved runtime efficiency, performance, and stability. For example, filtering a 3,000-row DataFrame down to just 150–300 relevant records per interaction significantly improved responsiveness during rapid user input, while also preventing crashes caused by empty fields or unmatched data.
+These changes improved runtime efficiency, performance, and stability. For example, filtering a 3,000-row DataFrame down to just 150–300 relevant records per interaction significantly improved responsiveness during rapid user input. The dashboard now responds smoothly to user interactions and avoids crashing due to empty fields or unmatched data.
 
 ---
 ![Dropdown Color Selected](/assets/DropdownColorselected.png)
