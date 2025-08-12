@@ -78,7 +78,8 @@ This dashboard application tracks animal shelter data using a full-stack Python 
 
 My full walkthrough (original vs. enhanced code, software engineering and design, algorithms and data structures, and database categories) is below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DXgBW47WSRQ" title="Capstone Code Review Walkthrough" frameborder="0" allowfullscreen></iframe>
+[▶ Watch the Code Review Video on YouTube](https://youtu.be/DXgBW47WSRQ)
+
 
 ---
 
