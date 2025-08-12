@@ -8,11 +8,11 @@ permalink: /
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 
-<img src="/assets/myphoto.jpg"                          
+<img src="/assets/myphoto.jpg"
      alt="Profile Photo"
-     class="top-left-photo"                              
-     width="120" height="120"
-     style="border-radius:50%;object-fit:cover;">
+     class="top-left-photo"
+     width="150" height="150"
+     style="object-fit:cover;">
 
   # 👩‍💻 Welcome to My ePortfolio
 
