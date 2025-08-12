@@ -1,23 +1,97 @@
-/* Desktop placement for your top-left headshot */
+/* =============== Base resets & utilities =============== */
+
+/* Make images and embeds scale within the container 
+   EXCEPT the headshot (.top-left-photo) */
+img:not(.top-left-photo), video, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent long strings from breaking layout */
+body, .main-content {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Improve tap targets on mobile */
+a, button {
+  -webkit-tap-highlight-color: rgba(0,0,0,0.1);
+}
+
+/* Tables scroll horizontally on small screens */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+/* =============== Cayman theme friendly tweaks =============== */
+
+/* Slightly roomier main content */
+.main-content {
+  padding: 24px;
+}
+
+/* Fine-tune page header text sizes (desktop baseline) */
+.page-header .project-name { font-size: 2.25rem; }
+.page-header .project-tagline { font-size: 1.125rem; }
+
+/* Buttons you added inline */
+a.button, .btn, .button-like {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+/* =============== Your headshot + spacing helpers =============== */
+
+/* Fixed-size square headshot for all devices */
 img.top-left-photo {
   position: absolute;
   top: 20px;
   left: 20px;
-  width: 50px !important;      /* make smaller */
-  height: 50px !important;     /* keep square */
-  max-width: none !important;  /* prevent theme from scaling */
+  width: 100px !important;      /* fixed size */
+  height: 100px !important;     /* square */
+  max-width: none !important;   /* prevent scaling from global img rule */
   z-index: 1000;
-  object-fit: cover;           /* keeps proportions without distortion */
+  object-fit: cover;            /* no distortion */
 }
 
-/* Mobile layout adjustment */
-@media (max-width: 768px) {
-  img.top-left-photo {
-    position: static;
-    display: block;
-    margin: 0 auto 15px;
-    width: 50px !important;
-    height: 50px !important;
-    max-width: none !important;
-  }
+/* Spacer div used below the image */
+.top-space {
+  padding-top: 50px;
 }
+
+/* =============== Optional: custom nav block =============== */
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 12px 0 24px;
+}
+.site-nav a {
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+/* =============== Mobile adjustments =============== */
+
+@media (max-width: 768px) {
+  /* Global type & spacing */
+  html { font-size: 16px; }
+  .main-content { padding: 16px; }
+
+  /* Header text scales down slightly */
+  .page-header .project-name { font-size: 1.6rem; }
+  .page-header .project-tagline { font-size: 1rem; }
+
+  /* Removed mobile-specific resizing for .top-l*
