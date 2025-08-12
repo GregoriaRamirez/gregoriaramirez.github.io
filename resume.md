@@ -9,8 +9,11 @@ permalink: /resume
 
 
 
-<img src="/assets/myphoto.jpg" alt="Gregoria Ramirez headshot" class="top-left-photo">
-<div class="top-space"></div>
+<img src="/assets/myphoto.jpg"
+     alt="Profile Photo"
+     class="top-left-photo"
+     width="150" height="150"
+     style="object-fit:cover;">
 
 # 📄 Résumé  
 _CS 499 Capstone ePortfolio for SNHU_
