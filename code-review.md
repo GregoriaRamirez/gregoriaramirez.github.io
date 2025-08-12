@@ -136,13 +136,6 @@ using proper `try-except-finally` blocks.
 * **Outcome 4 (Algorithms and Data Structures):** Improved filter logic and implemented input validation
 * **Outcome 5 (Databases):** Optimized database interaction and ensured secure handling
 
-## 🎥 Code Review Video
-
-<p>
-  This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
-</p>
-
-
 
 ---
 
