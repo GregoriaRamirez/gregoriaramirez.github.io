@@ -92,7 +92,8 @@ Southern New Hampshire University · *2023 – 2025*
 - Integrated MongoDB Compass for querying and displaying real-time animal data  
 - Added breed and color filters, improved query performance with `.isin()` and `.between()`  
 - Used environment variables for secure DB connection and implemented logging  
-🔗 [View Project](https://gregoriaramirez.github.io/)
+- [🔗 View Project](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
+
 
 ## 💻 Other Projects
 ### **Travlr Getaways Website (MEAN Stack)**  
