@@ -39,7 +39,7 @@ Secured MongoDB integration using `pymongo` and `.env` environment variables. Ad
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="/" style="
+  <a href="index.md" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -48,5 +48,5 @@ Secured MongoDB integration using `pymongo` and `.env` environment variables. Ad
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  ">⬅ Back to Home</a>
+  ">🏠 Home</a>
 </div>
