@@ -60,7 +60,7 @@ I am currently seeking opportunities in:
 **Original Course:** CS 340 – Client-Server Development  
 **Enhanced For:** CS 499 – Computer Science Capstone
 
-This dashboard application tracks animal shelter data using a full-stack Python solution. It was originally developed using Jupyter Notebook and the MongoDB shell. The project was later refactored using Visual Studio Code and MongoDB Compass for a more organized and professional structure. I modularized the project using Dash, MongoDB, and secure Python scripting. Advanced filtering and data visualizations were also integrated.
+This dashboard application tracks animal shelter data using a full-stack Python solution. It was originally developed using Jupyter Notebook and MongoDB shell. The project was later refactored using Visual Studio Code and MongoDB Compass for a more organized and professional structure. I modularized the project using Dash, MongoDB, and secure Python scripting. Advanced filtering and data visualizations were also integrated.
 
 🔗 [View Capstone GitHub Repository](https://github.com/GregoriaRamirez/CS-499-Capstone)
 
