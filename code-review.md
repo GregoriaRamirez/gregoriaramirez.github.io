@@ -148,5 +148,6 @@ using proper `try-except-finally` blocks.
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  ">🏠 Home</a>
+  ">Back to Home</a>
 </div>
+
