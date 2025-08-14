@@ -99,8 +99,9 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  ">🏠 Home</a>
+  ">Back to Home</a>
 </div>
+
 
 
 Thank you for viewing my page 
