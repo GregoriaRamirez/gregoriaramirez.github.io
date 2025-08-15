@@ -201,7 +201,7 @@ Key algorithmic improvements include:
 
 ---
 <div style="text-align: center; margin-top: 3em;">
-  <a href="index.md" style="
+  <a href="https://gregoriaramirez.github.io/index" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -210,6 +210,7 @@ Key algorithmic improvements include:
     text-decoration: none;
     font-weight: bold;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  ">🏠 Home</a>
+  ">Back to Home</a>
 </div>
+
 
