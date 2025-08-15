@@ -90,7 +90,7 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="/" style="
+  <a href="https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/index.md" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -101,6 +101,7 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">Back to Home</a>
 </div>
+
 
 
 
