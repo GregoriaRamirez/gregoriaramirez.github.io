@@ -14,7 +14,7 @@ permalink: /
      width="150" height="150"
      style="object-fit:cover;">
 
-  # 👩‍💻 Welcome to My ePortfolio
+# 👩‍💻 Welcome to My ePortfolio
 
 Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for my Computer Science Capstone (CS 499) at Southern New Hampshire University. This site highlights my technical growth, enhanced project work, and my ability to apply software development principles to real-world challenges.
 
