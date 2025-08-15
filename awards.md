@@ -31,19 +31,19 @@ permalink: /awards
 
 ## 🧾 Certificates
 
-- **Merit Dean’s List Certificate**  
+- **Merit Dean’s List Certificate -2022**  
   [Download PNG](assets/DeansList2022.png)
 
-- **Merit President’s List Certificate**  
+- **Merit President’s List Certificate-2024**  
   [Download PNG](assets/PresidentsList2024.png)
 
-- **Merit Dean’s List Certificate**  
+- **Merit Dean’s List Certificate-2025**  
   [Download PNG](assets/PresidentsList2025.png)
 
 ---
 
 <div style="text-align: center; margin-top: 3em;">
-  <a href="index.md" style="
+  <a href="https://gregoriaramirez.github.io/index" style="
     display: inline-block;
     padding: 10px 20px;
     background-color: #007acc;
@@ -54,3 +54,4 @@ permalink: /awards
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">Back to Home</a>
 </div>
+
