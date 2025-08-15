@@ -10,8 +10,7 @@ permalink: /projects
 
 # 🧪 My Capstone Enhancements
 
-This page summarizes the three enhancement categories I addressed in my CS 499 Capstone project. Each section includes a brief description and a link to the full enhancement write-up.
-
+This page provides an overview of the three enhancement categories I completed for my CS 499 Capstone project. Each section includes a brief description and a link to the full enhancement write-up.
 ---
 
 ## 🧩 Software Design & Engineering
