@@ -7,8 +7,7 @@ permalink: /projects
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)|  [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-
-# 🧪 My Capstone Enhancements
+🧪 My Capstone Enhancements
 
 This page provides an overview of the three enhancement categories I completed for my CS 499 Capstone project. Each section includes a brief description and a link to the full enhancement write-up.
 ---
