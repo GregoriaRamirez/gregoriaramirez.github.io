@@ -5,7 +5,7 @@ permalink: /artifact-databases
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 ## 🗄️ Databases Artifact
 
@@ -15,51 +15,51 @@ For my CS 499 Capstone, I selected the database integration portion of my Animal
 
 For the enhanced version, I refactored the MongoDB access into a reusable Python module using `pymongo` and `dotenv`. I securely connected the Dash dashboard to MongoDB using environment variables and implemented structured logging. These enhancements allowed for more professional, secure, and reliable database operations that now support real-time filtering and analytics.
 
-### 📎 Justification for Inclusion
+---
 
-I selected this artifact because it demonstrates my ability to implement secure, efficient, and maintainable database access within a real-world application. Originally, the project used insecure, hardcoded credentials and lacked structure in how it connected to MongoDB. These limitations posed risks to both security and stability.
+## 🔁 Before → After (Key Changes)
 
-By enhancing the database layer, I showed that I can manage sensitive data responsibly using environment variables, implement structured error handling to prevent failures, and modularize code for reuse. I also improved the integrity and clarity of the data passed to the dashboard by cleaning unnecessary fields and logging database activity for better traceability.
+### 1) Secure Credential Management
+**Before – animal_shelter.py (original):**
+```python
+USER = 'aacuser'
+PASS = 'SNHU1234'
+HOST = 'localhost'
+PORT = 27017
+DB = 'AAC'
+COL = 'animals'
+````
 
-This artifact demonstrates my ability to:
-
-* Connect securely to a MongoDB database using Python  
-* Manage sensitive credentials using environment variables  
-* Modularize and reuse database access logic across the project  
-* Implement logging and error handling for production readiness  
-* Prevent connection leaks by closing MongoDB clients reliably  
-
-### 🔧 Enhancement Overview
-
-Key database improvements include:
-
-* Connecting to MongoDB using `pymongo` with structured exception handling  
-* Loading all credentials from a `.env` file using `python-dotenv`  
-* Dynamically building the MongoDB URI based on development or production context  
-* Wrapping the entire database operation inside a `get_data()` function for reuse  
-* Logging successful connections and safely handling errors  
-* Closing MongoDB clients with a `finally` block to avoid resource leaks  
-* Removing the internal `_id` field to prepare data for presentation in Dash  
-
-## 💡 Code Snippets Demonstrating Enhancements
-
-### 🗄️ Snippet 1: Full Secure Credential Loading and Fallback Defaults (`model.py`)
+**After – model.py (enhanced):**
 
 ```python
+from dotenv import load_dotenv
+load_dotenv()
+
 user = os.getenv("MONGO_USER")
 password = os.getenv("MONGO_PASS")
 host = os.getenv("MONGO_HOST", "localhost")
 port = int(os.getenv("MONGO_PORT", 27017))
 db_name = os.getenv("MONGO_DB")
 collection_name = os.getenv("MONGO_COL")
-````
+```
 
-**Enhancement Summary:**
-This enhancement loads MongoDB connection settings from a `.env` file using environment variables, removing all hardcoded credentials. It includes fallback values for host and port to ensure the app remains operational in development environments. This is a professional security practice and makes the application deployment-ready.
+➡️ I replaced all hardcoded credentials with environment variables loaded from a `.env` file. This prevents exposing passwords in the code and makes the project deployment-ready.
 
 ---
 
-### 🗄️ Snippet 2: MongoDB Connection Handling with Logging and Fallback (`model.py`)
+### 2) MongoDB Connection Handling
+
+**Before – animal\_shelter.py (original):**
+
+```python
+client = MongoClient('mongodb://localhost:27017')
+db = client['AAC']
+collection = db['animals']
+data = list(collection.find({}))
+```
+
+**After – model.py (enhanced):**
 
 ```python
 try:
@@ -82,48 +82,40 @@ finally:
         client.close()
 ```
 
-**Enhancement Summary:**
-This complete `try-except`-`finally` block adds robust MongoDB error handling. It ensures that even if the connection fails, the application does not crash and returns a safe fallback, an empty DataFrame. Structured logging provides insight into issues, and the connection is always closed properly, preventing leaks and locking issues.
+➡️ I wrapped the connection in a `try-except-finally` block with logging. Even if errors occur, the program returns a safe fallback and always closes the database connection.
 
 ---
 
-### 🗄️ Snippet 3: Secure Imports and dotenv Initialization (`model.py`)
+### 3) Dropping Internal MongoDB Fields
+
+**Before – animal\_shelter.py (original):**
 
 ```python
-from dotenv import load_dotenv
-from pymongo import MongoClient
-
-# Load credentials from .env
-load_dotenv()
+df = pd.DataFrame(mongo_data)
+# _id field included in output
 ```
 
-**Enhancement Summary:**
-This snippet imports the necessary libraries for connecting to MongoDB securely and initializes environment variable loading with `load_dotenv()`. It ensures that sensitive credentials like usernames and passwords are accessed only through a protected environment, following secure development best practices and separating secrets from source code.
-
----
-
-### 🗄️ Snippet 4: Remove Internal MongoDB `_id` Field Before Display (`model.py`)
+**After – model.py (enhanced):**
 
 ```python
 if '_id' in df.columns:
     df.drop(columns=['_id'], inplace=True)
 ```
 
-**Enhancement Summary:**
-This enhancement removes the MongoDB internal `_id` field from the dataset before passing it to the dashboard. Dropping this field prevents it from cluttering the user interface and ensures that only relevant columns are displayed and visualized, improving user readability and data presentation.
+➡️ I removed the internal `_id` field before sending the data to the dashboard. This keeps the user interface clean and shows only meaningful fields.
 
 ---
 
 ## 🧠 Reflection on Database Skills
 
-This artifact showcases my ability to build secure, maintainable database integration for a web application. I transitioned from insecure, hardcoded Mongo shell queries to a structured, production-ready MongoDB connection using Python. I added logging, exception handling, and modular design patterns that reflect real-world backend development skills. These enhancements made the system more reliable, scalable, and aligned with modern best practices.
+This artifact shows how I moved from insecure, hardcoded MongoDB shell commands to a secure, production-ready database connection in Python. By adding environment variables, error handling, logging, and cleanup, I demonstrated real-world database integration skills. The enhanced version is more secure, easier to maintain, and supports reliable data analysis.
+
+---
 
 ## 🎓 Course Outcomes Met
 
-* **Outcome 4 (Computing Tools and Practices):** Applied tools like `pymongo`, `dotenv`, and `pandas` to transform and serve real-time data from a database into an interactive dashboard. This was achieved by using pymongo to securely query MongoDB, processing and cleaning the results with pandas, and integrating the data into the Dash dashboard for live filtering and visualization.
-  
-* **Outcome 5 (Databases):** Developed a security mindset by implementing secure credential storage, exception handling, and proper connection cleanup for MongoDB using `Python`. This was achieved by replacing insecure, hardcoded credentials with environment variables loaded through `python-dotenv`, adding structured error handling, and ensuring the database client closes after each operation.
-  
+* **Outcome 4 (Computing Tools and Practices):** Applied `pymongo`, `dotenv`, and `pandas` to securely connect, transform, and serve MongoDB data to the dashboard.
+* **Outcome 5 (Databases):** Implemented secure credential management, exception handling, and connection cleanup. Replaced insecure hardcoding with environment variables and structured error handling.
 
 ---
 
@@ -149,5 +141,4 @@ This artifact showcases my ability to build secure, maintainable database integr
   ">Back to Home</a>
 </div>
 
-
-
+Do you also want me to **add one more small “Before → After”** showing how you modularized the database logic into a `get_data()` function, the same way you modularized your app in Software Design? That would keep the pattern identical across all enhancement pages.
