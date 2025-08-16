@@ -7,13 +7,13 @@ permalink: /artifact-algorithms
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-# 🧮 Algorithms & Data Structures Artifact
+## 🧮 Algorithms & Data Structures Artifact
 
-## 📌 Artifact Description
+### 📌 Artifact Description
 
 For this category, I selected my Animal Shelter Dashboard project, originally built for CS 340: Client-Server Development in February 2025. This project is a web-based dashboard built in Python using the Dash framework and connected to a MongoDB database. The dashboard allows users to explore shelter outcome data using dropdown and radio button filters, and it visualizes the results in a searchable table and interactive charts.
 
-## 📎 Justification for Inclusion
+### 📎 Justification for Inclusion
 
 I included this artifact in my ePortfolio because it demonstrates how I applied structured logic and efficient control flow to solve real-world filtering and visualization problems. In the original version, the `update_dashboard()` function used repetitive `if` blocks and direct filtering, which made it harder to manage.
 
