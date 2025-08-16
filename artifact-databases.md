@@ -7,15 +7,15 @@ permalink: /artifact-databases
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-# 🗄️ Databases Artifact
+## 🗄️ Databases Artifact
 
-## 📌 Artifact Description
+### 📌 Artifact Description
 
 For my CS 499 Capstone, I selected the database integration portion of my Animal Shelter Dashboard project, originally developed in February 2025 for CS 340: Client-Server Development. In the original version, I used hardcoded MongoDB credentials and manually accessed data through the Mongo shell. While the application functioned, it lacked secure credential management, proper error handling, and modular database logic.
 
 For the enhanced version, I refactored the MongoDB access into a reusable Python module using `pymongo` and `dotenv`. I securely connected the Dash dashboard to MongoDB using environment variables and implemented structured logging. These enhancements allowed for more professional, secure, and reliable database operations that now support real-time filtering and analytics.
 
-## 📎 Justification for Inclusion
+### 📎 Justification for Inclusion
 
 I selected this artifact because it demonstrates my ability to implement secure, efficient, and maintainable database access within a real-world application. Originally, the project used insecure, hardcoded credentials and lacked structure in how it connected to MongoDB. These limitations posed risks to both security and stability.
 
@@ -29,7 +29,7 @@ This artifact demonstrates my ability to:
 * Implement logging and error handling for production readiness  
 * Prevent connection leaks by closing MongoDB clients reliably  
 
-## 🔧 Enhancement Overview
+### 🔧 Enhancement Overview
 
 Key database improvements include:
 
