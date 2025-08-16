@@ -5,8 +5,7 @@ permalink: /
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
-
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 <img src="/assets/myphoto.jpg"
      alt="Profile Photo"
@@ -20,7 +19,7 @@ Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for m
 
 ---
 
-# 👩‍💻 About Me
+### 👩‍💻 About Me
 
 I am a Computer Science student at Southern New Hampshire University since June 2022. I graduated in May 2025 with my Associate Degree in Computer Science, with a concentration in Software Engineering, and I am graduating in August 2025 with my Bachelor's degree.
 
@@ -34,7 +33,7 @@ I am passionate about writing clean, reusable code and enjoy working with backen
 
 I am currently considering pursuing a Master's degree in software systems or data engineering to deepen my knowledge and specialize further. I also plan to keep building my skills in backend development, data visualization, and cloud platforms.
 
-## 🔍 Interests and Strengths
+#### 🔍 Interests and Strengths
 
 - Software design and modular architecture  
 - Backend development with Python and Node.js  
@@ -42,7 +41,7 @@ I am currently considering pursuing a Master's degree in software systems or dat
 - Creating intuitive user interfaces with Dash and web frameworks  
 - Data analysis and interactive dashboards  
 
-## 🎯 Career Goals
+#### 🎯 Career Goals
 
 I am currently seeking opportunities in:
 
@@ -54,11 +53,11 @@ I am currently seeking opportunities in:
 
 ---
 
-## 📁 Capstone Project Overview
+### 📁 Capstone Project Overview
 
 **Project Title:** Animal Shelter MongoDB Dashboard  
 **Original Course:** CS 340 – Client-Server Development  
-**Enhanced For:** CS 499 – Computer Science Capstone
+**Enhanced For:** CS 499 – Computer Science Capstone  
 
 This dashboard application tracks animal shelter data using a full-stack Python solution. It was originally developed using Jupyter Notebook and MongoDB shell. The project was later refactored using Visual Studio Code and MongoDB Compass for a more organized and professional structure. I modularized the project using Dash, MongoDB, and secure Python scripting. Advanced filtering and data visualizations were also integrated.
 
@@ -66,7 +65,7 @@ This dashboard application tracks animal shelter data using a full-stack Python 
 
 ---
 
-## 🚀 Key Enhancements
+### 🚀 Key Enhancements
 
 * Refactored monolithic notebook code into modular Python files  
 * Migrated from MongoDB shell to MongoDB Compass for database interaction  
@@ -77,19 +76,15 @@ This dashboard application tracks animal shelter data using a full-stack Python 
 
 ---
 
-## 🎥 Code Review
+### 🎥 Code Review
 
 My full walkthrough (original vs. enhanced code, software engineering and design, algorithms and data structures, and database categories) is below:
 
 [▶ Watch the Code Review Video on YouTube](https://youtu.be/DXgBW47WSRQ)
 
-
 ---
 
-## 📫 Contact
+### 📫 Contact
 
 - 📧 Email: gregoriaramirez454@gmail.com  
-- 💻 [GitHub](https://github.com/GregoriaRamirez)
-  
- 
-
+- 💻 [GitHub](https://github.com/GregoriaRamirez)  
