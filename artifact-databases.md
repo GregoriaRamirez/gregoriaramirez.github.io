@@ -141,4 +141,4 @@ This artifact shows how I moved from insecure, hardcoded MongoDB shell commands 
   ">Back to Home</a>
 </div>
 
-Do you also want me to **add one more small “Before → After”** showing how you modularized the database logic into a `get_data()` function, the same way you modularized your app in Software Design? That would keep the pattern identical across all enhancement pages.
+
