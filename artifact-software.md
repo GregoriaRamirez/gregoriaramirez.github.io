@@ -102,6 +102,31 @@ def register_callbacks(app):
 ➡️ All callbacks are grouped together in one controller file. This makes the logic easier to manage and test.&#x20;
 
 ---
+#### 4) Project Structure (Monolith → Modular)
+
+**Before – single file (original):**
+
+```
+animal_shelter.py
+```
+
+**After – modular folders (enhanced):**
+
+```
+CS499Capstone/
+├── app.py
+├── controller.py
+├── model/
+│   ├── __init__.py
+│   ├── model.py
+│   └── view.py
+├── assets/
+│   └── ...
+└── venv/
+```
+➡️ Splitting the code into clear modules (app, controller, model, view) follows the MVC pattern, improves readability, and makes testing and future changes easier.
+
+---
 
 ### 📎 Justification for Inclusion
 
