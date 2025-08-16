@@ -18,10 +18,7 @@ permalink: /code-review
 
 ## Artifact Overview
 
-This code review focuses on the Animal Shelter Dashboard project originally developed during CS 340: Client-Server Development.
-The project is a web-based application started in Jupyter Notebook and MongoDB shell, that utilizes Python, Dash, and MongoDB
-to display and filter animal outcome data. The dashboard featured searchable tables and charts based on animal type, breed, color,
- and outcome category.
+This code review focuses on the Animal Shelter Dashboard project originally developed during CS 340: Client-Server Development. The project is a web-based application that began in Jupyter Notebook with MongoDB shell integration, and utilizes Python, Dash, and MongoDB to display and filter animal outcome data. The dashboard featured searchable tables and charts based on animal type, breed, color, and outcome category, demonstrating my ability to design interactive, data-driven applications.
 
 ## Purpose of the Review
 
