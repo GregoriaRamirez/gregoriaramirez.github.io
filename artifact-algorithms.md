@@ -76,6 +76,7 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
 3. Applied safe filtering using `.str.contains(..., na=False)` and `.isin()`
 4. Allowed filters to work in combination without overwriting each other
 5. Returned predictable output using `.to_dict('records')`
+6. I also added two new dropdown filters that allow users to select animal color and breed, giving them more control over the data they want to view.
 
 ---
 
