@@ -48,8 +48,9 @@ if filters:
 ```
 
 ➡️ I replaced multiple `if/else` statements with a layered dictionary filter. This allows the dashboard to handle multiple conditions at once (like adoption + breed + color) in a clean, scalable way.
+Picture below shows drop down with breed slected and the outcome.
 
----
+![Color Filtered](/assets/ColorFiltered.png)
 
 ### 2) Chart Updates
 
@@ -71,8 +72,10 @@ def make_outcome_chart(df):
 ```
 
 ➡️ I moved chart creation into its own function. This separates visualization from filtering and makes it reusable across the dashboard.
+The chart below shows the pie chart filtered by breed
 
----
+![Filtered Chart](/assets/FilteredChart.png)
+
 
 ### 3) Map Updates
 
@@ -94,10 +97,11 @@ def make_map(df):
         title="Animal Outcomes by Location"
     )
 ```
-
-➡️ I modularized the map logic into a helper function. This keeps the main callback simple and allows better customization of the map display.
-
 ---
+➡️ I modularized the map logic into a helper function. This keeps the main callback simple and allows better customization of the map display.
+The chart below shows the Location on the map
+
+![Map – Breed & Location](/assets/LabBreedLocation.png)
 
 ## 🧠 Reflection on Algorithms & Data Structures Skills
 
