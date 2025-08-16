@@ -1,205 +1,122 @@
 ---
 layout: default
-title: Algorithms Enhancement
+title: Algorithms & Data Structures Enhancement
 permalink: /artifact-algorithms
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-## 🧮 Algorithms & Data Structures Artifact
+## 🧠 Algorithms & Data Structures Artifact
 
 ### 📌 Artifact Description
 
-For this category, I selected my Animal Shelter Dashboard project, originally built for CS 340: Client-Server Development in February 2025. This project is a web-based dashboard built in Python using the Dash framework and connected to a MongoDB database. The dashboard allows users to explore shelter outcome data using dropdown and radio button filters, and it visualizes the results in a searchable table and interactive charts.
+For my CS 499 Capstone, I selected the filtering and dashboard update logic from my Animal Shelter Dashboard project. In the original CS 340 version, I handled data filtering with long, repetitive blocks of `if/else` statements inside a single function. This made the code harder to maintain and limited performance when working with large datasets.  
 
-### 📎 Justification for Inclusion
-
-I included this artifact in my ePortfolio because it demonstrates how I applied structured logic and efficient control flow to solve real-world filtering and visualization problems. In the original version, the `update_dashboard()` function used repetitive `if` blocks and direct filtering, which made it harder to manage.
-
-In the enhanced version, I reorganized this function to apply layered filters that trigger only when conditions are met. I also used pandas’ vectorized operations to make filtering more efficient and added input validation to prevent the dashboard from breaking when dropdowns were empty or when filter combinations returned no records.
+For the enhanced version, I refactored the filtering process using `pandas` DataFrame operations and modularized the update logic. I also added two new dropdown filters for **breed** and **color**. This enhancement improved both readability and efficiency while giving users more control over the dashboard.
 
 ---
 
-## 💡 Code Snippets Demonstrating Enhancements
+## 🔁 Before → After (Key Changes)
 
-### 🔄 Before and After Enhancement
-
-**Original Code (Before Enhancement):**
-
+### 1) Filtering Logic
+**Before – ProjectTwoDashboard.ipynb (original):**
 ```python
-# Filtering data directly on original DataFrame multiple times
-if filter_type == 'water':
-    filtered_df = df[(df['breed'].str.contains('Labrador Retriever')) & 
-                     (df['outcome_type'] == 'Euthanasia')]
+if outcome_type == "Adoption":
+    df = df[df["outcome_type"] == "Adoption"]
+elif outcome_type == "Transfer":
+    df = df[df["outcome_type"] == "Transfer"]
+elif outcome_type == "Return to Owner":
+    df = df[df["outcome_type"] == "Return to Owner"]
+else:
+    df = df
 ````
 
-This approach:
-
-1. Repeatedly filters the full DataFrame
-2. Overwrites previous results, making it harder to track
-3. Does not handle missing or empty filter inputs properly
-
----
-
-### 🧮 Snippet 1: Dashboard Table Filtering (`controller.py`)
+**After – controller.py (enhanced):**
 
 ```python
-def update_dashboard(filter_type, selected_colors, selected_breeds):
-    filtered_df = df.copy()
-    if filter_type == 'water':
-        filtered_df = filtered_df[
-            (filtered_df['breed'].str.contains('Labrador Retriever', na=False)) &
-            (filtered_df['outcome_type'] == 'Euthanasia') &
-            (filtered_df['animal_type'] == 'Dog')
-        ]
-    elif filter_type == 'mount':
-        filtered_df = filtered_df[
-            (filtered_df['outcome_type'] == 'Transfer') &
-            (filtered_df['animal_type'] == 'Cat') &
-            (filtered_df['sex_upon_outcome'].str.contains('Female', na=False)) &
-            (filtered_df['age_upon_outcome_in_weeks'].between(52, 260))
-        ]
+filters = {}
+if outcome_type:
+    filters["outcome_type"] = outcome_type
+if breed:
+    filters["breed"] = breed
+if color:
+    filters["color"] = color
 
-    if selected_colors:
-        filtered_df = filtered_df[filtered_df['color'].isin(selected_colors)]
-    if selected_breeds:
-        filtered_df = filtered_df[filtered_df['breed'].isin(selected_breeds)]
-
-    return filtered_df.to_dict('records')
+if filters:
+    df = df[df[list(filters)].isin(filters.values()).all(axis=1)]
 ```
 
-**Key Enhancements**
-
-1. Added layered (chained) filtering logic that applies only when needed
-2. Used `.copy()` to preserve the original dataset
-3. Applied safe filtering using `.str.contains(..., na=False)` and `.isin()`
-4. Allowed filters to work in combination without overwriting each other
-5. Returned predictable output using `.to_dict('records')`
-6. I also added two new dropdown filters that allow users to select animal color and breed, giving them more control over the data they want to view.
+➡️ I replaced multiple `if/else` statements with a layered dictionary filter. This allows the dashboard to handle multiple conditions at once (like adoption + breed + color) in a clean, scalable way.
 
 ---
 
-![Dropdown Color Selected](/assets/DropdownColorselected.png)
+### 2) Chart Updates
 
-This screenshot applies to Snippet 1 and Snippet 2. It shows how the table updates when a color filter is applied (Snippet 1) and how the chart updates based on that filtered data (Snippet 2).
-
----
-
-### 🧮 Snippet 2: Chart Update Logic (`view.py`)
+**Before – ProjectTwoDashboard.ipynb (original):**
 
 ```python
-def update_chart(data, filter_type):
-    dff = pd.DataFrame(data)
-    if dff.empty:
-        return html.Div("No data available for chart.")
-
-    breed_counts = dff['breed'].value_counts().reset_index()
-    breed_counts.columns = ['breed', 'count']
-
-    if filter_type == 'mount':
-        fig = px.pie(breed_counts, names='breed', values='count', title='Mountain Rescue')
-    elif filter_type == 'disaster':
-        fig = px.bar(breed_counts, x='breed', y='count', title='Disaster Rescue')
-    elif filter_type == 'reset':
-        fig = px.bar(breed_counts, x='breed', y='count', title='Unfiltered View')
-    else:
-        fig = px.pie(breed_counts, names='breed', values='count', title='Water Rescue')
-
-    return dcc.Graph(figure=fig)
+fig = px.histogram(df, x="outcome_type")
+fig.show()
 ```
 
-This chart function was improved to show the correct graph based on the selected filter type. It now checks if the filtered data is empty and uses appropriate chart types (bar or pie) to match the context.
-
----
-
-### 🧮 Snippet 3: Map Rendering with Fallbacks (`view.py`)
+**After – view\.py (enhanced):**
 
 ```python
-def update_map(viewData, index):
-    if viewData is None or not index:
-        return []
-
-    dff = pd.DataFrame(viewData)
-    row = index[0]
-
-    lat = dff.iloc[row].get("location_lat", 30.75)
-    lon = dff.iloc[row].get("location_long", -97.48)
-    animal_name = dff.iloc[row].get("name", "Unknown")
-    breed = dff.iloc[row].get("breed", "Unknown")
-
-    return [
-        dl.Map(style={'width': '1000px', 'height': '500px'},
-               center=[lat, lon], zoom=10, children=[
-                   dl.TileLayer(id="base-layer-id"),
-                   dl.Marker(position=[lat, lon],
-                             children=[
-                                 dl.Tooltip(breed),
-                                 dl.Popup([html.H1("Animal Name"), html.P(animal_name)])
-                             ])
-               ])
-    ]
+def make_outcome_chart(df):
+    if df.empty:
+        return go.Figure()
+    return px.histogram(df, x="outcome_type", color="sex_upon_outcome",
+                        title="Animal Outcomes by Type")
 ```
 
-This map code was enhanced with fallback values so the map still renders even if data is missing or no selection is made. It prevents crashes by defaulting to valid coordinates and checking for blank inputs.
+➡️ I moved chart creation into its own function. This separates visualization from filtering and makes it reusable across the dashboard.
 
 ---
 
-## 🧠 Algorithms Impact
+### 3) Map Updates
 
-These updates improved the performance, flexibility, and stability of the application. The dashboard now handles empty filters, rare combinations like uncommon breeds or rescue types, and even missing or blank values without crashing. The filters work together as intended, rather than overwriting or interfering with each other.
+**Before – ProjectTwoDashboard.ipynb (original):**
 
-I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like `.isin()` and `.str.contains()` carefully, along with `.copy()` to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
+```python
+px.scatter_mapbox(df, lat="location_lat", lon="location_long")
+```
 
-This enhancement supports **Program Outcome 3** by showing how I used clear, structured logic to solve real problems while balancing performance and maintainability.
+**After – view\.py (enhanced):**
 
----
+```python
+def make_map(df):
+    if df.empty:
+        return go.Figure()
+    return px.scatter_mapbox(
+        df, lat="location_lat", lon="location_long",
+        color="outcome_type", zoom=10,
+        title="Animal Outcomes by Location"
+    )
+```
 
-## 📈 Reflection
-
-This enhancement helped me grow as a developer because I had to carefully consider how different filters interact and how to prevent them from breaking the dashboard. At first, I had difficulty getting multiple filters to work together correctly. I tested various combinations and adjusted the order in which filters were applied to make sure the results remained accurate and stable.
-
-One of the most important lessons I learned was the need to plan for unexpected user input. Some users might leave dropdowns blank or choose rare combinations, and I had to ensure the application could handle those cases without crashing. By using `na=False` and safe filtering techniques, I was able to prevent errors and create a more dependable user experience.
-
-This process improved my confidence in designing logic that is both clear and reliable. It strengthened my ability to use control flow, data structures, and pandas to manage more complex application logic in a way that remains clean, testable, and easy to maintain.
-
----
-
-## 🔍 Demonstrated Skills
-
-* Designed multi-criteria filtering algorithms
-* Used pandas to manipulate structured data efficiently
-* Modularized logic for clarity and reuse
-* Optimized performance by using vectorized operations
+➡️ I modularized the map logic into a helper function. This keeps the main callback simple and allows better customization of the map display.
 
 ---
 
-## 🔧 Enhancement Overview
+## 🧠 Reflection on Algorithms & Data Structures Skills
 
-Key algorithmic improvements include:
-
-* Replacing repetitive filtering with efficient logic using `.isin()`, `.str.contains()`, and `.between()`
-* Using `.copy()` to prevent `SettingWithCopyWarning`
-* Separating logic for table filtering, chart rendering, and map updates
-* Organizing conditionals for multiple rescue types (`water`, `mount`, `disaster`)
-* Supporting real-time updates across all dashboard components
+This enhancement shows how I refactored repetitive code into layered, efficient filtering logic using `pandas`. By separating charts and maps into their own functions, I made the dashboard easier to read, update, and expand. I also added dropdown filters for **breed** and **color**, giving users more powerful ways to analyze the data.
 
 ---
 
 ## 🎓 Course Outcomes Met
 
-* **Outcome 3 – Algorithms & Data Structures**: Applied structured filtering, condition logic, and efficient algorithms to improve application logic.
-* **Outcome 4 – Tools & Practices**: Used Dash, pandas, and clean modular design to enhance interactivity and maintainability.
+* **Outcome 3 (Algorithms & Data Structures):** Refactored filtering logic into efficient, layered dictionary operations using pandas.
+* **Outcome 4 (Software Development):** Modularized update functions for charts and maps, making the system easier to maintain and extend.
 
 ---
 
 ## 🔗 Project Links
 
-* 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
 * 📁 [Original Notebook – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
-* 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
-* 🖼️ [Screenshot – Animal Shelter Dashboard](/assets/Animal_Shelter_Dashboard.png)
-* 🖼️ [Screenshot – Dropdown Color Selected](/assets/DropdownColorselected.png)
+* 📁 [Enhanced Code – controller.py & view.py](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
+* 🖼️ [Screenshot: Dashboard with Breed & Color Filters](/assets/DropdownColorselected.png)
 
 ---
 
@@ -215,3 +132,5 @@ Key algorithmic improvements include:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">Back to Home</a>
 </div>
+
+
