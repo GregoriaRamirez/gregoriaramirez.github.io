@@ -5,7 +5,8 @@ permalink: /artifact-algorithms
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [📂 Projects](projects.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
+
 # 🧮 Algorithms & Data Structures Artifact
 
 ## 📌 Artifact Description
@@ -19,9 +20,10 @@ I included this artifact in my ePortfolio because it demonstrates how I applied 
 In the enhanced version, I reorganized this function to apply layered filters that trigger only when conditions are met. I also used pandas’ vectorized operations to make filtering more efficient and added input validation to prevent the dashboard from breaking when dropdowns were empty or when filter combinations returned no records.
 
 ---
+
 ## 💡 Code Snippets Demonstrating Enhancements
 
-## 🔄 Before and After Enhancement
+### 🔄 Before and After Enhancement
 
 **Original Code (Before Enhancement):**
 
@@ -38,8 +40,10 @@ This approach:
 2. Overwrites previous results, making it harder to track
 3. Does not handle missing or empty filter inputs properly
 
-**Enhanced Code (After Enhancement):**
+---
+
 ### 🧮 Snippet 1: Dashboard Table Filtering (`controller.py`)
+
 ```python
 def update_dashboard(filter_type, selected_colors, selected_breeds):
     filtered_df = df.copy()
@@ -65,22 +69,19 @@ def update_dashboard(filter_type, selected_colors, selected_breeds):
     return filtered_df.to_dict('records')
 ```
 
----
+**Key Enhancements**
 
-## 🔧 Key Enhancements
-
-1. Added layered (chained) filtering logic that applies only when needed.
-2. Used `.copy()` to preserve the original dataset.
-3. Applied safe filtering using `.str.contains(..., na=False)` and `.isin()`.
-4. Allowed filters to work in combination without overwriting each other.
-5. Returned a predictable output using `.to_dict('records')`.
-
-These changes improved runtime efficiency, performance, and stability. For example, filtering a 3,000-row DataFrame down to just 150–300 relevant records per interaction significantly improved responsiveness during rapid user input. The dashboard now responds smoothly to user interactions and avoids crashing due to empty fields or unmatched data.
+1. Added layered (chained) filtering logic that applies only when needed
+2. Used `.copy()` to preserve the original dataset
+3. Applied safe filtering using `.str.contains(..., na=False)` and `.isin()`
+4. Allowed filters to work in combination without overwriting each other
+5. Returned predictable output using `.to_dict('records')`
 
 ---
+
 ![Dropdown Color Selected](/assets/DropdownColorselected.png)
 
-This screenshot applies to both Snippet 1 and Snippet 2. It shows how the table updates when a color filter is applied (Snippet 1) and how the chart updates based on that filtered data (Snippet 2).
+This screenshot applies to Snippet 1 and Snippet 2. It shows how the table updates when a color filter is applied (Snippet 1) and how the chart updates based on that filtered data (Snippet 2).
 
 ---
 
@@ -111,7 +112,7 @@ This chart function was improved to show the correct graph based on the selected
 
 ---
 
-### 🧮 Snippet 3: Map Rendering with Fallbacks (`view`)
+### 🧮 Snippet 3: Map Rendering with Fallbacks (`view.py`)
 
 ```python
 def update_map(viewData, index):
@@ -145,11 +146,11 @@ This map code was enhanced with fallback values so the map still renders even if
 
 ## 🧠 Algorithms Impact
 
-These updates improved the performance, flexibility, and stability of the application. The dashboard now handles empty filters, rare combinations like uncommon breeds or rescue types, and even missing or blank values all without crashing. The filters work together as intended, rather than overwriting or interfering with each other.
+These updates improved the performance, flexibility, and stability of the application. The dashboard now handles empty filters, rare combinations like uncommon breeds or rescue types, and even missing or blank values without crashing. The filters work together as intended, rather than overwriting or interfering with each other.
 
-I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like  `.isin()` and  `.str.contains()` carefully, along with  `.copy()` to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
+I used step-by-step filtering that only runs when needed, which made the logic easier to follow and reduced unnecessary processing. I applied pandas methods like `.isin()` and `.str.contains()` carefully, along with `.copy()` to protect the original data. These decisions gave users more control and improved the overall reliability of the dashboard.
 
-This enhancement supports Program Outcome 3 by showing how I used clear, structured logic to solve real problems while balancing performance and maintainability.
+This enhancement supports **Program Outcome 3** by showing how I used clear, structured logic to solve real problems while balancing performance and maintainability.
 
 ---
 
@@ -157,7 +158,7 @@ This enhancement supports Program Outcome 3 by showing how I used clear, structu
 
 This enhancement helped me grow as a developer because I had to carefully consider how different filters interact and how to prevent them from breaking the dashboard. At first, I had difficulty getting multiple filters to work together correctly. I tested various combinations and adjusted the order in which filters were applied to make sure the results remained accurate and stable.
 
-One of the most important lessons I learned was the need to plan for unexpected user input. Some users might leave dropdowns blank or choose rare combinations, and I had to ensure the application could handle those cases without crashing. By using na=False and safe filtering techniques, I was able to prevent errors and create a more dependable user experience.
+One of the most important lessons I learned was the need to plan for unexpected user input. Some users might leave dropdowns blank or choose rare combinations, and I had to ensure the application could handle those cases without crashing. By using `na=False` and safe filtering techniques, I was able to prevent errors and create a more dependable user experience.
 
 This process improved my confidence in designing logic that is both clear and reliable. It strengthened my ability to use control flow, data structures, and pandas to manage more complex application logic in a way that remains clean, testable, and easy to maintain.
 
@@ -200,6 +201,7 @@ Key algorithmic improvements include:
 * 🖼️ [Screenshot – Dropdown Color Selected](/assets/DropdownColorselected.png)
 
 ---
+
 <div style="text-align: center; margin-top: 3em;">
   <a href="https://gregoriaramirez.github.io/index" style="
     display: inline-block;
@@ -212,5 +214,3 @@ Key algorithmic improvements include:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">Back to Home</a>
 </div>
-
-
