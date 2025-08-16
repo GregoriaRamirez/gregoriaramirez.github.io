@@ -9,7 +9,7 @@ permalink: /artifact-software
 
 # 🧹 Software Design & Engineering Artifact
 
-## 📌 Artifact Description
+### 📌 Artifact Description
 
 For my CS 499 Capstone, I chose to enhance my final project from CS 340: Client-Server Development. Originally created in February 2025, the artifact is a web-based dashboard for an animal shelter. The application was first developed in a Jupyter Notebook using Python, Dash, and a MongoDB database connected to a CSV data source. It displayed outcome records from the shelter in a table, supported search and filtering, and included simple charts for visual analysis.
 
@@ -19,15 +19,15 @@ To improve the software design, I reorganized the code into a more modular forma
 
 In addition to reorganizing the architecture, I introduced new filtering features, including color and breed filters, which expanded the application's usability. These enhancements improved the dashboard’s responsiveness by limiting the data processed client-side and reducing visual clutter. The filtering logic was refactored to be more efficient, using conditional logic and vectorized operations in pandas, which improved both performance and maintainability.
 
-## 📷 Final Dashboard Screenshot
+### 📷 Final Dashboard Screenshot
 
 <img src="/assets/Animal_Shelter_Dashboard.png" alt="Animal Shelter Dashboard Screenshot" style="max-width: 100%; border: 1px solid #ddd; border-radius: 8px; margin-top: 20px;" />
 
 ---
 
-## 🔁 Before → After (Key Changes)
+### 🔁 Before → After (Key Changes)
 
-### 1) App Startup  
+#### 1) App Startup  
 **Before – `animal_shelter.py` (original):**
 ```python
 app = Dash(__name__)
@@ -48,7 +48,7 @@ app.run(debug=True, port=8550)
 
 ---
 
-### 2) Layout
+#### 2) Layout
 
 **Before – `animal_shelter.py` (original):**
 
@@ -78,7 +78,7 @@ layout = html.Div([
 
 ---
 
-### 3) Callbacks
+#### 3) Callbacks
 
 **Before – `animal_shelter.py` (original):**
 
@@ -103,7 +103,7 @@ def register_callbacks(app):
 
 ---
 
-## 📎 Justification for Inclusion
+### 📎 Justification for Inclusion
 
 This enhancement shows how I improved the structure and security of my code. I modularized the project into separate files and separated layout and callbacks to follow MVC principles. These changes make the app more professional, secure, and maintainable.
 
@@ -111,7 +111,7 @@ One challenge I faced was reorganizing the file structure without breaking impor
 
 ---
 
-## 🧠 Reflection on Software Engineering Skills
+### 🧠 Reflection on Software Engineering Skills
 
 This enhancement demonstrates my ability to:
 
@@ -125,13 +125,13 @@ This enhancement demonstrates my ability to:
 
 ---
 
-## 🎓 Course Outcomes Met
+### 🎓 Course Outcomes Met
 
 * **Outcome 3 (Software Design and Engineering):** Achieved by implementing modularity, using environment variables, and improving structure.
 
 ---
 
-## 🔗 Project Links
+### 🔗 Project Links
 
 * 📁 [Original Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/original_code)
 * 📁 [Enhanced Code on GitHub](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
@@ -151,5 +151,3 @@ This enhancement demonstrates my ability to:
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   ">Back to Home</a>
 </div>
-
-
