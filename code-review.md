@@ -8,7 +8,8 @@ permalink: /code-review
 
 
 # Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
-# 🎥 Code Review – CS 499 Capstone
+## 🎥 Code Review – CS 499 Capstone
+
 <p>
   This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
 </p>
