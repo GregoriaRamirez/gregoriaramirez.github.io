@@ -17,7 +17,7 @@ For the enhanced version, I refactored the filtering process using `pandas` Data
 
 ---
 
-## 🔁 Before → After (Key Changes)
+### 🔁 Before → After (Key Changes)
 
 ### 1) Filtering Logic
 **Before – ProjectTwoDashboard.ipynb (original):**
@@ -48,8 +48,7 @@ if filters:
 ```
 
 ➡️ I replaced multiple `if/else` statements with a layered dictionary filter. This allows the dashboard to handle multiple conditions at once (like adoption + breed + color) in a clean, scalable way.
-Picture below shows drop down with breed slected and the outcome.
-
+"The picture below shows the dropdown filter with breed selected and its corresponding outcome".
 ![Color Filtered](/assets/ColorFiltered.png)
 
 ### 2) Chart Updates
@@ -72,7 +71,7 @@ def make_outcome_chart(df):
 ```
 
 ➡️ I moved chart creation into its own function. This separates visualization from filtering and makes it reusable across the dashboard.
-The chart below shows the pie chart filtered by breed
+“The chart below shows the updated visualization filtered by breed.”
 
 ![Filtered Chart](/assets/FilteredChart.png)
 
@@ -99,24 +98,24 @@ def make_map(df):
 ```
 ---
 ➡️ I modularized the map logic into a helper function. This keeps the main callback simple and allows better customization of the map display.
-The chart below shows the Location on the map
+“The chart below shows animal outcomes plotted by location and breed.”
 
 ![Map – Breed & Location](/assets/LabBreedLocation.png)
 
-## 🧠 Reflection on Algorithms & Data Structures Skills
+### 🧠 Reflection on Algorithms & Data Structures Skills
 
 This enhancement shows how I refactored repetitive code into layered, efficient filtering logic using `pandas`. By separating charts and maps into their own functions, I made the dashboard easier to read, update, and expand. I also added dropdown filters for **breed** and **color**, giving users more powerful ways to analyze the data.
 
 ---
 
-## 🎓 Course Outcomes Met
+### 🎓 Course Outcomes Met
 
 * **Outcome 3 (Algorithms & Data Structures):** Refactored filtering logic into efficient, layered dictionary operations using pandas.
-* **Outcome 4 (Software Development):** Modularized update functions for charts and maps, making the system easier to maintain and extend.
+* **Outcome 4 (Use of Innovative Techniques, Skills, and Tools):** Modularized update functions for charts and maps, making the system easier to maintain and extend.
 
 ---
 
-## 🔗 Project Links
+### 🔗 Project Links
 
 * 📁 [Original Notebook – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
 * 📁 [Enhanced Code – controller.py & view.py](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
