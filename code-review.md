@@ -7,8 +7,8 @@ permalink: /code-review
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
 
-# Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
-## 🎥 Code Review – CS 499 Capstone
+## Code Review: Enhancing the Animal Shelter Dashboard Project from CS 340 to CS 499
+### 🎥 Code Review – CS 499 Capstone
 
 <p>
   This video walks through the original project and explains the enhancements I made in design, logic, and data handling. It includes commentary on software design, database operations, and algorithm updates.
@@ -42,7 +42,7 @@ The findings informed a structured enhancement plan implemented during CS 499: C
 * No implementation of logging or error tracking
 * Dash callbacks were tightly coupled with layout code
 
-#### Example of Original Constructor Code (Before Enhancement)
+### Example of Original Constructor Code (Before Enhancement)
 
 ```python
 def __init__(self):
@@ -57,7 +57,7 @@ def __init__(self):
     self.collection = self.database[COL]
 ```
 
-#### Issues with the constructor code:
+### Issues with the constructor code:
 
 * Hardcoded credentials (username, password, host, port)
 * No use of environment variables for secure configuration
@@ -80,7 +80,7 @@ readability of the code.
 * Missed opportunities for vectorized operations with pandas
 * Repeatedly filters the entire original DataFrame
 
-#### Example of Original Filtering Code (Before Enhancement)
+### Example of Original Filtering Code (Before Enhancement)
 
 ```python
 if filter_type == 'water':
@@ -88,7 +88,7 @@ if filter_type == 'water':
                      (df['outcome_type'] == 'Euthanasia')]
 ```
 
-#### Issues:
+### Issues:
 
 * Repeatedly filters the entire original DataFrame
 * Overwrites previously filtered data
@@ -108,7 +108,7 @@ rewriting logic.
 * No use of `try-except-finally` blocks for error handling
 * No separation of CRUD logic into reusable functions
 
-#### Example of Original Filtering Code (Before Enhancement)
+### Example of Original Filtering Code (Before Enhancement)
 
 ```python
 if filter == 'disaster':
@@ -118,7 +118,7 @@ if filter == 'disaster':
     df = df[df['outcome_type'].isin(['Adoption', 'Transfer'])]
 ```
 
-#### Issues:
+### Issues:
 
 * Logic is hardcoded and repeated across filters
 * Not abstracted into a function or reusable structure
@@ -128,8 +128,8 @@ if filter == 'disaster':
 into a dedicated module. I will also connect to MongoDB live using secure credentials stored in a `.env` file and manage connections
 using proper `try-except-finally` blocks.
 
-## Outcomes Met Through Review
-
+### Outcomes Met Through Review
+* **Outcomes 1 and 2 (collaboration and communication):** These outcomes were primarily met through my ePortfolio documentation and narrated code review video.
 * **Outcome 3 (Software Design and Engineering):** Implemented modular design and secure coding practices
 * **Outcome 4 (Algorithms and Data Structures):** Improved filter logic and implemented input validation
 * **Outcome 5 (Databases):** Optimized database interaction and ensured secure handling
