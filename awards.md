@@ -7,9 +7,9 @@ permalink: /awards
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-# 🏆 Awards and Honors
+## 🏆 Awards and Honors
 
-## 🎓 Academic Recognition
+### 🎓 Academic Recognition
 
 - [Honor Roll – May–Jun 2025 (2025 C-3)](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-3-May-Jun-/162252662)  
 - [Honor Roll – Mar–Apr 2025 (2025 C-2)](https://snhu.meritpages.com/stories/SNHU-Announces-Honor-Roll-for-2025-C-2-Mar-Apr-/159319082)  
@@ -29,16 +29,16 @@ permalink: /awards
 
 ---
 
-## 🧾 Certificates
+### 🧾 Certificates
 
-- **Merit Dean’s List Certificate -2022**  
-  [Download PNG](assets/DeansList2022.png)
+- **Merit Dean’s List Certificate – 2022**  
+  [Download PNG](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/assets/DeansList2022.png?raw=true)
 
-- **Merit President’s List Certificate-2024**  
-  [Download PNG](assets/PresidentsList2024.png)
+- **Merit President’s List Certificate – 2024**  
+  [Download PNG](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/assets/PresidentsList2024.png?raw=true)
 
-- **Merit Dean’s List Certificate-2025**  
-  [Download PNG](assets/PresidentsListList2025.png)
+- **Merit President’s List Certificate – 2025**  
+  [Download PNG](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/assets/PresidentsList2025.png?raw=true)
 
 ---
 
