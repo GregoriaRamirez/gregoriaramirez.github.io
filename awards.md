@@ -38,7 +38,7 @@ permalink: /awards
   [Download PNG](assets/PresidentsList2024.png)
 
 - **Merit Dean’s List Certificate-2025**  
-  [Download PNG](assets/PresidentsList2025.png)
+  [Download PNG](assets/PresidentsListList2025.png)
 
 ---
 
