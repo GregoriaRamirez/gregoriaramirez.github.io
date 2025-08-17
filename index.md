@@ -21,7 +21,7 @@ Hello, my name is Gregoria Ramirez, and this is my professional ePortfolio for m
 
 ### 👩‍💻 About Me
 
-I am a Computer Science student at Southern New Hampshire University since June 2022. I graduated in May 2025 with my Associate Degree in Computer Science, with a concentration in Software Engineering, and I am graduating in August 2025 with my Bachelor's degree.
+I am a Computer Science student at Southern New Hampshire University since June 2022. I earned my Associate Degree in Computer Science with a concentration in Software Engineering in May 2025, and I will be graduating with my Bachelor’s degree in August 2025.
 
 My interest in computer science began with a curiosity about how technology works behind the scenes, from websites and data to the systems that power everyday tools. Over time, this curiosity turned into a passion for solving real-world problems through software development and data-driven solutions. The decision to change careers came from seeing how rapidly technology is evolving and realizing that I wanted to be part of building and improving the systems that shape our future.
 
