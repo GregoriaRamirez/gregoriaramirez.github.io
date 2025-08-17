@@ -17,7 +17,7 @@ For the enhanced version, I refactored the MongoDB access into a reusable Python
 
 ---
 
-## 🔁 Before → After (Key Changes)
+### 🔁 Before → After (Key Changes)
 
 ### 1) Secure Credential Management
 **Before – animal_shelter.py (original):**
@@ -106,20 +106,20 @@ if '_id' in df.columns:
 
 ---
 
-## 🧠 Reflection on Database Skills
+### 🧠 Reflection on Database Skills
 
 This artifact shows how I moved from insecure, hardcoded MongoDB shell commands to a secure, production-ready database connection in Python. By adding environment variables, error handling, logging, and cleanup, I demonstrated real-world database integration skills. The enhanced version is more secure, easier to maintain, and supports reliable data analysis.
 
 ---
 
-## 🎓 Course Outcomes Met
+### 🎓 Course Outcomes Met
 
-* **Outcome 4 (Computing Tools and Practices):** Applied `pymongo`, `dotenv`, and `pandas` to securely connect, transform, and serve MongoDB data to the dashboard.
+* **Outcome 4 (Use of Well-Founded and Innovative Techniques, Skills, and Tools):** Applied `pymongo`, `dotenv`, and `pandas` to securely connect, transform, and serve MongoDB data to the dashboard.
 * **Outcome 5 (Databases):** Implemented secure credential management, exception handling, and connection cleanup. Replaced insecure hardcoding with environment variables and structured error handling.
 
 ---
 
-## 🔗 Project Links
+### 🔗 Project Links
 
 * 📁 [Original Code – animal\_shelter.py](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/animal_shelter.py)
 * 📁 [Original Code – ProjectTwoDashboard.ipynb](https://github.com/GregoriaRamirez/gregoriaramirez.github.io/blob/main/original/ProjectTwoDashboard%20%281%29.ipynb)
