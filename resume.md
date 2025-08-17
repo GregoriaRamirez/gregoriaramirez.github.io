@@ -15,12 +15,12 @@ permalink: /resume
      width="150" height="150"
      style="object-fit:cover;">
 
-# 📄 Résumé  
+## 📄 Résumé  
 _CS 499 Capstone ePortfolio for SNHU_
 
 ---
 
-## 👩🏽‍💼 Gregoria Ramirez  
+### 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk \|  Backend Developer**  
 📍 Harrisburg, PA · 
 📧 gregoriaramirez454@gmail.com · ☎️ (223) 279-XXXX  
@@ -28,7 +28,7 @@ _CS 499 Capstone ePortfolio for SNHU_
 
 ---
 
-## 🧩 Professional Summary
+### 🧩 Professional Summary
 
 Backend Engineer with a unique background of 20+ years as a Legal Clerk.
 Currently building backend applications using Python, MongoDB, SQL, and RESTful APIs while completing a B.S. in Computer Science (August 2025). Brings a strong foundation in data management, workflow optimization, and deadline-driven execution, with the ability to quickly learn and apply new technologies. Recognized for exceptional organization, adaptability, and resourcefulness, with a growing portfolio of backend projects that solve real-world data challenges.
@@ -101,7 +101,7 @@ Southern New Hampshire University · *2023 – 2025*
 
 ---
 
-## 🏅 Achievements
+### 🏅 Achievements
 
 - 🏆 Implemented a case management system at Dauphin County, improving efficiency by 20%  
 - 📊 Reduced data processing errors by 15% through workflow improvements at Coventry  
