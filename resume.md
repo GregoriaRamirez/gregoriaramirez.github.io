@@ -5,7 +5,7 @@ permalink: /resume
 ---
 
 **Navigation:**  
-[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)| | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md) |[📚 Courses](courses.md)|
+[🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md)|  [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) |[📂 Projects](projects.md)  | [🏆 Awards](awards.md) | [📄 Résumé](resume.md) |[📚 Courses](courses.md)|
 
 
 
@@ -23,8 +23,8 @@ _CS 499 Capstone ePortfolio for SNHU_
 ## 👩🏽‍💼 Gregoria Ramirez  
 **Senior Legal Clerk \|  Backend Developer**  
 📍 Harrisburg, PA · 
-📧 gregoriaramirez454@gmail.com · ☎️ (223) 279-*\*\*\*  
-🔗 [GitHub](https://github.com/GregoriaRamirez) | 🌐 [Portfolio](https://gregoriaramirez.github.io/)
+📧 gregoriaramirez454@gmail.com · ☎️ (223) 279-XXXX  
+🔗 [GitHub](https://github.com/GregoriaRamirez) | 🌐 [Portfolio](https://gregoriaramirez.github.io/CS-499-Capstone/) 
 
 ---
 
@@ -79,9 +79,6 @@ Southern New Hampshire University · *Jun 2022 – Aug 2025*
 **Associate of Science in Computer Science (Cum Laude)**  
 Southern New Hampshire University · *2023 – 2025*  
 - Dean’s List, President’s List, Honor Roll, Latin Honors  
-
----
-
 
 ---
 
