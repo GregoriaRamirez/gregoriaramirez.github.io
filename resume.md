@@ -43,9 +43,9 @@ Currently building backend applications using Python, MongoDB, SQL, and RESTful 
 **Dev Tools:** GitHub, VS Code, Postman, .env, OBS Studio  
 **Soft Skills:** Bilingual (English/Spanish), Real-Time Communication, Training & Onboarding, Data Coordination, Typing 50+ WPM, Quick Learner, Teachable, Multitasker
 
-## 💼 Work Experience
+### 💼 Work Experience
 
-### **Legal Clerk III**  
+#### **Legal Clerk III**  
 *Dauphin County – Harrisburg, PA · Oct 2004 – Present*  
 - Supervise Night Court operations and coordinate after-hours legal processes  
 - Streamlined legal request workflows, improving turnaround by 20%  
@@ -53,14 +53,14 @@ Currently building backend applications using Python, MongoDB, SQL, and RESTful 
 - Maintained real-time communication with law enforcement and courts  
 - Analyzed recurring legal data patterns to optimize staff coverage and response time  
 
-### **Temporary Enrollment Specialist**  
+#### **Temporary Enrollment Specialist**  
 *Coventry Health Care, Inc. – Harrisburg, PA · Oct 2004 – 2007*  
 - Managed high-volume enrollment data across internal systems  
 - Handled urgent requests and inbound inquiries with a 95% resolution rate  
 - Identified and implemented improvements in record accuracy and processing  
 - Supported cross-functional teams in troubleshooting file and eligibility issues  
 
-### **Medical Records / Account Representative**  
+#### **Medical Records / Account Representative**  
 *Signature Staffing – Harrisburg, PA · Jan 2004 – Oct 2004*  
 - Performed data entry and documentation review for medical billing files  
 - Maintained account accuracy and responded to client requests  
@@ -69,7 +69,7 @@ Currently building backend applications using Python, MongoDB, SQL, and RESTful 
 
 ---
 
-## 🎓 Education
+### 🎓 Education
 
 **Bachelor of Science in Computer Science**  
 Southern New Hampshire University · *Jun 2022 – Aug 2025*  
@@ -82,9 +82,9 @@ Southern New Hampshire University · *2023 – 2025*
 
 ---
 
-## 🚀 Projects & Capstone Highlights
+### 🚀 Projects & Capstone Highlights
 
-### **Animal Shelter Dashboard (CS 499 Capstone)**  
+#### **Animal Shelter Dashboard (CS 499 Capstone)**  
 - Migrated Jupyter Notebook app into a modular Dash web app  
 - Integrated MongoDB Compass for querying and displaying real-time animal data  
 - Added breed and color filters, improved query performance with `.isin()` and `.between()`  
@@ -92,8 +92,8 @@ Southern New Hampshire University · *2023 – 2025*
 - [🔗 View Project](https://github.com/GregoriaRamirez/CS-499-Capstone/tree/main/enhanced)
 
 
-## 💻 Other Projects
-### **Travlr Getaways Website (MEAN Stack)**  
+### 💻 Other Projects
+#### **Travlr Getaways Website (MEAN Stack)**  
 - Developed RESTful backend API with Node.js and Express  
 - Created dynamic trip listing page in Angular using service calls to MongoDB  
 - Designed JSON schemas and validated data integrity using Mongoose  
