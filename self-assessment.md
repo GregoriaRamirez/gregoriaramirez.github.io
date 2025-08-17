@@ -7,7 +7,7 @@ permalink: /self-assessment
 **Navigation:**  
 [🏠 Home](index.md) | [📝 Self-Assessment](self-assessment.md) | [🎥 Code Review](code-review.md) | [📂 Projects](projects.md) | [🛠️ Software Design](artifact-software.md) | [🧠 Algorithms](artifact-algorithms.md) | [💾 Databases](artifact-databases.md) | [🏆 Awards](awards.md) | [📄 Résumé](resume.md)
 
-# 📝 Self-Assessment
+## 📝 Self-Assessment
 
 ### 🎓 Program Reflection
 
@@ -19,7 +19,7 @@ While I am still figuring out exactly which path I want to take, I feel confiden
 
 ### 🧰 Skills Learned While Attending School
 
-#### 🔧 Technical Skills
+### 🔧 Technical Skills
 
 - **Programming Languages:** Python, Java, JavaScript  
 - **Web Development:** Dash, Flask, Node.js, Express  
@@ -33,7 +33,7 @@ While I am still figuring out exactly which path I want to take, I feel confiden
 
 ---
 
-#### 💼 Professional Skills
+### 💼 Professional Skills
 
 - Modular software design (MVC pattern)  
 - Secure coding using environment variables and `.env` files  
@@ -51,7 +51,7 @@ While I am still figuring out exactly which path I want to take, I feel confiden
 #### **1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science.**
 Met through modular code structure, clear documentation, and organized folders to support team understanding.
 
-In my Capstone, I structured the project into separate model, controller, and view files to clearly organize each function. I used descriptive naming conventions and inline comments so any collaborator could pick up where I left off without guessing the purpose of a file or function. My README and enhancement documentation explain setup and usage in plain terms so that even someone new to the project could get it running. I also kept my file organization consistent so everything has a logical place, which makes it easier for others to troubleshoot, extend, or adapt the code later.
+In my Capstone, I structured the project into separate model, controller, and view files to clearly organize each function. I used descriptive naming conventions and inline comments so any collaborator could quickly understand the purpose of each file or function without confusion. My README and enhancement documentation explain setup and usage in plain terms so that even someone new to the project could get it running. I also kept my file organization consistent so everything has a logical place, which makes it easier for others to troubleshoot, extend, or adapt the code later.
 
 ---
 
@@ -102,4 +102,4 @@ Throughout the CS program and this Capstone, I learned how to take a project fro
   ">Back to Home</a>
 </div>
 
-Thank you for viewing my page
+Thank you for viewing my Self-Assessment. Please continue exploring my ePortfolio to see detailed artifacts and enhancements.
