@@ -85,6 +85,7 @@ Southern New Hampshire University · *Jun 2022 – Aug 2025*
 **Associate of Science in Computer Science, *Cum Laude***  
 Southern New Hampshire University · *2022 – 2024*  
 - Honors: Dean’s List, President’s List, Honor Roll, Latin Honors
+  
 ---
 
 ### 🚀 Projects & Capstone Highlights
