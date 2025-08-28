@@ -69,21 +69,22 @@ Currently building backend applications using Python, MongoDB, SQL, and RESTful 
 
 ---
 
-### 🎓 Education
+### 🎓 Education  
 
-**Bachelor of Science in Computer Science, Cum Laude**
-Southern New Hampshire University · Jun 2022 – Aug 2025
-GPA: 3.593
+**Bachelor of Science in Computer Science, *Cum Laude***  
+Southern New Hampshire University · *Jun 2022 – Aug 2025*  
+- GPA: 3.593  
+- Honors: Dean’s List, President’s List, Honor Roll  
+- Relevant Projects:  
+  - Animal Shelter Dashboard  
+  - RESTful API Development  
+  - MongoDB Integration  
 
--Honors: Dean’s List, President’s List, Honor Roll
 
--Relevant Projects: Animal Shelter Dashboard, RESTful API Development, MongoDB Integration
 
-**Associate of Science in Computer Science (Cum Laude)**  
-Southern New Hampshire University · *2023 – 2025*  
-
-- Dean’s List, President’s List, Honor Roll, Latin Honors  
-
+**Associate of Science in Computer Science, *Cum Laude***  
+Southern New Hampshire University · *2022 – 2024*  
+- Honors: Dean’s List, President’s List, Honor Roll, Latin Honors
 ---
 
 ### 🚀 Projects & Capstone Highlights
